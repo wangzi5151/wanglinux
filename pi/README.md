@@ -1,1 +1,87 @@
-IyBXYW5nTGludXggMS4wIChBdXJvcmEpIOKAlCBSYXNwYmVycnkgUGkg6ZWc5YOPCgoqKuS4i+i9vSoq77yaYHdhbmdsaW51eC1waS0xLjAuaW1nLmd6YO+8iOe6piA2MzcgTULvvIzop6PljovlkI4gMy42IEdC77yJCgrmlK/mjIHvvJoqKlBpIDMgLyAzQisgLyA0IC8gNDAwIC8gQ000KirvvIhhcm02NO+8ieOAglBpIDUg6ZyA6KaB5Y+m5LiA5aWX5Zu65Lu25LiO5YaF5qC477yM5pqC5LiN5pSv5oyB44CCCgojIyDng6flvZUKCmBgYGJhc2gKIyBMaW51eCAvIG1hY09TCmd1bnppcCB3YW5nbGludXgtcGktMS4wLmltZy5negpzdWRvIGRkIGlmPXdhbmdsaW51eC1waS0xLjAuaW1nIG9mPS9kZXYvc2RYIGJzPTRNIHN0YXR1cz1wcm9ncmVzcyBjb252PWZzeW5jCiMgV2luZG93cyAvIOWbvuW9oueVjOmdou+8mueUqCBSYXNwYmVycnkgUGkgSW1hZ2VyIOKGkiAiVXNlIGN1c3RvbSBpbWFnZSIKYGBgCgrpppbmrKHlkK/liqjkvJroh6rliqjmiormoLnliIbljLrmianlsZXliLDmlbTlvKAgU0Qg5Y2h77yIYHdhbmdsaW51eC1ncm93cm9vdGAg5pyN5Yqh77yJ44CCCgojIyDpppbmrKHnmbvlvZUKCnwg6aG555uuIHwg5YC8IHwKfC0tLXwtLS18Cnwg5Li75py65ZCNIHwgYHdhbmdsaW51eGAgfAp8IOeUqOaItyB8IGB3YW5nYCAvIGB3YW5nbGludXhg77yI5pyJIHN1ZG/vvIkgfAp8IHJvb3QgfCBgd2FuZ2xpbnV4YCB8CnwgU1NIIHwg5bey5byA5ZCv77yIYHNzaCB3YW5nQHdhbmdsaW51eC5sb2NhbGDvvIkgfAp8IOaOp+WItuWPsCB8IEhETUkgKyDkuLLlj6MgYHNlcmlhbDBgIDExNTIwMCB8CgoqKuivt+esrOS4gOS7tuS6i+WwseaUueWvhueggSoq77yaYHBhc3N3ZGAg5ZKMIGBzdWRvIHBhc3N3ZCByb290YOOAggoKIyMg6ZWc5YOP6YeM5pyJ5LuA5LmICgotIERlYmlhbiAxMiAoYm9va3dvcm0pIGFybTY0IOWfuuehgCArIOWGheaguCBgNi4xLjAtNTAtYXJtNjRg77yIRGViaWFuIOS4u+e6v+WGheaguO+8jOmdnuiHque8luivke+8iQotIOS4reaWh+Wtl+S9k++8iOaWh+aziempv+ato+m7keOAgU5vdG8gRW1vamnvvIkrIGB6aF9DTi5VVEYtOGAgbG9jYWxlIOKAlOKAlCDlm77lvaLnu4jnq6/kuIvkuK3mlofmraPluLgKLSBXYW5nTGludXgg6Lqr5Lu977yaYC9ldGMvb3MtcmVsZWFzZWDjgIFgd2FuZ2luZm9g44CBYHdhbmdsaW51eC12ZXJzaW9uYOOAgWBoZWxwLXdhbmdgCi0g6Ieq5bim562+5ZCNIEFQVCDku5PlupPvvJpgL2V0Yy9hcHQvc291cmNlcy5saXN0LmQvd2FuZ2xpbnV4Lmxpc3Rg77yIYGZpbGU6L3Nydi93YW5nbGludXgtcmVwb2DvvIkKLSBzeXN0ZW1k44CBdWRlduOAgXNzaOOAgXN1ZG/jgIFjbG91ZC1ndWVzdC11dGlscwoKIyMg6KOF5qGM6Z2iCgrmjqfliLblj7DniYjplZzlg4/kuI3lkKvlm77lvaLnjq/looPvvIzkuIDmnaHlkb3ku6TooaXpvZDvvIjkvJrmi4nlj5bnuqYgMTAwMCDkuKrljIXvvInvvJoKCmBgYGJhc2gKc3VkbyBhcHQgdXBkYXRlCnN1ZG8gYXB0IGluc3RhbGwgd2FuZ2xpbnV4LWRlc2t0b3AKc3VkbyBzeXN0ZW1jdGwgZW5hYmxlIGxpZ2h0ZG0gJiYgc3VkbyByZWJvb3QKYGBgCgojIyDlt7Lnn6XpmZDliLbvvIjlpoLlrp7or7TmmI7vvIkKCjEuICoq5o6n5Yi25Y+w5peg5rOV5pi+56S65Lit5paHKirvvJpMaW51eCDmlofmnKzmjqfliLblj7Dlj6rmnInopb/mloflrZflvaLvvIzmiYDku6XplZzlg4/ph4znmoQgbW90ZC9gd2FuZ2luZm9gIOi+k+WHuuWFqOmDqOaYryBBU0NJSe+8jOS4reaWh+ivtOaYjuaUvuWcqCBgL3Vzci9zaGFyZS93YW5nbGludXgvUkVBRE1FLnpoYO+8iOWbvuW9oue7iOerr+afpeeci++8ieOAggoyLiDlhoXmoLjku43mmK8gRGViaWFuIOWumOaWuSBhcm02NCDlhoXmoLjvvJvoh6rnvJbor5HlhoXmoLjop4EgYC4uL2tlcm5lbC9idWlsZC1rZXJuZWwuc2hg77yM5bCa5pyq5Zyo5q2k6ZWc5YOP6aqM6K+B44CCCjMuIOWQr+WKqOWIhuWMuuacquaJk+WMhSBgb3ZlcmxheXMvYO+8iEtNUyDop4bpopHliqDpgJ8gb3Zlcmxhee+8ie+8jOmcgOimgeaXtiBgYXB0IGluc3RhbGwgcmFzcGktZmlybXdhcmVgIOWQjuiHquihjCBjb3B544CCCjQuIOacquWcqOecn+acuuWunua1i++8iOaehOW7uuacuuaYr+aJi+acuuS4iueahCBjaHJvb3TvvIzml6AgUGkg56Gs5Lu277yJ44CCKirlpoLmnpzlkK/liqjlpLHotKXvvIzor7flm57luJbpmYTkuLLlj6Pml6Xlv5cqKu+8mmBlbmFibGVfdWFydD0xYCDlt7LlvIDvvIwxMTUyMDAgOE4x44CCCgojIyDplZzlg4/lpoLkvZXmnoTlu7rvvIjlj6/lpI3njrDvvIkKCuingSBgYXNzZW1ibGUuc2hg77yM5YWz6ZSu5Y+C5pWw77yaCgpgYGAKTUJSIGRpc2sgc2lnbmF0dXJlIDB4NTc0MTRlNDcg4oaSIFBBUlRVVUlEIDU3NDE0ZTQ3LTAxIChGQVQzMiAvYm9vdC9maXJtd2FyZSkgLyAtMDIgKGV4dDQgLykKcDE6IOi1tyA4MTkyIOaJh+WMuu+8jDUyNDI4OCDmiYfljLrvvIgyNTYgTWlCLCBGQVQzMiBMQkHvvIkKcDI6IOi1tyA1MzI0ODAg5omH5Yy677yMNjk2MzIwMCDmiYfljLrvvIgzLjMgR2lCLCBleHQ0LCDljbfmoIcgV0FOR0xJTlVY77yJCmBgYAo=
+# 树莓派镜像（WangLinux 1.0 Aurora）
+
+两个版本，按需选一个：
+
+| 版本 | 文件 | 大小 | 里面有什么 |
+|---|---|---|---|
+| **桌面版**（推荐） | `wanglinux-pi-1.0-desktop.img.gz` | 1.2 GB | XFCE 桌面 + 中文 + 自动登录 |
+| 控制台版 | `wanglinux-pi-1.0.img.gz` | 637 MB | 纯命令行，654 个包里的最小集合 |
+
+支持 **Pi 3 / 3B+ / 4 / 400 / CM4**（arm64）。**Pi 5 不支持**（需要另一套固件与内核）。
+
+## 1. 写卡
+
+**图形界面（最省事）**：装 [Raspberry Pi Imager](https://www.raspberrypi.com/software/) → Choose OS → 最下面 **Use custom image** → 选下载的 `.gz`（不需要先解压）→ 选 SD 卡 → Write。
+
+**命令行**：
+
+```bash
+gunzip wanglinux-pi-1.0-desktop.img.gz
+sudo dd if=wanglinux-pi-1.0-desktop.img of=/dev/sdX bs=4M status=progress conv=fsync
+```
+
+（`/dev/sdX` 换成你的卡；Windows 上用 Imager 就行，别用 Rufus 的 DD 模式以外选项。）
+
+## 2. 第一次开机
+
+插卡、接 HDMI 和键鼠、通电。第一次开机会自动把系统扩展到整张卡，屏幕黑 30 秒到 1 分钟是正常的。
+
+| | |
+|---|---|
+| 主机名 | `wanglinux`（`wanglinux.local`） |
+| 用户 | `wang` / `wanglinux` |
+| root | `wanglinux` |
+| SSH | 已开启 |
+| 串口控制台 | `serial0`，115200 8N1 |
+
+**进系统先改密码**：
+
+```bash
+passwd
+sudo passwd root
+```
+
+桌面版会自动登录进 XFCE。控制台版要桌面：
+
+```bash
+sudo apt update && sudo apt install wanglinux-desktop
+sudo systemctl enable lightdm && sudo reboot
+```
+
+## 3. 镜像里到底有什么
+
+- Debian 12 (bookworm) arm64，654 个包
+- 内核 `6.1.0-50-arm64`（Debian 官方 arm64 内核），initramfs 含 `sdhci-iproc` / `bcm2835` 等 SD 卡驱动
+- 中文字体（文泉驿正黑、Noto Emoji）+ 已生成 `zh_CN.UTF-8` locale
+- 桌面版：XFCE 4.18 + lightdm（自动登录 `wang`）+ 壁纸
+- 自己的身份：`/etc/os-release`、`wanginfo`、`wanglinux-version`、`help-wang`
+- 自己的 apt 源：`/etc/apt/sources.list.d/wanglinux.list` → `file:/srv/wanglinux-repo`（已签名）
+- 首次开机自动扩容根分区的 systemd 服务
+
+## 4. 出问题
+
+| 现象 | 怎么办 |
+|---|---|
+| 黑屏 / 彩虹屏 / 卡在四个树莓 | 换 5V 3A 电源和好卡；接串口看日志；`config.txt` 里加 `hdmi_safe=1` |
+| 桌面起不来（黑屏一个鼠标箭头） | SSH 进去看 `journalctl -u lightdm -b` |
+| 中文显示方块 | 文本控制台必然如此（只有西文字形）；图形终端里正常 |
+| 键盘/鼠标不动 | 换 USB 口，Pi 4 用蓝色口 |
+
+串口日志：`enable_uart=1` 已开，GPIO14(TX)/GPIO15(RX)/GND，115200 8N1。启动失败请把日志贴出来。
+
+## 5. 想自己重做一遍
+
+```bash
+SRC=/opt/wl-pi bash assemble.sh
+```
+
+关键参数（脚本里可改）：
+
+```
+MBR disk signature 0x57414e47 → PARTUUID 57414e47-01 / -02（与 /etc/fstab 对应）
+p1: 起 8192 扇区,  524288 扇区 = 256 MiB, FAT32, 卷标 BOOT   → /boot/firmware
+p2: 起 532480 扇区, 4600MiB, ext4, 卷标 WANGLINUX          → /
+```
+
+没有 loop 设备也能做：ext4 用 `mke2fs -d` 填充，FAT 用 mtools，分区表用 python 写。
+**注意**：PRoot 环境下 `cp -a` 会把硬链接变成指向宿主绝对路径的符号链接，必须先修再打包（脚本第 1 步就在干这个）。
