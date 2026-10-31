@@ -93,7 +93,7 @@ distro/build-*.sh         → 把软件包打成 .deb
 distro/sign-repo.sh       → apt-ftparchive + gpg 签名，生成自己的 apt 仓库
 pi/assemble.sh            → 把 rootfs + 内核 + 固件拼成可烧录的 SD 镜像
 kernel/build-kernel.sh    → 从源码编译内核（实验性，镜像里用的是 Debian 官方内核）
-iso/                      → x86 安装盘（实验性）
+iso/                      → x86 安装盘（计划中：builder/amd64-iso/ 里有脚本，还没构建过）
 ```
 
 两个卡过我的坑，都写在脚本注释里了：
@@ -108,7 +108,7 @@ iso/                      → x86 安装盘（实验性）
 - 树莓派镜像**没有在真机上验证过**（构建机是一台手机上的 chroot，手里没有 Pi）。能起就是运气好，起不来请把串口日志发我，我改。
 - 只支持 Pi 3 / 4 / 400 / CM4。**Pi 5 不行**（要另一套固件和内核）。
 - 内核是 Debian 官方 arm64 内核，不是自己编的。自己编的那套在 `kernel/`，没在这镜像里用过。
-- x86 安装盘是实验性的，装完能不能用不保证，**别拿它装你的工作机**。
+- **还没有 x86 安装盘。** `builder/amd64-iso/` 里的脚本要 amd64 chroot（live-build 得在里面跑 dpkg），而构建机是 ARM，跑不了。想要 ISO 的话得换机器，或者用「拿现成 Debian live 注入」的路子。
 - 桌面里没装浏览器和办公软件（能省 800MB）。要的话：`sudo apt install firefox-esr`。
 
 ---
