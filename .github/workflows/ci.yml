@@ -1,0 +1,31 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  shell:
+    name: 脚本质量检查
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: 语法检查（bash -n）
+        run: |
+          fail=0
+          while IFS= read -r -d '' f; do
+            echo "bash -n $f"
+            bash -n "$f" || fail=1
+          done < <(find . -type f -name '*.sh' -not -path './.git/*' -print0)
+          exit $fail
+
+      - name: ShellCheck（style 级别）
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq shellcheck
+          find . -type f -name '*.sh' -not -path './.git/*' -print0 | xargs -0 shellcheck -S style
+
+      - name: 防 base64 blob 回归
+        run: bash tools/check-blobs.sh

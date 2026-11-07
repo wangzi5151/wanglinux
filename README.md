@@ -1,5 +1,7 @@
 # WangLinux
 
+[![CI](https://github.com/wangzi5151/wanglinux/actions/workflows/ci.yml/badge.svg)](https://github.com/wangzi5151/wanglinux/actions/workflows/ci.yml)
+
 一个自己搭出来的 Linux 发行版：**Debian 12 做地基，加中文支持、树莓派镜像、自己的软件仓库和更新源**。
 
 不是 fork，也不是换皮的 Ubuntu——底下每一块（镜像、包、签名、仓库）都是这个仓库里的脚本从零装出来的。
@@ -88,12 +90,11 @@ sudo systemctl enable lightdm && sudo reboot
 ## 五、它是怎么造出来的（给好奇的人）
 
 ```
-distro/debootstrap.sh     → 从 Debian 12 装一个最小 rootfs（用中国镜像）
-distro/build-*.sh         → 把软件包打成 .deb
-distro/sign-repo.sh       → apt-ftparchive + gpg 签名，生成自己的 apt 仓库
-pi/assemble.sh            → 把 rootfs + 内核 + 固件拼成可烧录的 SD 镜像
-kernel/build-kernel.sh    → 从源码编译内核（实验性，镜像里用的是 Debian 官方内核）
-iso/                      → x86 安装盘（计划中：builder/amd64-iso/ 里有脚本，还没构建过）
+distro/pkgsrc/              → 自有软件包的源码（base / theme / desktop 三个包）
+distro/pkgsrc/build-repo.sh → 打包 .deb → Packages → Release → GPG 签名，一条命令重建 apt 仓库
+pi/assemble.sh              → 把 rootfs + 内核 + 固件拼成可烧录的 SD 镜像
+kernel/build-kernel.sh      → 从源码编译内核（实验性，镜像里用的是 Debian 官方内核）
+builder/amd64-iso/          → x86 安装盘构建脚本（计划中，还没构建过）
 ```
 
 两个卡过我的坑，都写在脚本注释里了：
@@ -115,4 +116,4 @@ iso/                      → x86 安装盘（计划中：builder/amd64-iso/ 里
 
 ## 七、许可
 
-代码 MIT。里面装的 Debian 软件包各自遵守原许可。字体（文泉驿）是 GPL + 字体例外。
+代码 MIT（见 [LICENSE](LICENSE)）。里面装的 Debian 软件包各自遵守原许可。字体（文泉驿）是 GPL + 字体例外。

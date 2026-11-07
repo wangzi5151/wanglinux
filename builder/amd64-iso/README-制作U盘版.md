@@ -1,1 +1,120 @@
-IyBXYW5nTGludXggMS4wIChhbWQ2NCkg4oCUIFUg55uY54mI5Yi25L2c6K+05piOCgrnm67moIfvvJrkuqflh7rkuIDkuKogKirlj6/lvJXlr7znmoQgSVNPKirvvIznlKggUnVmdXMg5YaZ6L+bIFUg55uY77yM5ZyoIFdpbmRvd3Mg55S16ISR5LiK5byA5py65oyJIEYxMiDpgIkgVSDnm5jvvIwK6L+b5YWl5L2g6Ieq5bex55qEIFdhbmdMaW51eO+8iFhGQ0Ug5qGM6Z2iICsg5Lit5paHICsg5LiA55m+5aSa5Liq6aKE6KOF5bel5YW377yJ77yMKirlhajnqIvkuI3liqjjgIHkuI3lvbHlk43noaznm5jkuIrnmoQgV2luZG93cyoq44CCCgo+IOS4uuS7gOS5iOW/hemhu+eUseS9oOWcqOeUteiEkeS4iui3keS4gOmBje+8mui/meWPsOaJi+acuuaYryBhcm02NO+8jOmAoOS4jeWHuiB4ODZfNjQg55qE5LqM6L+b5Yi25ZKM5byV5a+85Zmo44CCCj4g5omA5Lul5oiR5oqK5pW05aWX5p6E5bu66ISa5pys5YaZ5aW95LqG77yM5L2g5Zyo55S16ISR5LiK5omn6KGM5LiA5p2h5ZG95Luk5Y2z5Y+v5Lqn5Ye65oiQ5ZOB44CCCgotLS0KCiMjIOS4gOOAgemAieS4gOadoei3r+e6vwoKfCDot6/nur8gfCDpgILlkIjosIEgfCDlh4blpIfml7bpl7QgfCDor7TmmI4gfAp8LS0tfC0tLXwtLS18LS0tfAp8ICoqQS4gV1NMMiArIFVidW50dSoq77yI5o6o6I2Q77yJIHwgV2luZG93cyAxMC8xMSB8IOe6piAyMCDliIbpkp8gfCDmnIDnnIHkuovvvIzkuI3pnIDopoEgRG9ja2VyIHwKfCAqKkIuIERvY2tlciBEZXNrdG9wKiogfCDmnIkgRG9ja2VyIOeahOacuuWZqCB8IOe6piAxMCDliIbpkp8gfCBgYmFzaCBidWlsZC1pbi1kb2NrZXIuc2hgIOS4gOadoeWRveS7pCB8CnwgKipDLiDnnJ/mnLogRGViaWFuIDEyIC8gVWJ1bnR1KiogfCDlt7LmnIkgTGludXgg5py65ZmoIHwgMCDliIbpkp8gfCDnm7TmjqUgYHN1ZG8gYmFzaCBidWlsZC13YW5nbGludXgtYW1kNjQuc2hgIHwKCi0tLQoKIyMg5LqM44CB6Lev57q/IEHvvJpXaW5kb3dzICsgV1NMMu+8iOaOqOiNkO+8iQoKMS4gKirnrqHnkIblkZggUG93ZXJTaGVsbCoqIOmHjOaJp+ihjO+8mgogICBgYGBwb3dlcnNoZWxsCiAgIHdzbCAtLWluc3RhbGwgLWQgVWJ1bnR1LTIyLjA0CiAgIGBgYAogICDoo4Xlrozph43lkK/vvIzorr7nva4gVWJ1bnR1IOeUqOaIt+WQjeWvhueggeOAggoKMi4g5omT5byAIFVidW50dSDnu4jnq6/vvIzmiorohJrmnKzmi7fov5vljrvvvIjkuKTnp43lip7ms5Xku7vpgInvvInvvJoKICAgLSDmiorkuKTkuKogYC5zaGAg5paH5Lu25LiL6L295YiwIGBDOlxVc2Vyc1zkvaDnmoTlkI3lrZdcRG93bmxvYWRzYO+8jOeEtuWQjuWcqCBVYnVudHUg6YeM77yaCiAgICAgYGBgYmFzaAogICAgIGNwIC9tbnQvYy9Vc2Vycy/kvaDnmoTlkI3lrZcvRG93bmxvYWRzL2J1aWxkLXdhbmdsaW51eC1hbWQ2NC5zaCB+LwogICAgIGNobW9kICt4IH4vYnVpbGQtd2FuZ2xpbnV4LWFtZDY0LnNoCiAgICAgYGBgCiAgIC0g5oiW55u05o6l5paw5bu65paH5Lu257KY6LS05YaF5a6577yaYG5hbm8gfi9idWlsZC13YW5nbGludXgtYW1kNjQuc2hgCgozLiDnu5kgV1NMIOeVmeWkn+epuumXtO+8iOmcgOimgSAqKjE1IEdCIOepuumXsioq77yJ77yM56Gu6K6k77yaCiAgIGBgYGJhc2gKICAgZGYgLWggLwogICBgYGAKCjQuIOW8gOWni+aehOW7uu+8iCoqNDDigJM5MCDliIbpkp8qKu+8jOWPr+acgOWwj+WMlueql+WPo+W5suWIq+eahO+8ie+8mgogICBgYGBiYXNoCiAgIHN1ZG8gYmFzaCB+L2J1aWxkLXdhbmdsaW51eC1hbWQ2NC5zaAogICBgYGAKCjUuIOWujOaIkOWQjiBJU08g5ZyoIGAvYnVpbGQvd2FuZ2xpbnV4LTEuMC1hbWQ2NC5pc29g77yM5ou35YiwIFdpbmRvd3PvvJoKICAgYGBgYmFzaAogICBjcCAvYnVpbGQvd2FuZ2xpbnV4LTEuMC1hbWQ2NC5pc28gL21udC9jL1VzZXJzL+S9oOeahOWQjeWtly9Eb3dubG9hZHMvCiAgIGBgYAoKLS0tCgojIyDkuInjgIHot6/nur8gQu+8mkRvY2tlcu+8iFdpbmRvd3MgLyBtYWNPU++8iQoK6KOF5aW9IFtEb2NrZXIgRGVza3RvcF0oaHR0cHM6Ly93d3cuZG9ja2VyLmNvbS9wcm9kdWN0cy9kb2NrZXItZGVza3RvcC8pIOWQju+8jOaKiuS4pOS4quiEmuacrOaUvuWQjOS4gOebruW9le+8mgoKLSAqKldpbmRvd3MqKu+8muaJk+W8gCBQb3dlclNoZWxsIOi/m+WIsOivpeebruW9le+8jOaJp+ihjAogIGBgYHBvd2Vyc2hlbGwKICBiYXNoIGJ1aWxkLWluLWRvY2tlci5zaAogIGBgYAotICoqbWFjT1MgLyBMaW51eCoq77yaCiAgYGBgYmFzaAogIGJhc2ggYnVpbGQtaW4tZG9ja2VyLnNoCiAgYGBgCgpJU08g5Lya5Ye6546w5ZyoIGAuL291dC9gIOebruW9leOAguWuueWZqOW/hemhuyBgLS1wcml2aWxlZ2VkYO+8iOiEmuacrOmHjOW3sue7j+WGmeS6hu+8ieOAggoKLS0tCgojIyDlm5vjgIHlhpnlhaUgVSDnm5gKCjEuIOeUqCBbUnVmdXNdKGh0dHBzOi8vcnVmdXMuaWUp77yI5YWN6LS577yJ4oaSIOmAieaLqeS9oOeahCBVIOebmO+8iCoq4omlIDggR0LvvIzkvJrooqvmuIXnqboqKu+8iQoyLiDjgIzlvJXlr7znsbvlnovjgI3pgIkgSVNP77yM44CM5YiG5Yy657G75Z6L44CN6YCJICoqR1BUKirvvIzjgIznm67moIfns7vnu5/jgI3pgIkgKipVRUZJ77yI6Z2eIENTTe+8iSoqCjMuIOW8gOWniyDihpIg562J5b6F5YaZ5a6MCjQuIOmHjeWQr+eUteiEke+8jOW8gOacuuaXtuaMiSAqKkYxMiAvIEY4IC8gRjExIC8gRXNjKirvvIjkuI3lkIzlk4HniYzkuI3lkIzvvInmiZPlvIDlkK/liqjoj5zljZXvvIzpgIkgYFVFRkk6IOS9oOeahFXnm5hgCjUuIOebtOaOpei/m+WFpSBXYW5nTGludXgg5qGM6Z2i77yM6Ieq5Yqo55m75b2VIGB3YW5nYAoKKirov5vlhaXlkI4qKu+8muW3puS4i+inkuiPnOWNleaciea1j+iniOWZqOOAgeaWh+S7tueuoeeQhuWZqOOAgee7iOerr++8m+S4reaWh+i+k+WFpeazlSAqKkN0cmwr56m65qC8Kiog5YiH5o2i77ybCue7iOerr+mHjOi+k+WFpSBgd2FuZ2luZm9gIOeci+ezu+e7n+S/oeaBr++8jGBoZWxwLXdhbmdgIOeci+W4uOeUqOaTjeS9nOOAggrpu5jorqTlr4bnoIHvvJpgd2FuZ2AgLyBgd2FuZ2xpbnV4YO+8iHJvb3Qg5ZCM5a+G56CB77yJ44CCCgotLS0KCiMjIOS6lOOAgeaDs+iuqeaUueWKqOS/neWtmOS4i+adpe+8iOaMgeS5heWMlu+8jOWPr+mAie+8iQoK6buY6K6k5pivIExpdmUg5qih5byP77yM6YeN5ZCv5bCx6L+Y5Y6f44CC6KaBIuaPkuS4iuWwseaYr+iHquW3seeahOezu+e7nyLvvJoKCjEuIOWGmeebmOWQjueUqCBXaW5kb3dzIOeahOejgeebmOeuoeeQhiAvIERpc2tHZW5pdXPvvIzlnKggVSDnm5jkuIoqKuaWsOW7uuS4gOS4quWIhuWMuioq77yI5Ymp5L2Z56m66Ze077yMZXh0NO+8iQoyLiDnlKggTGludXgg5oiWIEdQYXJ0ZWQg57uZ5a6D5omT5LiK5Y235qCHIGBwZXJzaXN0ZW5jZWAKMy4g5YiG5Yy65qC555uu5b2V5pS+5LiA5Liq5paH5Lu2IGBwZXJzaXN0ZW5jZS5jb25mYO+8jOWGheWuueS4gOihjO+8mgogICBgYGAKICAgLyB1bmlvbgogICBgYGAKNC4g5LmL5ZCO5byA5py66Ieq5Yqo5oyC6L296K+l5YiG5Yy677yMYC9ob21lYOOAgeijheeahOi9r+S7tuOAgeaUueeahOmFjee9ruWFqOmDqOS/neeVmQoK77yI5pu055yB5LqL55qE5pu/5Luj5pa55qGI77ya55u05o6l6KOFIFZlbnRveSDliLAgVSDnm5jvvIzmioogSVNPIOS4oui/m+WOu++8jFZlbnRveSDoh6rluKbmjIHkuYXljJboj5zljZXjgILvvIkKCi0tLQoKIyMg5YWt44CB5Ye66ZSZ5oCO5LmI5YqeCgp8IOeOsOixoSB8IOWOn+WboCAvIOWkhOeQhiB8CnwtLS18LS0tfAp8IGBFOiBVbmFibGUgdG8gbG9jYXRlIHBhY2thZ2UgeHh4YCB8IOafkOS4quWMheWQjeWcqCBib29rd29ybSDkuI3lrZjlnKjjgILnvJbovpHohJrmnKzph4wgYHdhbmdsaW51eC1jb3JlLmxpc3QuY2hyb290YCDpmYTov5HnmoTmuIXljZXvvIzliKDmjonpgqPkuIDooYzlho3ot5EgfAp8IGBsYiBidWlsZGAg5Lit6YCU5aSx6LSlIHwg55yLIGAvYnVpbGQvd2FuZ2xpbnV4LWlzby9idWlsZC5sb2dgIOacgOWQjueahCBgRTpgIOihjO+8m+WbveWGhee9kee7nOW7uuiuruS/neaMgSB1c3RjIOmVnOWDj+iuvue9riB8Cnwg56OB55uY5LiN6LazIHwg6Iez5bCRIDE1IEdC77ybYFdPUks9L+WFtuS7luebmC93YW5nbGludXgtaXNvYCDlj6/mjaLnm67lvZUgfAp8IOWGmeebmOWQjuW8gOS4jeS6huacuiB8IOehruiupCBCSU9TIOmHjCoq5YWz6ZetIFNlY3VyZSBCb290KirvvIjmiJbpgInlhYHorrjnrKzkuInmlrnnrb7lkI3vvInvvIxVIOebmOaMiSAqKlVFRkkqKiDmqKHlvI/lkK/liqggfAp8IOWNoeWcqCBgTG9hZGluZyAuLi5gIHwg5ZCv5Yqo6I+c5Y2V5oyJIGBlYO+8jOWcqCBgcXVpZXQgc3BsYXNoYCDlkI7liqAgYG5vbW9kZXNldGAg5YaN5ZCv5Yqo77yI5pi+5Y2h5YW85a656Zeu6aKY77yJIHwKCj4gKiror5rlrp7or7TmmI4qKu+8mui/meWll+iEmuacrOaYr+aMiSBEZWJpYW4gbGl2ZS1idWlsZCDlrpjmlrnop4TojIPlhpnnmoTvvIzkvYbmiJHlj6rog73lnKggYXJtNjQg5rKZ55uS6YeM5YGa6K+t5rOV5LiO6YC76L6R5qCh6aqM77yMCj4g5peg5rOV5ZyoIHg4NiDkuIrlrp7ot5HkuIDpgY3pqozor4HlvJXlr7zjgILnrKzkuIDmrKHot5Hoi6XmnInlsI/pl67popjvvIzmiormiqXplJnooYzlj5HmiJHvvIzmiJHmlLnohJrmnKzjgIIKCi0tLQoKIyMg5LiD44CB6aG65L6/6K+077yaYXJtNjQg54mI77yI5bey57uP5YGa5aW977yJCgrmiYvmnLrkuIrlt7Lnu4/kuqflh7ogYHdhbmdsaW51eC0xLjAtYXJtNjQtcm9vdGZzLnRhci5nemDvvIgzNTAgTULvvIwyOTQg5Liq5YyF77yJ44CCCuWug+mAguWQiO+8mioq5qCR6I6T5rS+IDQvNeOAgUFSTSDnrJTorrDmnKzjgIHlronljZPmiYvmnLrvvIhUZXJtdXggKyBjaHJvb3QvcHJvb3TvvIkqKuOAggropoEi5qCR6I6T5rS+5Y+v5ZCv5Yqo6ZWc5YOPIu+8iGAuaW1nYO+8ieaIkeS5n+WPr+S7peWGjee7meS4gOWll+aJk+WMheiEmuacrO+8jOivtOS4gOWjsOWNs+WPr+OAggo=
+# WangLinux 1.0 (amd64) — U 盘版制作说明
+
+目标：产出一个 **可引导的 ISO**，用 Rufus 写进 U 盘，在 Windows 电脑上开机按 F12 选 U 盘，
+进入你自己的 WangLinux（XFCE 桌面 + 中文 + 一百多个预装工具），**全程不动、不影响硬盘上的 Windows**。
+
+> 为什么必须由你在电脑上跑一遍：这台手机是 arm64，造不出 x86_64 的二进制和引导器。
+> 所以我把整套构建脚本写好了，你在电脑上执行一条命令即可产出成品。
+
+---
+
+## 一、选一条路线
+
+| 路线 | 适合谁 | 准备时间 | 说明 |
+|---|---|---|---|
+| **A. WSL2 + Ubuntu**（推荐） | Windows 10/11 | 约 20 分钟 | 最省事，不需要 Docker |
+| **B. Docker Desktop** | 有 Docker 的机器 | 约 10 分钟 | `bash build-in-docker.sh` 一条命令 |
+| **C. 真机 Debian 12 / Ubuntu** | 已有 Linux 机器 | 0 分钟 | 直接 `sudo bash build-wanglinux-amd64.sh` |
+
+---
+
+## 二、路线 A：Windows + WSL2（推荐）
+
+1. **管理员 PowerShell** 里执行：
+   ```powershell
+   wsl --install -d Ubuntu-22.04
+   ```
+   装完重启，设置 Ubuntu 用户名密码。
+
+2. 打开 Ubuntu 终端，把脚本拷进去（两种办法任选）：
+   - 把两个 `.sh` 文件下载到 `C:\Users\你的名字\Downloads`，然后在 Ubuntu 里：
+     ```bash
+     cp /mnt/c/Users/你的名字/Downloads/build-wanglinux-amd64.sh ~/
+     chmod +x ~/build-wanglinux-amd64.sh
+     ```
+   - 或直接新建文件粘贴内容：`nano ~/build-wanglinux-amd64.sh`
+
+3. 给 WSL 留够空间（需要 **15 GB 空闲**），确认：
+   ```bash
+   df -h /
+   ```
+
+4. 开始构建（**40–90 分钟**，可最小化窗口干别的）：
+   ```bash
+   sudo bash ~/build-wanglinux-amd64.sh
+   ```
+
+5. 完成后 ISO 在 `/build/wanglinux-1.0-amd64.iso`，拷到 Windows：
+   ```bash
+   cp /build/wanglinux-1.0-amd64.iso /mnt/c/Users/你的名字/Downloads/
+   ```
+
+---
+
+## 三、路线 B：Docker（Windows / macOS）
+
+装好 [Docker Desktop](https://www.docker.com/products/docker-desktop/) 后，把两个脚本放同一目录：
+
+- **Windows**：打开 PowerShell 进到该目录，执行
+  ```powershell
+  bash build-in-docker.sh
+  ```
+- **macOS / Linux**：
+  ```bash
+  bash build-in-docker.sh
+  ```
+
+ISO 会出现在 `./out/` 目录。容器必须 `--privileged`（脚本里已经写了）。
+
+---
+
+## 四、写入 U 盘
+
+1. 用 [Rufus](https://rufus.ie)（免费）→ 选择你的 U 盘（**≥ 8 GB，会被清空**）
+2. 「引导类型」选 ISO，「分区类型」选 **GPT**，「目标系统」选 **UEFI（非 CSM）**
+3. 开始 → 等待写完
+4. 重启电脑，开机时按 **F12 / F8 / F11 / Esc**（不同品牌不同）打开启动菜单，选 `UEFI: 你的U盘`
+5. 直接进入 WangLinux 桌面，自动登录 `wang`
+
+**进入后**：左下角菜单有浏览器、文件管理器、终端；中文输入法 **Ctrl+空格** 切换；
+终端里输入 `wanginfo` 看系统信息，`help-wang` 看常用操作。
+默认密码：`wang` / `wanglinux`（root 同密码）。
+
+---
+
+## 五、想让改动保存下来（持久化，可选）
+
+默认是 Live 模式，重启就还原。要"插上就是自己的系统"：
+
+1. 写盘后用 Windows 的磁盘管理 / DiskGenius，在 U 盘上**新建一个分区**（剩余空间，ext4）
+2. 用 Linux 或 GParted 给它打上卷标 `persistence`
+3. 分区根目录放一个文件 `persistence.conf`，内容一行：
+   ```
+   / union
+   ```
+4. 之后开机自动挂载该分区，`/home`、装的软件、改的配置全部保留
+
+（更省事的替代方案：直接装 Ventoy 到 U 盘，把 ISO 丢进去，Ventoy 自带持久化菜单。）
+
+---
+
+## 六、出错怎么办
+
+| 现象 | 原因 / 处理 |
+|---|---|
+| `E: Unable to locate package xxx` | 某个包名在 bookworm 不存在。编辑脚本里 `wanglinux-core.list.chroot` 附近的清单，删掉那一行再跑 |
+| `lb build` 中途失败 | 看 `/build/wanglinux-iso/build.log` 最后的 `E:` 行；国内网络建议保持 ustc 镜像设置 |
+| 磁盘不足 | 至少 15 GB；`WORK=/其他盘/wanglinux-iso` 可换目录 |
+| 写盘后开不了机 | 确认 BIOS 里**关闭 Secure Boot**（或选允许第三方签名），U 盘按 **UEFI** 模式启动 |
+| 卡在 `Loading ...` | 启动菜单按 `e`，在 `quiet splash` 后加 `nomodeset` 再启动（显卡兼容问题） |
+
+> **诚实说明**：这套脚本是按 Debian live-build 官方规范写的，但我只能在 arm64 沙盒里做语法与逻辑校验，
+> 无法在 x86 上实跑一遍验证引导。第一次跑若有小问题，把报错行发我，我改脚本。
+
+---
+
+## 七、顺便说：arm64 版（已经做好）
+
+手机上已经产出 `wanglinux-1.0-arm64-rootfs.tar.gz`（350 MB，294 个包）。
+它适合：**树莓派 4/5、ARM 笔记本、安卓手机（Termux + chroot/proot）**。
+要"树莓派可启动镜像"（`.img`）我也可以再给一套打包脚本，说一声即可。
