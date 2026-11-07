@@ -1,1 +1,134 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgIFdhbmdMaW51eCAxLjAgKEF1cm9yYSkg4oCUIFJhc3BiZXJyeSBQaSBhcm02NCDplZzlg4/nu4Too4XohJrmnKwKIyAg5Zyo5rKh5pyJIGxvb3Ag6K6+5aSH55qE546v5aKD77yIUFJvb3QgLyDmiYvmnLogY2hyb29077yJ6YeM5Lmf6IO96LeR77yaCiMgIOeUqCBta2UyZnMgLWQg55u05o6l5aGr5YWFIGV4dDTjgIFta2ZzLnZmYXQg6YCgIEZBVOOAgXB5dGhvbiDmiYvlhpkgTUJS44CCCiMKIyAg55So5rOV77yIcm9vdO+8ie+8mgojICAgIFNSQz0vb3B0L3dsLXBpICBiYXNoIGFzc2VtYmxlLnNoCiMgIOS+nei1lu+8mm1rZTJmcy9yZXNpemUyZnMvdHVuZTJmcy9kdW1wZTJmcy9kZWJ1Z2Zz44CBZG9zZnN0b29scyhta2ZzLnZmYXQp44CBCiMgICAgICAgIG10b29scyhtY29weS9tZGlyKeOAgXNmZGlza+OAgXB5dGhvbjMKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CnNldCAtRWV1byBwaXBlZmFpbAoKU1JDPSIke1NSQzotL29wdC93bC1waX0iICAgICAgICAgICAgICAjIOW3sumFjee9ruWlveeahCBhcm02NCByb290ZnMKT1VUPSIke09VVDotL3dvcmtzcGFjZS93bC1idWlsZH0iICAgICAjIOW3peS9nOebruW9lQpLRVJORUxfVkVSPSIke0tFUk5FTF9WRVI6LTYuMS4wLTUwLWFybTY0fSIKRElTS19TSUc9IjU3NDE0ZTQ3IiAgICAgICAgICAgICAgICAgICAjIE1CUiBkaXNrIHNpZ25hdHVyZSDihpIgUEFSVFVVSUQg5YmN57yAClAxX1NUQVJUPTgxOTI7ICBQMV9TRUNUT1JTPTUyNDI4OCAgICAgIyA0TWlCIOi1t++8jDI1Nk1pQiBGQVQzMiAvYm9vdC9maXJtd2FyZQpQMl9TVEFSVD01MzI0ODA7IFAyX1NFQ1RPUlM9Njk2MzIwMCAgICMgMjYwTWlCIOi1t++8jDMuM0dpQiBleHQ0IC8KUDJfU0laRT0iMzQwME0iCgpsb2coKSB7IHByaW50ZiAnXG5cMDMzWzE7MzVtW3BpXVwwMzNbMG0gJXNcbicgIiQqIjsgfQpbICIkKGlkIC11KSIgLWVxIDAgXSB8fCB7IGVjaG8gIumcgOimgSByb290IjsgZXhpdCAxOyB9Cm1rZGlyIC1wICIkT1VUIjsgY2QgIiRPVVQiCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gMS4gcm9vdGZzIC0tLS0KbG9nICLmi7fotJ3lubbmuIXnkIYgcm9vdGZz77yI6Lez6L+H6Jma5ouf55uu5b2V5LiOIGFwdCDnvJPlrZjvvIkiCnJtIC1yZiByb290ZnM7IG1rZGlyIC1wIHJvb3RmcwpjcCAtYSAiJFNSQyIvLiByb290ZnMvCnJtIC1yZiByb290ZnMvcHJvYy8qIHJvb3Rmcy9zeXMvKiByb290ZnMvZGV2Lyogcm9vdGZzL3J1bi8qIHJvb3Rmcy90bXAvKiBcCiAgICAgICByb290ZnMvdmFyL2xpYi9hcHQvbGlzdHMvKiByb290ZnMvdmFyL2NhY2hlL2FwdC9hcmNoaXZlcy8qLmRlYgpta2RpciAtcCByb290ZnMvcHJvYyByb290ZnMvc3lzIHJvb3Rmcy9kZXYgcm9vdGZzL3J1biByb290ZnMvdG1wIHJvb3Rmcy9ib290L2Zpcm13YXJlCmNobW9kIDE3Nzcgcm9vdGZzL3RtcAojIFBSb290IOS8muaKiiByZW5hbWUg5Y+Y5oiQIC5sMnMuKiDkuLTml7bmlofku7bvvIzlv4Xpobvov5jljp/miJDnnJ/lkI3vvIzlkKbliJnplZzlg4/ph4zmmK/mlq3pk74KcHl0aG9uMyAtIDw8J1BZJwppbXBvcnQgb3MsIHNodXRpbApTPSdyb290ZnMnCmZvciBkLGtleXMgaW4gKCgndmFyL2xpYi9kcGtnJywoJ3N0YXR1cycsJ2RpdmVyc2lvbnMnLCdzdGF0b3ZlcnJpZGUnKSksKToKICAgIGZvciBmIGluIG9zLmxpc3RkaXIob3MucGF0aC5qb2luKFMsZCkpOgogICAgICAgIGlmIGYuc3RhcnRzd2l0aCgnLmwycy4nKToKICAgICAgICAgICAgZm9yIGsgaW4ga2V5czoKICAgICAgICAgICAgICAgIGlmIGZbNTpdLnN0YXJ0c3dpdGgoayk6CiAgICAgICAgICAgICAgICAgICAgdD1vcy5wYXRoLmpvaW4oUyxkLGspCiAgICAgICAgICAgICAgICAgICAgaWYgb3MucGF0aC5pc2ZpbGUob3MucGF0aC5qb2luKFMsZCxmKSk6CiAgICAgICAgICAgICAgICAgICAgICAgIGlmIG5vdCAob3MucGF0aC5leGlzdHModCkgYW5kIG9zLnBhdGguZ2V0c2l6ZSh0KT4wKToKICAgICAgICAgICAgICAgICAgICAgICAgICAgIHNodXRpbC5jb3B5Mihvcy5wYXRoLmpvaW4oUyxkLGYpLCB0KQogICAgICAgICAgICAgICAgICAgICAgICBvcy5yZW1vdmUob3MucGF0aC5qb2luKFMsZCxmKSkKICAgICAgICAgICAgICAgICAgICBicmVhawpQWQoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gMi4gYm9vdCAtLS0tCmxvZyAi57uE6KOF5ZCv5Yqo5YiG5Yy65YaF5a65IgpCPSIkT1VUL2Jvb3QiOyBta2RpciAtcCAiJEIiCmNwICIkU1JDL2Jvb3Qvdm1saW51ei0kS0VSTkVMX1ZFUiIgICAgICAiJEIva2VybmVsOC5pbWciICAgIyBhcm02NCBJbWFnZe+8iOacquWOi+e8qe+8iQpjcCAiJFNSQy9ib290L2luaXRyZC5pbWctJEtFUk5FTF9WRVIiICAgIiRCL2luaXRyZC5pbWciCmZvciBmIGluIHN0YXJ0NC5lbGYgZml4dXA0LmRhdCBzdGFydC5lbGYgZml4dXAuZGF0IGJvb3Rjb2RlLmJpbjsgZG8KICBbIC1mICIkU1JDL3Vzci9saWIvcmFzcGktZmlybXdhcmUvJGYiIF0gJiYgY3AgIiRTUkMvdXNyL2xpYi9yYXNwaS1maXJtd2FyZS8kZiIgIiRCLyIKZG9uZQpmb3IgZCBpbiBiY20yNzExLXJwaS00LWIgYmNtMjcxMS1ycGktNDAwIGJjbTI3MTEtcnBpLWNtNC1pbyBiY20yODM3LXJwaS0zLWItcGx1czsgZG8KICBjcCAiJFNSQy91c3IvbGliL2xpbnV4LWltYWdlLSRLRVJORUxfVkVSL2Jyb2FkY29tLyRkLmR0YiIgIiRCLyIgMj4vZGV2L251bGwgfHwgdHJ1ZQpkb25lCmNhdCA+ICIkQi9jb25maWcudHh0IiA8PCdDRkcnCmFybV82NGJpdD0xCmtlcm5lbD1rZXJuZWw4LmltZwppbml0cmFtZnMgaW5pdHJkLmltZyBmb2xsb3drZXJuZWwKZGlzYWJsZV9vdmVyc2Nhbj0xCmVuYWJsZV91YXJ0PTEKZ3B1X21lbT0xMjgKZHRwYXJhbT1hdWRpbz1vbgpoZG1pX2ZvcmNlX2hvdHBsdWc9MQpib290X2RlbGF5PTAKCltwaTRdCmRldmljZV90cmVlPWJjbTI3MTEtcnBpLTQtYi5kdGIKW3BpNDAwXQpkZXZpY2VfdHJlZT1iY20yNzExLXJwaS00MDAuZHRiCltjbTRdCmRldmljZV90cmVlPWJjbTI3MTEtcnBpLWNtNC1pby5kdGIKW3BpM10KZGV2aWNlX3RyZWU9YmNtMjgzNy1ycGktMy1iLXBsdXMuZHRiCkNGRwpjYXQgPiAiJEIvY21kbGluZS50eHQiIDw8Q01ECmNvbnNvbGU9c2VyaWFsMCwxMTUyMDAgY29uc29sZT10dHkxIHJvb3Q9UEFSVFVVSUQ9JHtESVNLX1NJR30tMDIgcm9vdGZzdHlwZT1leHQ0IHJvb3R3YWl0IGZzY2sucmVwYWlyPXllcyBxdWlldCBsb2dvLm5vbG9nbwpDTUQKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAzLiBleHQ0IOaguSAtLS0tCmxvZyAi5Yib5bu6IGV4dDQg5qC55YiG5Yy65bm255So55uu5b2V5YaF5a655aGr5YWF77yI5pegIGxvb3DvvIkiCnJtIC1mIHJvb3Rmcy5leHQ0Cm1rZTJmcyAtdCBleHQ0IC1GIC1MIFdBTkdMSU5VWCAtVSAiJHtESVNLX1NJR30tMDAwMC00MDAwLTgwMDAtMDAwMDAwMDAwMDAyIiBcCiAgICAgICAtYiA0MDk2IC1tIDEgLU8gXmhhc19qb3VybmFsIC1kIHJvb3RmcyByb290ZnMuZXh0NCAiJFAyX1NJWkUiCnR1bmUyZnMgLWogcm9vdGZzLmV4dDQgPi9kZXYvbnVsbCAgICAgICAgICAjIOihpeaXpeW/l++8jOS/neivgSBTRCDljaHmlq3nlLXlronlhagKZHVtcGUyZnMgLWggcm9vdGZzLmV4dDQgMj4vZGV2L251bGwgfCBncmVwIC1FICJGaWxlc3lzdGVtIHZvbHVtZSBuYW1lfEJsb2NrIGNvdW50fEpvdXJuYWwgaW5vZGUiCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIDQuIEZBVDMyIC0tLS0KbG9nICLliJvlu7ogRkFUMzIg5ZCv5Yqo5YiG5Yy65bm25ou35YWl5paH5Lu2IgpybSAtZiBib290LmZhdApta2ZzLnZmYXQgLUMgLUYgMzIgLW4gQk9PVCBib290LmZhdCAkKChQMV9TRUNUT1JTLzIpKSA+L2Rldi9udWxsCm1jb3B5IC1pIGJvb3QuZmF0IC1zIC1RICIkQiIvKiA6Oi8KbWRpciAtaSBib290LmZhdCA6Oi8gfCB0YWlsIC0zCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gNS4g5ou86ZWc5YOPICsgTUJSIC0tLS0KbG9nICLmi7zmjqXplZzlg4/lubblhpnlhaUgTUJS77yIZGlzayBzaWduYXR1cmUgJHtESVNLX1NJR33vvIkiCklNRz0id2FuZ2xpbnV4LXBpLTEuMC5pbWciCnJtIC1mICIkSU1HIgp0cnVuY2F0ZSAtcyAkKCggKDQrMjU2KzM0MDApICkpTSAiJElNRyIKZGQgaWY9Ym9vdC5mYXQgICAgIG9mPSIkSU1HIiBicz0xTSBzZWVrPTQgICBjb252PW5vdHJ1bmMgc3RhdHVzPW5vbmUKZGQgaWY9cm9vdGZzLmV4dDQgIG9mPSIkSU1HIiBicz0xTSBzZWVrPTI2MCBjb252PW5vdHJ1bmMgc3RhdHVzPW5vbmUKcHl0aG9uMyAtICIkSU1HIiAiJERJU0tfU0lHIiAiJFAxX1NUQVJUIiAiJFAxX1NFQ1RPUlMiICIkUDJfU1RBUlQiICIkUDJfU0VDVE9SUyIgPDwnUFknCmltcG9ydCBzdHJ1Y3QsIHN5cwppbWcsIHNpZywgczEsIG4xLCBzMiwgbjIgPSBzeXMuYXJndlsxXSwgaW50KHN5cy5hcmd2WzJdLDE2KSwgKm1hcChpbnQsIHN5cy5hcmd2WzM6N10pCm1iciA9IGJ5dGVhcnJheSg1MTIpCnN0cnVjdC5wYWNrX2ludG8oJzxJJywgbWJyLCA0NDAsIHNpZykKZm9yIGksKHR5cCxzdGFydCxzaXplLGZsYWcpIGluIGVudW1lcmF0ZSgoKDB4MGMsczEsbjEsMHg4MCksKDB4ODMsczIsbjIsMHgwMCkpLCAxKToKICAgIG8gPSA0NDYgKyAoaS0xKSoxNgogICAgbWJyW29dID0gZmxhZzsgbWJyW28rNF0gPSB0eXAKICAgIHN0cnVjdC5wYWNrX2ludG8oJzxJJywgbWJyLCBvKzgsIHN0YXJ0KQogICAgc3RydWN0LnBhY2tfaW50bygnPEknLCBtYnIsIG8rMTIsIHNpemUpCm1icls1MTA6NTEyXSA9IGInXHg1NVx4YWEnCm9wZW4oaW1nLCdyK2InKS53cml0ZShtYnIpClBZCnNmZGlzayAtbCAiJElNRyIgfCB0YWlsIC00CgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSA2LiDmlLblsL4gLS0tLQpsb2cgIuWOi+e8qeW5tueUn+aIkOagoemqjOWSjCIKZ3ppcCAtMSAtYyAiJElNRyIgPiAiJElNRy5neiIKc2hhMjU2c3VtICIkSU1HLmd6IiA+ICIkSU1HLmd6LnNoYTI1NiIKbHMgLWxoICIkSU1HIiAiJElNRy5neiI7IGNhdCAiJElNRy5nei5zaGEyNTYiCgpjYXQgPDxFT0YKCuWujOaIkOOAgueDp+W9le+8mgogIGd1bnppcCAtYyAkSU1HLmd6IHwgc3VkbyBkZCBvZj0vZGV2L3NkWCBicz00TSBzdGF0dXM9cHJvZ3Jlc3MgY29udj1mc3luYwrpppbmrKHnmbvlvZXvvJp3YW5nIC8gd2FuZ2xpbnV477yIcm9vdCDlkIzlr4bnoIHvvInvvIxTU0gg5bey5byA77yM6aaW5qyh5byA5py66Ieq5Yqo5omp5a655qC55YiG5Yy644CCCkVPRgo=
+#!/bin/bash
+# ============================================================================
+#  WangLinux 1.0 (Aurora) — Raspberry Pi arm64 镜像组装脚本
+#  在没有 loop 设备的环境（PRoot / 手机 chroot）里也能跑：
+#  用 mke2fs -d 直接填充 ext4、mkfs.vfat 造 FAT、python 手写 MBR。
+#
+#  用法（root）：
+#    SRC=/opt/wl-pi  bash assemble.sh
+#  依赖：mke2fs/resize2fs/tune2fs/dumpe2fs/debugfs、dosfstools(mkfs.vfat)、
+#        mtools(mcopy/mdir)、sfdisk、python3
+# ============================================================================
+set -Eeuo pipefail
+
+SRC="${SRC:-/opt/wl-pi}"              # 已配置好的 arm64 rootfs
+OUT="${OUT:-/workspace/wl-build}"     # 工作目录
+KERNEL_VER="${KERNEL_VER:-6.1.0-50-arm64}"
+DISK_SIG="57414e47"                   # MBR disk signature → PARTUUID 前缀
+P1_START=8192;  P1_SECTORS=524288     # 4MiB 起，256MiB FAT32 /boot/firmware
+P2_START=532480; P2_SECTORS=6963200   # 260MiB 起，3.3GiB ext4 /
+P2_SIZE="3400M"
+
+log() { printf '\n\033[1;35m[pi]\033[0m %s\n' "$*"; }
+[ "$(id -u)" -eq 0 ] || { echo "需要 root"; exit 1; }
+mkdir -p "$OUT"; cd "$OUT"
+
+# ---------------------------------------------------------------- 1. rootfs ----
+log "拷贝并清理 rootfs（跳过虚拟目录与 apt 缓存）"
+rm -rf rootfs; mkdir -p rootfs
+cp -a "$SRC"/. rootfs/
+rm -rf rootfs/proc/* rootfs/sys/* rootfs/dev/* rootfs/run/* rootfs/tmp/* \
+       rootfs/var/lib/apt/lists/* rootfs/var/cache/apt/archives/*.deb
+mkdir -p rootfs/proc rootfs/sys rootfs/dev rootfs/run rootfs/tmp rootfs/boot/firmware
+chmod 1777 rootfs/tmp
+# PRoot 会把 rename 变成 .l2s.* 临时文件，必须还原成真名，否则镜像里是断链
+python3 - <<'PY'
+import os, shutil
+S='rootfs'
+for d,keys in (('var/lib/dpkg',('status','diversions','statoverride')),):
+    for f in os.listdir(os.path.join(S,d)):
+        if f.startswith('.l2s.'):
+            for k in keys:
+                if f[5:].startswith(k):
+                    t=os.path.join(S,d,k)
+                    if os.path.isfile(os.path.join(S,d,f)):
+                        if not (os.path.exists(t) and os.path.getsize(t)>0):
+                            shutil.copy2(os.path.join(S,d,f), t)
+                        os.remove(os.path.join(S,d,f))
+                    break
+PY
+
+# ------------------------------------------------------------------ 2. boot ----
+log "组装启动分区内容"
+B="$OUT/boot"; mkdir -p "$B"
+cp "$SRC/boot/vmlinuz-$KERNEL_VER"      "$B/kernel8.img"   # arm64 Image（未压缩）
+cp "$SRC/boot/initrd.img-$KERNEL_VER"   "$B/initrd.img"
+for f in start4.elf fixup4.dat start.elf fixup.dat bootcode.bin; do
+  [ -f "$SRC/usr/lib/raspi-firmware/$f" ] && cp "$SRC/usr/lib/raspi-firmware/$f" "$B/"
+done
+for d in bcm2711-rpi-4-b bcm2711-rpi-400 bcm2711-rpi-cm4-io bcm2837-rpi-3-b-plus; do
+  cp "$SRC/usr/lib/linux-image-$KERNEL_VER/broadcom/$d.dtb" "$B/" 2>/dev/null || true
+done
+cat > "$B/config.txt" <<'CFG'
+arm_64bit=1
+kernel=kernel8.img
+initramfs initrd.img followkernel
+disable_overscan=1
+enable_uart=1
+gpu_mem=128
+dtparam=audio=on
+hdmi_force_hotplug=1
+boot_delay=0
+
+[pi4]
+device_tree=bcm2711-rpi-4-b.dtb
+[pi400]
+device_tree=bcm2711-rpi-400.dtb
+[cm4]
+device_tree=bcm2711-rpi-cm4-io.dtb
+[pi3]
+device_tree=bcm2837-rpi-3-b-plus.dtb
+CFG
+cat > "$B/cmdline.txt" <<CMD
+console=serial0,115200 console=tty1 root=PARTUUID=${DISK_SIG}-02 rootfstype=ext4 rootwait fsck.repair=yes quiet logo.nologo
+CMD
+
+# ------------------------------------------------------------- 3. ext4 根 ----
+log "创建 ext4 根分区并用目录内容填充（无 loop）"
+rm -f rootfs.ext4
+mke2fs -t ext4 -F -L WANGLINUX -U "${DISK_SIG}-0000-4000-8000-000000000002" \
+       -b 4096 -m 1 -O ^has_journal -d rootfs rootfs.ext4 "$P2_SIZE"
+tune2fs -j rootfs.ext4 >/dev/null          # 补日志，保证 SD 卡断电安全
+dumpe2fs -h rootfs.ext4 2>/dev/null | grep -E "Filesystem volume name|Block count|Journal inode"
+
+# -------------------------------------------------------------- 4. FAT32 ----
+log "创建 FAT32 启动分区并拷入文件"
+rm -f boot.fat
+mkfs.vfat -C -F 32 -n BOOT boot.fat $((P1_SECTORS/2)) >/dev/null
+mcopy -i boot.fat -s -Q "$B"/* ::/
+mdir -i boot.fat ::/ | tail -3
+
+# ------------------------------------------------------- 5. 拼镜像 + MBR ----
+log "拼接镜像并写入 MBR（disk signature ${DISK_SIG}）"
+IMG="wanglinux-pi-1.0.img"
+rm -f "$IMG"
+truncate -s $(( 4+256+3400 ))M "$IMG"
+dd if=boot.fat     of="$IMG" bs=1M seek=4   conv=notrunc status=none
+dd if=rootfs.ext4  of="$IMG" bs=1M seek=260 conv=notrunc status=none
+python3 - "$IMG" "$DISK_SIG" "$P1_START" "$P1_SECTORS" "$P2_START" "$P2_SECTORS" <<'PY'
+import struct, sys
+img, sig, s1, n1, s2, n2 = sys.argv[1], int(sys.argv[2],16), *map(int, sys.argv[3:7])
+mbr = bytearray(512)
+struct.pack_into('<I', mbr, 440, sig)
+for i,(typ,start,size,flag) in enumerate(((0x0c,s1,n1,0x80),(0x83,s2,n2,0x00)), 1):
+    o = 446 + (i-1)*16
+    mbr[o] = flag; mbr[o+4] = typ
+    struct.pack_into('<I', mbr, o+8, start)
+    struct.pack_into('<I', mbr, o+12, size)
+mbr[510:512] = b'\x55\xaa'
+open(img,'r+b').write(mbr)
+PY
+sfdisk -l "$IMG" | tail -4
+
+# ------------------------------------------------------------ 6. 收尾 ----
+log "压缩并生成校验和"
+gzip -1 -c "$IMG" > "$IMG.gz"
+sha256sum "$IMG.gz" > "$IMG.gz.sha256"
+ls -lh "$IMG" "$IMG.gz"; cat "$IMG.gz.sha256"
+
+cat <<EOF
+
+完成。烧录：
+  gunzip -c $IMG.gz | sudo dd of=/dev/sdX bs=4M status=progress conv=fsync
+首次登录：wang / wanglinux（root 同密码），SSH 已开，首次开机自动扩容根分区。
+EOF

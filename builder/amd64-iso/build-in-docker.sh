@@ -1,1 +1,27 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgIOWcqCBEb2NrZXIg6YeM5p6E5bu6IFdhbmdMaW51eCBhbWQ2NCBJU0/vvIhXaW5kb3dzIC8gbWFjT1Mg6KOF5LqGIERvY2tlciBEZXNrdG9wIOWwseiDveeUqO+8iQojICDnlKjms5XvvJoKIyAgICAxKSDmioogYnVpbGQtd2FuZ2xpbnV4LWFtZDY0LnNoIOWSjOacrOaWh+S7tuaUvuWcqOWQjOS4gOS4quebruW9lQojICAgIDIpIFdpbmRvd3M6IOaJk+W8gCBQb3dlclNoZWxsIOKGkiBiYXNoIGJ1aWxkLWluLWRvY2tlci5zaAojICAgICAgIG1hY09TL0xpbnV4OiBiYXNoIGJ1aWxkLWluLWRvY2tlci5zaAojICAgIDMpIOWujOaIkOWQjiBJU08g5Ye6546w5ZyoIC4vb3V0LyDnm67lvZUKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CnNldCAtRWV1byBwaXBlZmFpbApIRVJFPSIkKGNkICIkKGRpcm5hbWUgIiQwIikiICYmIHB3ZCkiCk9VVD0iJHtPVVQ6LSRIRVJFL291dH0iCm1rZGlyIC1wICIkT1VUIgoKZWNobyAiW1dhbmdMaW51eF0g6L6T5Ye655uu5b2VOiAkT1VUIgplY2hvICJbV2FuZ0xpbnV4XSDlrrnlmajlhoXmnoTlu7rpnIAgOC0xNSBHQiDno4Hnm5jjgIExLjUtMi41IEdCIOS4i+i9vea1gemHjyIKCmRvY2tlciBydW4gLS1ybSAtaXQgLS1wcml2aWxlZ2VkIFwKICAtdiAiJE9VVDovYnVpbGQiIFwKICAtdiAiJEhFUkUvYnVpbGQtd2FuZ2xpbnV4LWFtZDY0LnNoOi9idWlsZC1zcmMvYnVpbGQuc2g6cm8iIFwKICAtZSBXT1JLPS9idWlsZC93YW5nbGludXgtaXNvIFwKICBkZWJpYW46Ym9va3dvcm0gXAogIGJhc2ggLWMgImFwdC1nZXQgdXBkYXRlIC1xcSAmJiBhcHQtZ2V0IGluc3RhbGwgLXkgLXFxIGJhc2ggY2EtY2VydGlmaWNhdGVzICYmIGJhc2ggL2J1aWxkLXNyYy9idWlsZC5zaCIKCmVjaG8KZWNobyAiW1dhbmdMaW51eF0g5a6M5oiQ44CCSVNPOiIKbHMgLWxoICIkT1VUIi8qLmlzbyAiJE9VVCIvKi5zaGEyNTYgMj4vZGV2L251bGwgfHwgZWNobyAi77yI5rKh5om+5YiwIElTT++8jOivt+ajgOafpeS4iumdoueahOaXpeW/l++8iSIK
+#!/bin/bash
+# ============================================================================
+#  在 Docker 里构建 WangLinux amd64 ISO（Windows / macOS 装了 Docker Desktop 就能用）
+#  用法：
+#    1) 把 build-wanglinux-amd64.sh 和本文件放在同一个目录
+#    2) Windows: 打开 PowerShell → bash build-in-docker.sh
+#       macOS/Linux: bash build-in-docker.sh
+#    3) 完成后 ISO 出现在 ./out/ 目录
+# ============================================================================
+set -Eeuo pipefail
+HERE="$(cd "$(dirname "$0")" && pwd)"
+OUT="${OUT:-$HERE/out}"
+mkdir -p "$OUT"
+
+echo "[WangLinux] 输出目录: $OUT"
+echo "[WangLinux] 容器内构建需 8-15 GB 磁盘、1.5-2.5 GB 下载流量"
+
+docker run --rm -it --privileged \
+  -v "$OUT:/build" \
+  -v "$HERE/build-wanglinux-amd64.sh:/build-src/build.sh:ro" \
+  -e WORK=/build/wanglinux-iso \
+  debian:bookworm \
+  bash -c "apt-get update -qq && apt-get install -y -qq bash ca-certificates && bash /build-src/build.sh"
+
+echo
+echo "[WangLinux] 完成。ISO:"
+ls -lh "$OUT"/*.iso "$OUT"/*.sha256 2>/dev/null || echo "（没找到 ISO，请检查上面的日志）"

@@ -1,1 +1,19 @@
-IyEvYmluL3NoCiMg6L+b5YWlIFdhbmdMaW51eCAxLjAgKGFybTY0KSDigJTigJQg5ZyoIEtlbGl2byDmspnnm5Lph4zov5DooYzmraTohJrmnKwKIyDnlKjms5XvvJogc2ggL3dvcmtzcGFjZS9lbnRlci13YW5nbGludXguc2ggICAgICAgICAgICDov5vlhaXkuqTkupIgc2hlbGwKIyAgICAgICAgc2ggL3dvcmtzcGFjZS9lbnRlci13YW5nbGludXguc2ggIuWRveS7pC4uLiIgIOaJp+ihjOWNleadoeWRveS7pApSPS9vcHQvd2FuZ2xpbnV4CgpbIC1kICIkUi91c3IvYmluIiBdIHx8IHsgZWNobyAi5qC55paH5Lu257O757uf5LiN5a2Y5Zyo77yaJFLvvIjlj6/ku44gdGFyIOWMheaBouWkje+8iSI7IGV4aXQgMTsgfQoKIyDmspnnm5LnpoHmraIgbWtub2TvvIznlKjmma7pgJrmlofku7bku6PnkIYgL2RldiDoioLngrkKZm9yIG4gaW4gbnVsbCB6ZXJvIHJhbmRvbSB1cmFuZG9tIHR0eTsgZG8KICBbIC1lICIkUi9kZXYvJG4iIF0gfHwgeyA6ID4gIiRSL2Rldi8kbiI7IGNobW9kIDY2NiAiJFIvZGV2LyRuIjsgfQpkb25lCm1rZGlyIC1wICIkUi9wcm9jIiAiJFIvc3lzIiAiJFIvdG1wIiAiJFIvcnVuIgoKaWYgWyAtbiAiJDEiIF07IHRoZW4KICBleGVjIGNocm9vdCAiJFIiIC9iaW4vYmFzaCAtbGMgIiQqIgplbHNlCiAgZXhlYyBjaHJvb3QgIiRSIiAvYmluL2Jhc2ggLWwKZmkK
+#!/bin/sh
+# 进入 WangLinux 1.0 (arm64) —— 在 Kelivo 沙盒里运行此脚本
+# 用法： sh /workspace/enter-wanglinux.sh            进入交互 shell
+#        sh /workspace/enter-wanglinux.sh "命令..."  执行单条命令
+R=/opt/wanglinux
+
+[ -d "$R/usr/bin" ] || { echo "根文件系统不存在：$R（可从 tar 包恢复）"; exit 1; }
+
+# 沙盒禁止 mknod，用普通文件代理 /dev 节点
+for n in null zero random urandom tty; do
+  [ -e "$R/dev/$n" ] || { : > "$R/dev/$n"; chmod 666 "$R/dev/$n"; }
+done
+mkdir -p "$R/proc" "$R/sys" "$R/tmp" "$R/run"
+
+if [ -n "$1" ]; then
+  exec chroot "$R" /bin/bash -lc "$*"
+else
+  exec chroot "$R" /bin/bash -l
+fi

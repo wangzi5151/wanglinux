@@ -1,1 +1,318 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgIFdhbmdMaW51eCAxLjAgKGFtZDY0KSDlj6/lkK/liqggVSDnm5ggSVNPIOaehOW7uuiEmuacrAojICDlnKggRGViaWFuIDEyIC8gVWJ1bnR1IDIyLjA0KyAvIFdTTDItVWJ1bnR1IOS4iuS7pSByb290IOi/kOihjAojICDkuqflh7rvvJp3YW5nbGludXgtMS4wLWFtZDY0Lmlzb++8iFVFRkkgKyDkvKDnu58gQklPUyDlj4zlkK/liqjvvIzlj68gUnVmdXMg5YaZ55uY77yJCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpzZXQgLUVldW8gcGlwZWZhaWwKZXhwb3J0IERFQklBTl9GUk9OVEVORD1ub25pbnRlcmFjdGl2ZQoKRElTVD0iJHtESVNUOi1ib29rd29ybX0iCk1JUlJPUj0iJHtNSVJST1I6LWh0dHA6Ly9taXJyb3JzLnVzdGMuZWR1LmNuL2RlYmlhbi99IgpNSVJST1JfU0VDPSIke01JUlJPUl9TRUM6LWh0dHA6Ly9taXJyb3JzLnVzdGMuZWR1LmNuL2RlYmlhbi1zZWN1cml0eS99IgpXT1JLPSIke1dPUks6LS9idWlsZC93YW5nbGludXgtaXNvfSIKT1VUPSIke09VVDotL2J1aWxkfSIKSVNPTkFNRT0id2FuZ2xpbnV4LTEuMC1hbWQ2NC5pc28iClZFUlNJT049IjEuMCIKCmxvZygpICB7IHByaW50ZiAnXG5cMDMzWzE7MzVtW1dhbmdMaW51eF1cMDMzWzBtICVzXG4nICIkKiI7IH0Kd2FybigpIHsgcHJpbnRmICdcMDMzWzE7MzNtW+azqOaEj11cMDMzWzBtICVzXG4nICIkKiI7IH0KZGllKCkgIHsgcHJpbnRmICdcMDMzWzE7MzFtW+Wksei0pV1cMDMzWzBtICVzXG4nICIkKiIgPiYyOyBleGl0IDE7IH0KdHJhcCAnZGllICLmnoTlu7rkuK3mlq3vvIjnrKwgJExJTkVOTyDooYzvvInjgILml6Xlv5fvvJokV09SSy9idWlsZC5sb2ciJyBFUlIKClsgIiQoaWQgLXUpIiAtZXEgMCBdIHx8IGRpZSAi6K+355SoIHJvb3Qg6L+Q6KGM77yaIHN1ZG8gYmFzaCAkMCIKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAxLiDkvp3otZYgLS0tLQpsb2cgIjEvNyDlronoo4XmnoTlu7rkvp3otZbvvIjpppbmrKHnuqYgMTAwIE1C77yJIgphcHQtZ2V0IHVwZGF0ZSAtcXEKYXB0LWdldCBpbnN0YWxsIC15IC0tbm8taW5zdGFsbC1yZWNvbW1lbmRzIFwKICBsaXZlLWJ1aWxkIGRlYm9vdHN0cmFwIHNxdWFzaGZzLXRvb2xzIHhvcnJpc28gaXNvbGludXggc3lzbGludXgtY29tbW9uIHN5c2xpbnV4LWVmaSBcCiAgZ3J1Yi1wYy1iaW4gZ3J1Yi1lZmktYW1kNjQtYmluIG10b29scyBkb3Nmc3Rvb2xzIHJzeW5jIGNhLWNlcnRpZmljYXRlcyB4ei11dGlscyBcCiAgPi90bXAvd2FuZ2xpbnV4LWRlcHMubG9nIDI+JjEgfHwgZGllICLkvp3otZblronoo4XlpLHotKXvvIzop4EgL3RtcC93YW5nbGludXgtZGVwcy5sb2ciCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gMi4g6aqo5p62IC0tLS0KbG9nICIyLzcg5Yid5aeL5YyW5p6E5bu655uu5b2VICRXT1JLIgpybSAtcmYgIiRXT1JLIgpta2RpciAtcCAiJFdPUksiL2NvbmZpZy97cGFja2FnZS1saXN0cyxob29rcy9saXZlLGluY2x1ZGVzLmNocm9vdC91c3IvbG9jYWwvYmluLGluY2x1ZGVzLmNocm9vdC9ldGN9CmNkICIkV09SSyIKCmxiIGNvbmZpZyBub2F1dG8gXAogIC0tYXJjaGl0ZWN0dXJlcyBhbWQ2NCBcCiAgLS1kaXN0cmlidXRpb24gIiRESVNUIiBcCiAgLS1tb2RlIGRlYmlhbiBcCiAgLS1zeXN0ZW0gbGl2ZSBcCiAgLS1iaW5hcnktaW1hZ2VzIGlzby1oeWJyaWQgXAogIC0tYXJjaGl2ZS1hcmVhcyAibWFpbiBjb250cmliIG5vbi1mcmVlLWZpcm13YXJlIiBcCiAgLS1wYXJlbnQtYXJjaGl2ZS1hcmVhcyAibWFpbiBjb250cmliIG5vbi1mcmVlLWZpcm13YXJlIiBcCiAgLS1kZWJpYW4taW5zdGFsbGVyIG5vbmUgXAogIC0tbWVtdGVzdCBub25lIFwKICAtLWNoZWNrc3VtcyBzaGEyNTYgXAogIC0tYm9vdGFwcGVuZC1saXZlICJib290PWxpdmUgY29tcG9uZW50cyBwZXJzaXN0ZW5jZSB1c2VybmFtZT13YW5nIHVzZXItZnVsbG5hbWU9V2FuZyBob3N0bmFtZT13YW5nbGludXggbG9jYWxlcz16aF9DTi5VVEYtOCBrZXlib2FyZC1sYXlvdXRzPXVzIHRpbWV6b25lPUFzaWEvU2hhbmdoYWkgdXRjPW5vIHF1aWV0IHNwbGFzaCIgXAogIC0taXNvLWFwcGxpY2F0aW9uICJXYW5nTGludXggJHtWRVJTSU9OfSIgXAogIC0taXNvLXByZXBhcmVyICJXYW5nTGludXggUHJvamVjdCIgXAogIC0taXNvLXB1Ymxpc2hlciAiV2FuZ0xpbnV4IFByb2plY3Q7IGh0dHBzOi8vZXhhbXBsZS5jb20vd2FuZ2xpbnV4IiBcCiAgLS1pc28tdm9sdW1lICJXQU5HTElOVVhfMTAiIFwKICAtLW1pcnJvci1ib290c3RyYXAgIiRNSVJST1IiIFwKICAtLW1pcnJvci1jaHJvb3QgIiRNSVJST1IiIFwKICAtLW1pcnJvci1iaW5hcnkgIiRNSVJST1IiIFwKICAtLW1pcnJvci1jaHJvb3Qtc2VjdXJpdHkgIiRNSVJST1JfU0VDIiBcCiAgLS1taXJyb3ItYmluYXJ5LXNlY3VyaXR5ICIkTUlSUk9SX1NFQyIKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSAzLiDova/ku7bljIXmuIXljZUgLS0tLQpsb2cgIjMvNyDlhpnlhaXova/ku7bljIXmuIXljZUiCmNhdCA+IGNvbmZpZy9wYWNrYWdlLWxpc3RzL3dhbmdsaW51eC1jb3JlLmxpc3QuY2hyb290IDw8J0VPRicKIyAtLS0tIOahjOmdoueOr+WigyAtLS0tCnRhc2steGZjZS1kZXNrdG9wCmxpZ2h0ZG0KbGlnaHRkbS1ndGstZ3JlZXRlcgp4ZmNlNC10ZXJtaW5hbAp0aHVuYXIKbW91c2VwYWQKeGZjZTQtcHVsc2VhdWRpby1wbHVnaW4KcGF2dWNvbnRyb2wKbmV0d29yay1tYW5hZ2VyCm5ldHdvcmstbWFuYWdlci1nbm9tZQpmaXJlZm94LWVzcgojIC0tLS0g5Lit5paH5pSv5oyBIC0tLS0KbG9jYWxlcwpmb250cy1ub3RvLWNqawpmb250cy1ub3RvLWNvbG9yLWVtb2ppCmZvbnRzLXdxeS16ZW5oZWkKZmNpdHg1CmZjaXR4NS1jaGluZXNlLWFkZG9ucwpmY2l0eDUtZnJvbnRlbmQtZ3RrMwojIC0tLS0g5LiOIGFybTY0IOeJiOS4gOiHtOeahOWfuuehgOW3peWFtyAtLS0tCmJhc2gtY29tcGxldGlvbgpjdXJsCndnZXQKZ2l0CnZpbQpuYW5vCmxlc3MKdHJlZQpodG9wCnByb2Nwcwpwc21pc2MKZmlsZQp1bnppcAp6aXAKeHotdXRpbHMKYnppcDIKc3Vkbwp0emRhdGEKbmV0LXRvb2xzCmlwcm91dGUyCmlwdXRpbHMtcGluZwpkbnN1dGlscwpvcGVuc3NoLWNsaWVudApvcGVuc3NoLXNlcnZlcgpweXRob24zCnB5dGhvbjMtcGlwCnB5dGhvbjMtdmVudgpwZXJsCmdjYwpnKysKbWFrZQpjbWFrZQpnZGIKc3RyYWNlCnRtdXgKcnN5bmMKanEKbmNkdQptYW4tZGIKbWFucGFnZXMKY3JvbgpjYS1jZXJ0aWZpY2F0ZXMKZ251cGcKbHNiLXJlbGVhc2UKdXNidXRpbHMKcGNpdXRpbHMKbHNvZgpzb2NhdApiYwp6c2gKbmVvZmV0Y2gKRU9GCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSA0LiDlk4HniYzmlofku7YgLS0tLQpsb2cgIjQvNyDlhpnlhaXlk4HniYzmlofku7bkuI7oh6rnoJTlkb3ku6QiCmNhdCA+IGNvbmZpZy9pbmNsdWRlcy5jaHJvb3QvdXNyL2xvY2FsL2Jpbi93YW5naW5mbyA8PCdFT0YnCiMhL2Jpbi9zaApSRUw9JChzZWQgLW4gJ3MvXlBSRVRUWV9OQU1FPSJcKC4qXCkiL1wxL3AnIC9ldGMvb3MtcmVsZWFzZSAyPi9kZXYvbnVsbCkKWyAtbiAiJFJFTCIgXSB8fCBSRUw9IldhbmdMaW51eCAxLjAgKEF1cm9yYSkiClNIPSIke1NIRUxMOi0kKGdldGVudCBwYXNzd2QgIiQoaWQgLXUpIiAyPi9kZXYvbnVsbCB8IGN1dCAtZDogLWY3KX0iOyBbIC1uICIkU0giIF0gfHwgU0g9L2Jpbi9iYXNoClBLR1M9JChkcGtnLXF1ZXJ5IC1mICcuXG4nIC1XIDI+L2Rldi9udWxsIHwgd2MgLWwpCktFUk49JCh1bmFtZSAtciAyPi9kZXYvbnVsbCk7IEtOT1RFPSIiCmNhc2UgIiRLRVJOIiBpbiAqYW5kcm9pZCopIEtOT1RFPSIgW+Wuv+S4u+WGheaguF0iOzsgIiIpIEtFUk49IuacquefpSI7OyBlc2FjCnByaW50ZiAnJS05cyAlc1xuJyAi57O757ufIiAgICIkUkVMIgpwcmludGYgJyUtOXMgJXNcbicgIuWfuuehgCIgICAiRGViaWFuICQoY2F0IC9ldGMvZGViaWFuX3ZlcnNpb24gMj4vZGV2L251bGwpIChib29rd29ybSkgLyAkKHVuYW1lIC1tKSIKcHJpbnRmICclLTlzICVzXG4nICLlhoXmoLgiICAgIiRLRVJOJEtOT1RFIgpwcmludGYgJyUtOXMgJXNcbicgIui9r+S7tuWMhSIgIiRQS0dTIOS4qiIKcHJpbnRmICclLTlzICVzXG4nICJDUFUiICAgICIkKHVuYW1lIC1tKSB4ICQobnByb2MgMj4vZGV2L251bGwgfHwgZWNobyAxKSIKcHJpbnRmICclLTlzICVzXG4nICLlhoXlrZgiICAgIiQoYXdrICcvTWVtVG90YWwve3ByaW50ZiAiJS4xZiBHaUIiLCAkMi8xMDQ4NTc2fScgL3Byb2MvbWVtaW5mbyAyPi9kZXYvbnVsbCkiCnByaW50ZiAnJS05cyAlc1xuJyAi55So5oi3IiAgICIkKGlkIC11bikgKHVpZD0kKGlkIC11KSkiCnByaW50ZiAnJS05cyAlc1xuJyAiU2hlbGwiICAiJFNIIgpwcmludGYgJyUtOXMgJXNcbicgIuW8gOacuiIgICAiJCh1cHRpbWUgLXAgMj4vZGV2L251bGwgfHwgZWNobyAn4oCUJykiCkVPRgpjaG1vZCAreCBjb25maWcvaW5jbHVkZXMuY2hyb290L3Vzci9sb2NhbC9iaW4vd2FuZ2luZm8KCmNhdCA+IGNvbmZpZy9pbmNsdWRlcy5jaHJvb3QvdXNyL2xvY2FsL2Jpbi9oZWxwLXdhbmcgPDwnRU9GJwojIS9iaW4vc2gKcHJpbnRmICclc1xuJyBcCiJXYW5nTGludXgg5b+r6YCf5oyH5byVIiBcCiIgIHdhbmdpbmZvICAgICAgICAgICAgICAgICDns7vnu5/kv6Hmga8iIFwKIiAgYXB0IHVwZGF0ZSAmJiBhcHQgaW5zdGFsbCDoo4Xova/ku7bvvIjmupDlt7LmjIflkJEgVVNUQyDplZzlg4/vvIkiIFwKIiAgc3VkbyDliY3nvIAgICAgICAgICAgICAgICAg5Lul566h55CG5ZGY6Lqr5Lu95omn6KGMIiBcCiIgIOa1j+iniOWZqCAvIOaWh+S7tueuoeeQhuWZqCAvIOe7iOerryAg5bem5LiL6KeS6I+c5Y2V6YeM6YO95pyJIiBcCiIgIOS4reaWh+i+k+WFpeazlSAgICAgICAgICAgICAgICBDdHJsK+epuuagvCDliIfmjaLvvIhmY2l0eDXvvIkiIFwKIiAg6YeN5ZCvIC8g5YWz5py6ICAgICAgICAgICAgICAg5Y+z5LiK6KeS6I+c5Y2VIgpFT0YKY2htb2QgK3ggY29uZmlnL2luY2x1ZGVzLmNocm9vdC91c3IvbG9jYWwvYmluL2hlbHAtd2FuZwoKY2F0ID4gY29uZmlnL2luY2x1ZGVzLmNocm9vdC9ldGMvbGlnaHRkbS9saWdodGRtLmNvbmYgPDwnRU9GJwpbU2VhdDoqXQphdXRvbG9naW4tdXNlcj13YW5nCmF1dG9sb2dpbi11c2VyLXRpbWVvdXQ9MApncmVldGVyLXNlc3Npb249bGlnaHRkbS1ndGstZ3JlZXRlcgp1c2VyLXNlc3Npb249eGZjZQpFT0YKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSA1LiDmnoTlu7rml7bpkqnlrZAgLS0tLQpsb2cgIjUvNyDlhpnlhaXmnoTlu7rpkqnlrZDvvIjlk4HniYzljJYgLyDkuK3mlocgLyDlo4HnurggLyDlr4bnoIHvvIkiCmNhdCA+IGNvbmZpZy9ob29rcy9saXZlLzAxMDAtYnJhbmRpbmcuaG9vay5jaHJvb3QgPDwnSE9PSycKIyEvYmluL3NoCnNldCAtZQojIC0tLSBvcy1yZWxlYXNl77yI55yf5q2j5pu/5o2iIERlYmlhbiDmoIfor4bvvIktLS0KY2F0ID4gL3Vzci9saWIvb3MtcmVsZWFzZSA8PCdFT0YnClBSRVRUWV9OQU1FPSJXYW5nTGludXggMS4wIgpOQU1FPSJXYW5nTGludXgiClZFUlNJT05fSUQ9IjEuMCIKVkVSU0lPTj0iMS4wIChBdXJvcmEpIgpWRVJTSU9OX0NPREVOQU1FPWF1cm9yYQpJRD13YW5nbGludXgKSURfTElLRT1kZWJpYW4KQU5TSV9DT0xPUj0iMTszNSIKSE9NRV9VUkw9Imh0dHBzOi8vZXhhbXBsZS5jb20vd2FuZ2xpbnV4IgpTVVBQT1JUX1VSTD0iaHR0cHM6Ly9leGFtcGxlLmNvbS93YW5nbGludXgvc3VwcG9ydCIKQlVHX1JFUE9SVF9VUkw9Imh0dHBzOi8vZXhhbXBsZS5jb20vd2FuZ2xpbnV4L2lzc3VlcyIKRU9GCnJtIC1mIC9ldGMvb3MtcmVsZWFzZSAmJiBsbiAtcyAuLi91c3IvbGliL29zLXJlbGVhc2UgL2V0Yy9vcy1yZWxlYXNlCmNhdCA+IC9ldGMvbHNiLXJlbGVhc2UgPDwnRU9GJwpESVNUUklCX0lEPVdhbmdMaW51eApESVNUUklCX1JFTEVBU0U9MS4wCkRJU1RSSUJfQ09ERU5BTUU9YXVyb3JhCkRJU1RSSUJfREVTQ1JJUFRJT049IldhbmdMaW51eCAxLjAiCkVPRgplY2hvICJXYW5nTGludXggMS4wIChBdXJvcmEpIC0gRGViaWFuIGJvb2t3b3JtIGJhc2UgLyBhbWQ2NCIgPiAvZXRjL3dhbmdsaW51eC1yZWxlYXNlCmVjaG8gd2FuZ2xpbnV4ID4gL2V0Yy9ob3N0bmFtZQpwcmludGYgJzEyNy4wLjAuMVx0bG9jYWxob3N0XG4xMjcuMC4xLjFcdHdhbmdsaW51eFxuJyA+IC9ldGMvaG9zdHMKcHJpbnRmICdXYW5nTGludXggMS4wIFxcbiBcXGxcblxuJyA+IC9ldGMvaXNzdWUKcHJpbnRmICdXYW5nTGludXggMS4wIFxcbiBcXGxcblxuJyA+IC9ldGMvaXNzdWUubmV0CmNhdCA+IC9ldGMvbW90ZCA8PCdFT0YnCgogICBXYW5nTGludXggMS4wIChBdXJvcmEpICDCtyAgYW1kNjQKCiAgIOW8gOacuuWNs+eUqO+8mua1j+iniOWZqCAvIOaWh+S7tueuoeeQhuWZqCAvIOe7iOerr+mDveWcqOW3puS4i+inkuiPnOWNlQogICDovpPlhaUgaGVscC13YW5nIOeci+W4uOeUqOaTjeS9nO+8jOi+k+WFpSB3YW5naW5mbyDnnIvns7vnu5/kv6Hmga8KICAg5Lit5paH6L6T5YWl5rOV77yaQ3RybCvnqbrmoLwKCkVPRgojIC0tLSDlvJXlr7zoj5zljZXmmL7npLrnmoTlkI3lrZcgLS0tCmlmIFsgLWYgL2V0Yy9kZWZhdWx0L2dydWIgXTsgdGhlbgogIHNlZCAtaSAncy9eR1JVQl9ESVNUUklCVVRPUj0uKi9HUlVCX0RJU1RSSUJVVE9SPSJXYW5nTGludXgiLycgL2V0Yy9kZWZhdWx0L2dydWIgfHwgXAogICAgZWNobyAnR1JVQl9ESVNUUklCVVRPUj0iV2FuZ0xpbnV4IicgPj4gL2V0Yy9kZWZhdWx0L2dydWIKZmkKIyAtLS0g5pe25Yy6IC8g5Lit5paHIGxvY2FsZSAtLS0KbG4gLXNmIC91c3Ivc2hhcmUvem9uZWluZm8vQXNpYS9TaGFuZ2hhaSAvZXRjL2xvY2FsdGltZQplY2hvICJBc2lhL1NoYW5naGFpIiA+IC9ldGMvdGltZXpvbmUKc2VkIC1pICdzL14jICpcKHpoX0NOLlVURi04XCkvXDEvOyBzL14jICpcKGVuX1VTLlVURi04XCkvXDEvJyAvZXRjL2xvY2FsZS5nZW4gMj4vZGV2L251bGwgfHwgdHJ1ZQplY2hvICdMQU5HPXpoX0NOLlVURi04JyA+IC9ldGMvZGVmYXVsdC9sb2NhbGUKZWNobyAnTEFOR1VBR0U9emhfQ046ZW5fVVMnID4+IC9ldGMvZGVmYXVsdC9sb2NhbGUKbG9jYWxlLWdlbiB8fCB0cnVlCiMgLS0tIOeUqOaIt+WvhueggSAmIOWFjeWvhiBzdWRvIC0tLQplY2hvICd3YW5nOndhbmdsaW51eCcgfCBjaHBhc3N3ZCB8fCB0cnVlCmVjaG8gJ3Jvb3Q6d2FuZ2xpbnV4JyB8IGNocGFzc3dkIHx8IHRydWUKbWtkaXIgLXAgL2V0Yy9zdWRvZXJzLmQKZWNobyAnd2FuZyBBTEw9KEFMTCkgTk9QQVNTV0Q6IEFMTCcgPiAvZXRjL3N1ZG9lcnMuZC8wMTAtd2FuZwpjaG1vZCA0NDAgL2V0Yy9zdWRvZXJzLmQvMDEwLXdhbmcKIyAtLS0gZmNpdHg1IOiHquWQryAtLS0KbWtkaXIgLXAgL2V0Yy94ZGcvYXV0b3N0YXJ0CmNhdCA+IC9ldGMveGRnL2F1dG9zdGFydC93YW5nLWZjaXR4NS5kZXNrdG9wIDw8J0VPRicKW0Rlc2t0b3AgRW50cnldClR5cGU9QXBwbGljYXRpb24KTmFtZT1JbnB1dCBNZXRob2QgKGZjaXR4NSkKRXhlYz1mY2l0eDUgLWQKT25seVNob3dJbj1YRkNFOwpYLUdOT01FLUF1dG9zdGFydC1lbmFibGVkPXRydWUKRU9GCiMgLS0tIOWjgee6uO+8muaXoOWklumDqOS+nei1lu+8jOeUqCBweXRob24zIOeOsOeUu+S4gOW8oOa4kOWPmOWbviAtLS0KbWtkaXIgLXAgL3Vzci9zaGFyZS9iYWNrZ3JvdW5kcwpweXRob24zIC0gPDwnUFknIHx8IHRydWUKaW1wb3J0IHpsaWIsIHN0cnVjdApXLCBIID0gMTkyMCwgMTA4MApyYXcgPSBieXRlYXJyYXkoKQpmb3IgeSBpbiByYW5nZShIKToKICAgIHQgPSB5IC8gSAogICAgciA9IGludCgyNCArIDkwICogdCkKICAgIGcgPSBpbnQoOCArIDI0ICogKDEgLSB0KSkKICAgIGIgPSBpbnQoNDggKyAxNzAgKiB0KQogICAgcmF3LmFwcGVuZCgwKQogICAgcmF3ICs9IGJ5dGVzKChyLCBnLCBiKSkgKiBXCmRlZiBjaHVuayh0YWcsIGRhdGEpOgogICAgcmV0dXJuIHN0cnVjdC5wYWNrKCc+SScsIGxlbihkYXRhKSkgKyB0YWcgKyBkYXRhICsgc3RydWN0LnBhY2soJz5JJywgemxpYi5jcmMzMih0YWcgKyBkYXRhKSAmIDB4ZmZmZmZmZmYpCnBuZyA9IChiJ1x4ODlQTkdcclxuXHgxYVxuJwogICAgICAgKyBjaHVuayhiJ0lIRFInLCBzdHJ1Y3QucGFjaygnPklJQkJCQkInLCBXLCBILCA4LCAyLCAwLCAwLCAwKSkKICAgICAgICsgY2h1bmsoYidJREFUJywgemxpYi5jb21wcmVzcyhieXRlcyhyYXcpLCA2KSkKICAgICAgICsgY2h1bmsoYidJRU5EJywgYicnKSkKb3BlbignL3Vzci9zaGFyZS9iYWNrZ3JvdW5kcy93YW5nbGludXgucG5nJywgJ3diJykud3JpdGUocG5nKQpQWQpjYXQgPiAvZXRjL3hkZy9hdXRvc3RhcnQvd2FuZy13YWxscGFwZXIuZGVza3RvcCA8PCdFT0YnCltEZXNrdG9wIEVudHJ5XQpUeXBlPUFwcGxpY2F0aW9uCk5hbWU9V2FuZ0xpbnV4IFdhbGxwYXBlcgpFeGVjPXNoIC1jICdmb3IgcCBpbiAkKHhmY29uZi1xdWVyeSAtYyB4ZmNlNC1kZXNrdG9wIC1sIDI+L2Rldi9udWxsIHwgZ3JlcCBsYXN0LWltYWdlKTsgZG8geGZjb25mLXF1ZXJ5IC1jIHhmY2U0LWRlc2t0b3AgLXAgIiRwIiAtcyAvdXNyL3NoYXJlL2JhY2tncm91bmRzL3dhbmdsaW51eC5wbmcgMj4vZGV2L251bGw7IGRvbmUnCk9ubHlTaG93SW49WEZDRTsKRU9GCmV4aXQgMApIT09LCmNobW9kICt4IGNvbmZpZy9ob29rcy9saXZlLzAxMDAtYnJhbmRpbmcuaG9vay5jaHJvb3QKCmNhdCA+IGNvbmZpZy9ob29rcy9saXZlLzAyMDAtZXh0cmFzLmhvb2suY2hyb290IDw8J0hPT0snCiMhL2Jpbi9zaAojIOWPr+mAieWinuW8uuWMhe+8muafkOS4quWQjeWtl+WcqOW9k+WJjea6kOS4jeWPr+eUqOaXtuWPqui3s+i/h++8jOS4jeS4reaWreaehOW7ugphcHQtZ2V0IHVwZGF0ZSAtcXEgfHwgdHJ1ZQpmb3IgcCBpbiBmY2l0eDUtZnJvbnRlbmQtcXQ1IGZjaXR4NS1jb25maWctcXQgZmNpdHg1LXRhYmxlLWV4dHJhIFwKICAgICAgICAgeHNjcmVlbnNhdmVyIHhmY2U0LXNjcmVlbnNob290ZXIgeGZjZTQtdGFza21hbmFnZXIgXAogICAgICAgICBndmZzLWJhY2tlbmRzIHVkaXNrczIgZXhmYXQtZnVzZSBudGZzLTNnIFwKICAgICAgICAgaW1hZ2VtYWdpY2sgaHRvcCBuZW9mZXRjaCBjb3dzYXkgc2wgZmlnbGV0OyBkbwogIGFwdC1nZXQgaW5zdGFsbCAteSAtLW5vLWluc3RhbGwtcmVjb21tZW5kcyAiJHAiID4vZGV2L251bGwgMj4mMSB8fCBlY2hvICLot7Pov4flj6/pgInljIU6ICRwIgpkb25lCmFwdC1nZXQgLXkgYXV0b3JlbW92ZSAtLXB1cmdlID4vZGV2L251bGwgMj4mMSB8fCB0cnVlCmFwdC1nZXQgY2xlYW4Kcm0gLXJmIC92YXIvbGliL2FwdC9saXN0cy8qIC90bXAvKiAvdmFyL3RtcC8qIDI+L2Rldi9udWxsIHx8IHRydWUKZXhpdCAwCkhPT0sKY2htb2QgK3ggY29uZmlnL2hvb2tzL2xpdmUvMDIwMC1leHRyYXMuaG9vay5jaHJvb3QKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSA2LiDmnoTlu7ogLS0tLQpsb2cgIjYvNyDlvIDlp4vmnoTlu7rvvIjkuIvovb3nuqYgMS41LTIuNSBHQu+8jDQwLTkwIOWIhumSn++8jOWPr+emu+W8gO+8iSIKbGIgYnVpbGQgMj4mMSB8IHRlZSAiJFdPUksvYnVpbGQubG9nIiB8IGdyZXAgLUUgIl4oUDp8STp8RTp8XFspIiAtLWxpbmUtYnVmZmVyZWQgfHwgdHJ1ZQpbIC1mIGxpdmUtaW1hZ2UtYW1kNjQuaHlicmlkLmlzbyBdIHx8IGRpZSAi5rKh5pyJ55Sf5oiQIElTT++8jOeci+aXpeW/l++8miRXT1JLL2J1aWxkLmxvZyIKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSA3LiDmlLblsL4gLS0tLQpsb2cgIjcvNyDmoKHpqozlubbovpPlh7oiCm1rZGlyIC1wICIkT1VUIgptdiAtZiBsaXZlLWltYWdlLWFtZDY0Lmh5YnJpZC5pc28gIiRPVVQvJElTT05BTUUiCmNkICIkT1VUIiAmJiBzaGEyNTZzdW0gIiRJU09OQU1FIiB8IHRlZSAiJElTT05BTUUuc2hhMjU2IgpTSVpFPSQoZHUgLWggIiRJU09OQU1FIiB8IGN1dCAtZjEpCmNhdCA8PEVPRgoKPT09PT09IOaehOW7uuWujOaIkCA9PT09PT0KICBJU08gICAgOiAkT1VULyRJU09OQU1FICAoJFNJWkUpCiAg5qCh6aqM5YC8IDogJChjdXQgLWQnICcgLWYxICIkSVNPTkFNRS5zaGEyNTYiKQogIOWQr+WKqCAgIDogVUVGSSDkuI7kvKDnu58gQklPUyDlj4zmlK/mjIEKICDotKblj7cgICA6IHdhbmcgLyB3YW5nbGludXggICByb290IC8gd2FuZ2xpbnV4CiAg5LiL5LiA5q2lIDogUnVmdXMg6YCJ44CMR1BUICsgVUVGSeOAjeWGmeWFpSBVIOebmCDihpIg5byA5py65oyJIEYxMi9GOC9Fc2Mg6YCJIFUg55uYCiAg5oyB5LmF5YyWIDog6KeBIFJFQURNRSDnmoTjgIzmjIHkuYXljJbjgI3kuIDoioIKRU9GCg==
+#!/bin/bash
+# ============================================================================
+#  WangLinux 1.0 (amd64) 可启动 U 盘 ISO 构建脚本
+#  在 Debian 12 / Ubuntu 22.04+ / WSL2-Ubuntu 上以 root 运行
+#  产出：wanglinux-1.0-amd64.iso（UEFI + 传统 BIOS 双启动，可 Rufus 写盘）
+# ============================================================================
+set -Eeuo pipefail
+export DEBIAN_FRONTEND=noninteractive
+
+DIST="${DIST:-bookworm}"
+MIRROR="${MIRROR:-http://mirrors.ustc.edu.cn/debian/}"
+MIRROR_SEC="${MIRROR_SEC:-http://mirrors.ustc.edu.cn/debian-security/}"
+WORK="${WORK:-/build/wanglinux-iso}"
+OUT="${OUT:-/build}"
+ISONAME="wanglinux-1.0-amd64.iso"
+VERSION="1.0"
+
+log()  { printf '\n\033[1;35m[WangLinux]\033[0m %s\n' "$*"; }
+warn() { printf '\033[1;33m[注意]\033[0m %s\n' "$*"; }
+die()  { printf '\033[1;31m[失败]\033[0m %s\n' "$*" >&2; exit 1; }
+trap 'die "构建中断（第 $LINENO 行）。日志：$WORK/build.log"' ERR
+
+[ "$(id -u)" -eq 0 ] || die "请用 root 运行： sudo bash $0"
+
+# ---------------------------------------------------------------- 1. 依赖 ----
+log "1/7 安装构建依赖（首次约 100 MB）"
+apt-get update -qq
+apt-get install -y --no-install-recommends \
+  live-build debootstrap squashfs-tools xorriso isolinux syslinux-common syslinux-efi \
+  grub-pc-bin grub-efi-amd64-bin mtools dosfstools rsync ca-certificates xz-utils \
+  >/tmp/wanglinux-deps.log 2>&1 || die "依赖安装失败，见 /tmp/wanglinux-deps.log"
+
+# ---------------------------------------------------------------- 2. 骨架 ----
+log "2/7 初始化构建目录 $WORK"
+rm -rf "$WORK"
+mkdir -p "$WORK"/config/{package-lists,hooks/live,includes.chroot/usr/local/bin,includes.chroot/etc}
+cd "$WORK"
+
+lb config noauto \
+  --architectures amd64 \
+  --distribution "$DIST" \
+  --mode debian \
+  --system live \
+  --binary-images iso-hybrid \
+  --archive-areas "main contrib non-free-firmware" \
+  --parent-archive-areas "main contrib non-free-firmware" \
+  --debian-installer none \
+  --memtest none \
+  --checksums sha256 \
+  --bootappend-live "boot=live components persistence username=wang user-fullname=Wang hostname=wanglinux locales=zh_CN.UTF-8 keyboard-layouts=us timezone=Asia/Shanghai utc=no quiet splash" \
+  --iso-application "WangLinux ${VERSION}" \
+  --iso-preparer "WangLinux Project" \
+  --iso-publisher "WangLinux Project; https://example.com/wanglinux" \
+  --iso-volume "WANGLINUX_10" \
+  --mirror-bootstrap "$MIRROR" \
+  --mirror-chroot "$MIRROR" \
+  --mirror-binary "$MIRROR" \
+  --mirror-chroot-security "$MIRROR_SEC" \
+  --mirror-binary-security "$MIRROR_SEC"
+
+# ------------------------------------------------------- 3. 软件包清单 ----
+log "3/7 写入软件包清单"
+cat > config/package-lists/wanglinux-core.list.chroot <<'EOF'
+# ---- 桌面环境 ----
+task-xfce-desktop
+lightdm
+lightdm-gtk-greeter
+xfce4-terminal
+thunar
+mousepad
+xfce4-pulseaudio-plugin
+pavucontrol
+network-manager
+network-manager-gnome
+firefox-esr
+# ---- 中文支持 ----
+locales
+fonts-noto-cjk
+fonts-noto-color-emoji
+fonts-wqy-zenhei
+fcitx5
+fcitx5-chinese-addons
+fcitx5-frontend-gtk3
+# ---- 与 arm64 版一致的基础工具 ----
+bash-completion
+curl
+wget
+git
+vim
+nano
+less
+tree
+htop
+procps
+psmisc
+file
+unzip
+zip
+xz-utils
+bzip2
+sudo
+tzdata
+net-tools
+iproute2
+iputils-ping
+dnsutils
+openssh-client
+openssh-server
+python3
+python3-pip
+python3-venv
+perl
+gcc
+g++
+make
+cmake
+gdb
+strace
+tmux
+rsync
+jq
+ncdu
+man-db
+manpages
+cron
+ca-certificates
+gnupg
+lsb-release
+usbutils
+pciutils
+lsof
+socat
+bc
+zsh
+neofetch
+EOF
+
+# --------------------------------------------------------- 4. 品牌文件 ----
+log "4/7 写入品牌文件与自研命令"
+cat > config/includes.chroot/usr/local/bin/wanginfo <<'EOF'
+#!/bin/sh
+REL=$(sed -n 's/^PRETTY_NAME="\(.*\)"/\1/p' /etc/os-release 2>/dev/null)
+[ -n "$REL" ] || REL="WangLinux 1.0 (Aurora)"
+SH="${SHELL:-$(getent passwd "$(id -u)" 2>/dev/null | cut -d: -f7)}"; [ -n "$SH" ] || SH=/bin/bash
+PKGS=$(dpkg-query -f '.\n' -W 2>/dev/null | wc -l)
+KERN=$(uname -r 2>/dev/null); KNOTE=""
+case "$KERN" in *android*) KNOTE=" [宿主内核]";; "") KERN="未知";; esac
+printf '%-9s %s\n' "系统"   "$REL"
+printf '%-9s %s\n' "基础"   "Debian $(cat /etc/debian_version 2>/dev/null) (bookworm) / $(uname -m)"
+printf '%-9s %s\n' "内核"   "$KERN$KNOTE"
+printf '%-9s %s\n' "软件包" "$PKGS 个"
+printf '%-9s %s\n' "CPU"    "$(uname -m) x $(nproc 2>/dev/null || echo 1)"
+printf '%-9s %s\n' "内存"   "$(awk '/MemTotal/{printf "%.1f GiB", $2/1048576}' /proc/meminfo 2>/dev/null)"
+printf '%-9s %s\n' "用户"   "$(id -un) (uid=$(id -u))"
+printf '%-9s %s\n' "Shell"  "$SH"
+printf '%-9s %s\n' "开机"   "$(uptime -p 2>/dev/null || echo '—')"
+EOF
+chmod +x config/includes.chroot/usr/local/bin/wanginfo
+
+cat > config/includes.chroot/usr/local/bin/help-wang <<'EOF'
+#!/bin/sh
+printf '%s\n' \
+"WangLinux 快速指引" \
+"  wanginfo                 系统信息" \
+"  apt update && apt install 装软件（源已指向 USTC 镜像）" \
+"  sudo 前缀                以管理员身份执行" \
+"  浏览器 / 文件管理器 / 终端  左下角菜单里都有" \
+"  中文输入法                Ctrl+空格 切换（fcitx5）" \
+"  重启 / 关机               右上角菜单"
+EOF
+chmod +x config/includes.chroot/usr/local/bin/help-wang
+
+cat > config/includes.chroot/etc/lightdm/lightdm.conf <<'EOF'
+[Seat:*]
+autologin-user=wang
+autologin-user-timeout=0
+greeter-session=lightdm-gtk-greeter
+user-session=xfce
+EOF
+
+# ------------------------------------------------------- 5. 构建时钩子 ----
+log "5/7 写入构建钩子（品牌化 / 中文 / 壁纸 / 密码）"
+cat > config/hooks/live/0100-branding.hook.chroot <<'HOOK'
+#!/bin/sh
+set -e
+# --- os-release（真正替换 Debian 标识）---
+cat > /usr/lib/os-release <<'EOF'
+PRETTY_NAME="WangLinux 1.0"
+NAME="WangLinux"
+VERSION_ID="1.0"
+VERSION="1.0 (Aurora)"
+VERSION_CODENAME=aurora
+ID=wanglinux
+ID_LIKE=debian
+ANSI_COLOR="1;35"
+HOME_URL="https://example.com/wanglinux"
+SUPPORT_URL="https://example.com/wanglinux/support"
+BUG_REPORT_URL="https://example.com/wanglinux/issues"
+EOF
+rm -f /etc/os-release && ln -s ../usr/lib/os-release /etc/os-release
+cat > /etc/lsb-release <<'EOF'
+DISTRIB_ID=WangLinux
+DISTRIB_RELEASE=1.0
+DISTRIB_CODENAME=aurora
+DISTRIB_DESCRIPTION="WangLinux 1.0"
+EOF
+echo "WangLinux 1.0 (Aurora) - Debian bookworm base / amd64" > /etc/wanglinux-release
+echo wanglinux > /etc/hostname
+printf '127.0.0.1\tlocalhost\n127.0.1.1\twanglinux\n' > /etc/hosts
+printf 'WangLinux 1.0 \\n \\l\n\n' > /etc/issue
+printf 'WangLinux 1.0 \\n \\l\n\n' > /etc/issue.net
+cat > /etc/motd <<'EOF'
+
+   WangLinux 1.0 (Aurora)  ·  amd64
+
+   开机即用：浏览器 / 文件管理器 / 终端都在左下角菜单
+   输入 help-wang 看常用操作，输入 wanginfo 看系统信息
+   中文输入法：Ctrl+空格
+
+EOF
+# --- 引导菜单显示的名字 ---
+if [ -f /etc/default/grub ]; then
+  sed -i 's/^GRUB_DISTRIBUTOR=.*/GRUB_DISTRIBUTOR="WangLinux"/' /etc/default/grub || \
+    echo 'GRUB_DISTRIBUTOR="WangLinux"' >> /etc/default/grub
+fi
+# --- 时区 / 中文 locale ---
+ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime
+echo "Asia/Shanghai" > /etc/timezone
+sed -i 's/^# *\(zh_CN.UTF-8\)/\1/; s/^# *\(en_US.UTF-8\)/\1/' /etc/locale.gen 2>/dev/null || true
+echo 'LANG=zh_CN.UTF-8' > /etc/default/locale
+echo 'LANGUAGE=zh_CN:en_US' >> /etc/default/locale
+locale-gen || true
+# --- 用户密码 & 免密 sudo ---
+echo 'wang:wanglinux' | chpasswd || true
+echo 'root:wanglinux' | chpasswd || true
+mkdir -p /etc/sudoers.d
+echo 'wang ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/010-wang
+chmod 440 /etc/sudoers.d/010-wang
+# --- fcitx5 自启 ---
+mkdir -p /etc/xdg/autostart
+cat > /etc/xdg/autostart/wang-fcitx5.desktop <<'EOF'
+[Desktop Entry]
+Type=Application
+Name=Input Method (fcitx5)
+Exec=fcitx5 -d
+OnlyShowIn=XFCE;
+X-GNOME-Autostart-enabled=true
+EOF
+# --- 壁纸：无外部依赖，用 python3 现画一张渐变图 ---
+mkdir -p /usr/share/backgrounds
+python3 - <<'PY' || true
+import zlib, struct
+W, H = 1920, 1080
+raw = bytearray()
+for y in range(H):
+    t = y / H
+    r = int(24 + 90 * t)
+    g = int(8 + 24 * (1 - t))
+    b = int(48 + 170 * t)
+    raw.append(0)
+    raw += bytes((r, g, b)) * W
+def chunk(tag, data):
+    return struct.pack('>I', len(data)) + tag + data + struct.pack('>I', zlib.crc32(tag + data) & 0xffffffff)
+png = (b'\x89PNG\r\n\x1a\n'
+       + chunk(b'IHDR', struct.pack('>IIBBBBB', W, H, 8, 2, 0, 0, 0))
+       + chunk(b'IDAT', zlib.compress(bytes(raw), 6))
+       + chunk(b'IEND', b''))
+open('/usr/share/backgrounds/wanglinux.png', 'wb').write(png)
+PY
+cat > /etc/xdg/autostart/wang-wallpaper.desktop <<'EOF'
+[Desktop Entry]
+Type=Application
+Name=WangLinux Wallpaper
+Exec=sh -c 'for p in $(xfconf-query -c xfce4-desktop -l 2>/dev/null | grep last-image); do xfconf-query -c xfce4-desktop -p "$p" -s /usr/share/backgrounds/wanglinux.png 2>/dev/null; done'
+OnlyShowIn=XFCE;
+EOF
+exit 0
+HOOK
+chmod +x config/hooks/live/0100-branding.hook.chroot
+
+cat > config/hooks/live/0200-extras.hook.chroot <<'HOOK'
+#!/bin/sh
+# 可选增强包：某个名字在当前源不可用时只跳过，不中断构建
+apt-get update -qq || true
+for p in fcitx5-frontend-qt5 fcitx5-config-qt fcitx5-table-extra \
+         xscreensaver xfce4-screenshooter xfce4-taskmanager \
+         gvfs-backends udisks2 exfat-fuse ntfs-3g \
+         imagemagick htop neofetch cowsay sl figlet; do
+  apt-get install -y --no-install-recommends "$p" >/dev/null 2>&1 || echo "跳过可选包: $p"
+done
+apt-get -y autoremove --purge >/dev/null 2>&1 || true
+apt-get clean
+rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* 2>/dev/null || true
+exit 0
+HOOK
+chmod +x config/hooks/live/0200-extras.hook.chroot
+
+# ---------------------------------------------------------------- 6. 构建 ----
+log "6/7 开始构建（下载约 1.5-2.5 GB，40-90 分钟，可离开）"
+lb build 2>&1 | tee "$WORK/build.log" | grep -E "^(P:|I:|E:|\[)" --line-buffered || true
+[ -f live-image-amd64.hybrid.iso ] || die "没有生成 ISO，看日志：$WORK/build.log"
+
+# ---------------------------------------------------------------- 7. 收尾 ----
+log "7/7 校验并输出"
+mkdir -p "$OUT"
+mv -f live-image-amd64.hybrid.iso "$OUT/$ISONAME"
+cd "$OUT" && sha256sum "$ISONAME" | tee "$ISONAME.sha256"
+SIZE=$(du -h "$ISONAME" | cut -f1)
+cat <<EOF
+
+====== 构建完成 ======
+  ISO    : $OUT/$ISONAME  ($SIZE)
+  校验值 : $(cut -d' ' -f1 "$ISONAME.sha256")
+  启动   : UEFI 与传统 BIOS 双支持
+  账号   : wang / wanglinux   root / wanglinux
+  下一步 : Rufus 选「GPT + UEFI」写入 U 盘 → 开机按 F12/F8/Esc 选 U 盘
+  持久化 : 见 README 的「持久化」一节
+EOF

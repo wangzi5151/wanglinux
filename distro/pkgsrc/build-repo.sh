@@ -1,1 +1,161 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgIOaehOW7uiBXYW5nTGludXggImF1cm9yYSIg6L2v5Lu25LuT5bqT77yI5ZyoIGNocm9vdCDlhoXku6Ugcm9vdCDov5DooYzvvIkKIyAg5Lqn5Ye677yaL3Nydi93YW5nbGludXgtcmVwby8g4oCU4oCUIOWPr+ebtOaOpSBmaWxlOiDmiJYgaHR0cDovLyDkvpvnu5kgYXB0IOeahOS7k+W6kwojID09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT0Kc2V0IC1FZXVvIHBpcGVmYWlsCmV4cG9ydCBMQ19BTEw9Qy5VVEYtOAoKU1JDPSIke1NSQzotL3Nydi9yZXBvLXNyY30iCk9VVD0iJHtPVVQ6LS9zcnYvd2FuZ2xpbnV4LXJlcG99IgpTVUlURT0iYXVyb3JhIgpDT0RFTkFNRT0iYXVyb3JhIgpDT01QPSJtYWluIgpBUkNIRVM9ImFtZDY0IGFybTY0IGFsbCIKUkVQT19VUkw9IiR7UkVQT19VUkw6LWh0dHBzOi8vd2FuZ2xpbnV4LmdpdGh1Yi5pby93YW5nbGludXgtYXJjaGl2ZX0iClBLR1M9IndhbmdsaW51eC1iYXNlIHdhbmdsaW51eC10aGVtZSB3YW5nbGludXgtZGVza3RvcCIKU0lHTj0iJHtTSUdOOi15ZXN9IgoKbG9nKCkgeyBwcmludGYgJ1wwMzNbMTszNW1bcmVwb11cMDMzWzBtICVzXG4nICIkKiI7IH0KCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDlo4HnurggLS0tLQpsb2cgIueUn+aIkOWjgee6uCBhdXJvcmEucG5nICgxOTIweDEwODApIgpweXRob24zIC0gPDwnUFknCmltcG9ydCB6bGliLCBzdHJ1Y3QsIG1hdGgKVywgSCA9IDE5MjAsIDEwODAKcm93cyA9IGJ5dGVhcnJheSgpCmZvciB5IGluIHJhbmdlKEgpOgogICAgdCA9IHkgLyBICiAgICByID0gaW50KDE2ICsgNzAgKiB0KQogICAgZyA9IGludCg2ICsgMTggKiBtYXRoLnNpbih0ICogMy4xNCkpCiAgICBiID0gaW50KDM4ICsgMTUwICogdCAqIHQpCiAgICBweCA9IGJ5dGVzKChyLCBnLCBiKSkKICAgIHJvdyA9IGJ5dGVhcnJheSgpCiAgICBmb3IgeCBpbiByYW5nZSgwLCBXKToKICAgICAgICBmID0gMS4wCiAgICAgICAgIyDkuK3pl7TkuIDpgZMi5p6B5YWJIua4kOW4pgogICAgICAgIGQgPSBhYnMoeCAvIFcgLSAwLjUpCiAgICAgICAgaWYgZCA8IDAuMzQ6CiAgICAgICAgICAgIGYgPSAxLjAgKyAoMC4zNCAtIGQpICogMS45ICogKDAuMzUgKyAwLjY1ICogbWF0aC5zaW4oKHQgKyB4IC8gVykgKiAyLjYpKQogICAgICAgIHJyID0gbWluKDI1NSwgaW50KHIgKiBmKSkKICAgICAgICBnZyA9IG1pbigyNTUsIGludChnICogZikpCiAgICAgICAgYmIgPSBtaW4oMjU1LCBpbnQoYiAqIGYgKiAxLjA1KSkKICAgICAgICByb3cgKz0gYnl0ZXMoKHJyLCBnZywgYmIpKQogICAgcm93cy5hcHBlbmQoMCkKICAgIHJvd3MgKz0gcm93CmRlZiBjaHVuayh0YWcsIGRhdGEpOgogICAgcmV0dXJuIHN0cnVjdC5wYWNrKCc+SScsIGxlbihkYXRhKSkgKyB0YWcgKyBkYXRhICsgc3RydWN0LnBhY2soJz5JJywgemxpYi5jcmMzMih0YWcgKyBkYXRhKSAmIDB4ZmZmZmZmZmYpCnBuZyA9IChiJ1x4ODlQTkdcclxuXHgxYVxuJwogICAgICAgKyBjaHVuayhiJ0lIRFInLCBzdHJ1Y3QucGFjaygnPklJQkJCQkInLCBXLCBILCA4LCAyLCAwLCAwLCAwKSkKICAgICAgICsgY2h1bmsoYidJREFUJywgemxpYi5jb21wcmVzcyhieXRlcyhyb3dzKSwgNikpCiAgICAgICArIGNodW5rKGInSUVORCcsIGInJykpCm9wZW4oJy9zcnYvcmVwby1zcmMvd2FuZ2xpbnV4LXRoZW1lL3Vzci9zaGFyZS93YWxscGFwZXJzL3dhbmdsaW51eC9hdXJvcmEucG5nJywgJ3diJykud3JpdGUocG5nKQpwcmludCgnICAtPiAlZCBieXRlcycgJSBsZW4ocG5nKSkKUFkKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDnvJbor5EgLmRlYiAtLS0tCmxvZyAi57yW6K+R6L2v5Lu25YyFIgpybSAtcmYgIiRPVVQiOyBta2RpciAtcCAiJE9VVC9wb29sL21haW4iCmRlY2xhcmUgLUEgVkVSCmZvciBwIGluICRQS0dTOyBkbwogIGQ9IiRTUkMvJHAiCiAgWyAtZCAiJGQiIF0gfHwgeyBlY2hvICLnvLrlsJEgJGQiOyBleGl0IDE7IH0KICBmaW5kICIkZCIgLXR5cGUgZCAtZXhlYyBjaG1vZCA3NTUge30gKwogIGZpbmQgIiRkIiAtdHlwZSBmICEgLXBhdGggIiRkL0RFQklBTi8qIiAtZXhlYyBjaG1vZCA2NDQge30gKwogIGZvciBiIGluIHVzci9iaW4gdXNyL3NiaW4gdXNyL2dhbWVzOyBkbyBbIC1kICIkZC8kYiIgXSAmJiBmaW5kICIkZC8kYiIgLXR5cGUgZiAtZXhlYyBjaG1vZCA3NTUge30gKzsgZG9uZQogIGZvciBzIGluIHBvc3RpbnN0IHByZWluc3QgcHJlcm0gcG9zdHJtIGNvbmZpZzsgZG8KICAgIFsgLWYgIiRkL0RFQklBTi8kcyIgXSAmJiBjaG1vZCA3NTUgIiRkL0RFQklBTi8kcyIKICBkb25lCiAgdj0kKHNlZCAtbiAncy9eVmVyc2lvbjogLy9wJyAiJGQvREVCSUFOL2NvbnRyb2wiIHwgaGVhZCAtMSkKICBWRVJbJHBdPSR2CiAgbWtkaXIgLXAgIiRPVVQvcG9vbC9tYWluLyR7cDowOjR9LyRwIgogIGRwa2ctZGViIC0tYnVpbGQgLS1yb290LW93bmVyLWdyb3VwICIkZCIgIiRPVVQvcG9vbC9tYWluLyR7cDowOjR9LyRwLyR7cH1fJHt2fV9hbGwuZGViIiA+L2Rldi9udWxsCiAgcHJpbnRmICcgICUtMjJzICVzICAlc1xuJyAiJHAiICIkdiIgIiQoZHUgLWggJE9VVC9wb29sL21haW4vJHtwOjA6NH0vJHAvJHtwfV8ke3Z9X2FsbC5kZWIgfCBjdXQgLWYxKSIKZG9uZQoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0gUGFja2FnZXMg57Si5byVIC0tLS0KbG9nICLnlJ/miJAgUGFja2FnZXMg57Si5byVIgpta2RpciAtcCAiJE9VVC9kaXN0cy8kU1VJVEUvJENPTVAiCjogPiAiJE9VVC8uUGFja2FnZXMiCmZvciBkZWIgaW4gJChmaW5kICIkT1VUL3Bvb2wiIC1uYW1lICcqLmRlYicgfCBzb3J0KTsgZG8KICByZWw9JHtkZWIjJE9VVC99CiAgZHBrZy1kZWIgLWYgIiRkZWIiIFBhY2thZ2UgVmVyc2lvbiBBcmNoaXRlY3R1cmUgTWFpbnRhaW5lciBEZXBlbmRzIFN1Z2dlc3RzIFNlY3Rpb24gUHJpb3JpdHkgRGVzY3JpcHRpb24gXAogICAgfCBzZWQgJy9eW0EtWmEtei1dKjokL2QnID4+ICIkT1VULy5QYWNrYWdlcyIKICB7CiAgICBlY2hvICJGaWxlbmFtZTogJHJlbCIKICAgIGVjaG8gIlNpemU6ICQoc3RhdCAtYyVzICIkZGViIikiCiAgICBlY2hvICJNRDVzdW06ICQobWQ1c3VtICIkZGViIiB8IGN1dCAtZCcgJyAtZjEpIgogICAgZWNobyAiU0hBMTogJChzaGExc3VtICIkZGViIiB8IGN1dCAtZCcgJyAtZjEpIgogICAgZWNobyAiU0hBMjU2OiAkKHNoYTI1NnN1bSAiJGRlYiIgfCBjdXQgLWQnICcgLWYxKSIKICAgIGVjaG8KICB9ID4+ICIkT1VULy5QYWNrYWdlcyIKZG9uZQpmb3IgYSBpbiBhbGwgYW1kNjQgYXJtNjQ7IGRvCiAgbWtkaXIgLXAgIiRPVVQvZGlzdHMvJFNVSVRFLyRDT01QL2JpbmFyeS0kYSIKICBjcCAiJE9VVC8uUGFja2FnZXMiICIkT1VUL2Rpc3RzLyRTVUlURS8kQ09NUC9iaW5hcnktJGEvUGFja2FnZXMiCiAgZ3ppcCAtOSAtbiAtayAtZiAiJE9VVC9kaXN0cy8kU1VJVEUvJENPTVAvYmluYXJ5LSRhL1BhY2thZ2VzIgpkb25lCnJtIC1mICIkT1VULy5QYWNrYWdlcyIKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIFJlbGVhc2Ug5paH5Lu2IC0tLS0KbG9nICLnlJ/miJAgUmVsZWFzZe+8iOWQq+agoemqjOWSjO+8iSIKewogIGVjaG8gIk9yaWdpbjogV2FuZ0xpbnV4IgogIGVjaG8gIkxhYmVsOiBXYW5nTGludXgiCiAgZWNobyAiU3VpdGU6ICRTVUlURSIKICBlY2hvICJDb2RlbmFtZTogJENPREVOQU1FIgogIGVjaG8gIlZlcnNpb246IDEuMCIKICBlY2hvICJBcmNoaXRlY3R1cmVzOiAkQVJDSEVTIgogIGVjaG8gIkNvbXBvbmVudHM6ICRDT01QIgogIGVjaG8gIkRlc2NyaXB0aW9uOiBXYW5nTGludXggMS4wIChBdXJvcmEpIC0gRGViaWFuIDEyIGJhc2VkIGRpc3RyaWJ1dGlvbiIKICBlY2hvICJEYXRlOiAkKGRhdGUgLVJ1KSIKICBlY2hvICJWYWxpZC1VbnRpbDogJChkYXRlIC1SdSAtZCAnKzMwIGRheXMnKSIKICBjZCAiJE9VVC9kaXN0cy8kU1VJVEUiCiAgZm9yIGggaW4gTUQ1U3VtIFNIQTEgU0hBMjU2OyBkbwogICAgY2FzZSAkaCBpbiBNRDVTdW0pIGNtZD1tZDVzdW07OyBTSEExKSBjbWQ9c2hhMXN1bTs7IFNIQTI1NikgY21kPXNoYTI1NnN1bTs7IGVzYWMKICAgIGVjaG8gIiRoOiIKICAgIGZpbmQgbWFpbiAtbmFtZSAnUGFja2FnZXMnIC1vIC1uYW1lICdQYWNrYWdlcy5neicgfCBzb3J0IHwgd2hpbGUgcmVhZCAtciBmOyBkbwogICAgICBwcmludGYgJyAlcyAlMTZzICVzXG4nICIkKCRjbWQgIiRmIiB8IGN1dCAtZCcgJyAtZjEpIiAiJChzdGF0IC1jJXMgIiRmIikiICIkZiIKICAgIGRvbmUKICBkb25lCn0gPiAiJE9VVC9kaXN0cy8kU1VJVEUvUmVsZWFzZSIKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOetvuWQjSAtLS0tCmlmIFsgIiRTSUdOIiA9IHllcyBdICYmIGNvbW1hbmQgLXYgZ3BnID4vZGV2L251bGwgMj4mMTsgdGhlbgogIGxvZyAi55Sf5oiQL+WkjeeUqOetvuWQjeWvhumSpeW5tuetvuWQjSBJblJlbGVhc2UiCiAgZXhwb3J0IEdOVVBHSE9NRT0iJHtHTlVQR0hPTUU6LS9zcnYvd2FuZ2xpbnV4LWdudXBnfSI7IG1rZGlyIC1wICIkR05VUEdIT01FIjsgY2htb2QgNzAwICIkR05VUEdIT01FIgogIGlmICEgZ3BnIC0tbGlzdC1zZWNyZXQta2V5cyB3YW5nbGludXhAbG9jYWwgPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBncGcgLS1iYXRjaCAtLXBpbmVudHJ5LW1vZGUgbG9vcGJhY2sgLS1wYXNzcGhyYXNlICcnIFwKICAgICAgICAtLXF1aWNrLWdlbmVyYXRlLWtleSAiV2FuZ0xpbnV4IEFyY2hpdmUgU2lnbmluZyBLZXkgPGFyY2hpdmVAd2FuZ2xpbnV4LmxvY2FsPiIgcnNhMzA3MiBzaWduIG5ldmVyID4vZGV2L251bGwgMj4mMSBcCiAgICAgIHx8IGVjaG8gIiAgKOWvhumSpeeUn+aIkOWksei0pe+8jOS7k+W6k+WwhuS7pSB0cnVzdGVkPXllcyDmlrnlvI/kvb/nlKgpIgogIGZpCiAgS0VZSUQ9JChncGcgLS1saXN0LXNlY3JldC1rZXlzIC0td2l0aC1jb2xvbnMgMj4vZGV2L251bGwgfCBhd2sgLUY6ICcvXnNlYzove3ByaW50ICQ1OyBleGl0fScpCiAgaWYgWyAtbiAiJHtLRVlJRDotfSIgXTsgdGhlbgogICAgZ3BnIC0tYmF0Y2ggLS15ZXMgLS1waW5lbnRyeS1tb2RlIGxvb3BiYWNrIC0tcGFzc3BocmFzZSAnJyAtLWNsZWFyc2lnbiBcCiAgICAgICAgLW8gIiRPVVQvZGlzdHMvJFNVSVRFL0luUmVsZWFzZSIgIiRPVVQvZGlzdHMvJFNVSVRFL1JlbGVhc2UiCiAgICBncGcgLS1iYXRjaCAtLXllcyAtLXBpbmVudHJ5LW1vZGUgbG9vcGJhY2sgLS1wYXNzcGhyYXNlICcnIC0tYXJtb3IgLS1kZXRhY2gtc2lnbiBcCiAgICAgICAgLW8gIiRPVVQvZGlzdHMvJFNVSVRFL1JlbGVhc2UuZ3BnIiAiJE9VVC9kaXN0cy8kU1VJVEUvUmVsZWFzZSIKICAgIGdwZyAtLWJhdGNoIC0teWVzIC0tZXhwb3J0ICIkS0VZSUQiID4gIiRPVVQvd2FuZ2xpbnV4LWFyY2hpdmUta2V5cmluZy5ncGciCiAgICBlY2hvICIgIOetvuWQjeWujOaIkDogJEtFWUlEIgogIGZpCmZpCgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDkvb/nlKjor7TmmI4gLS0tLQpjYXQgPiAiJE9VVC9SRUFETUUudHh0IiA8PEVPRgpXYW5nTGludXggImF1cm9yYSIg6L2v5Lu25LuT5bqTCj09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQrlpZfku7Y6ICRTVUlURSAgIOe7hOS7tjogJENPTVAgICDmnrbmnoQ6ICRBUkNIRVMK5YyF5ZCrOiAkUEtHUwpVUkwgOiAkUkVQT19VUkwKCuWuieijheaWueW8j+S4gO+8iOW3suWvvOWFpeWFrOmSpe+8iToKICBzdWRvIGNwIHdhbmdsaW51eC1hcmNoaXZlLWtleXJpbmcuZ3BnIC91c3Ivc2hhcmUva2V5cmluZ3MvCiAgZWNobyAiZGViIFtzaWduZWQtYnk9L3Vzci9zaGFyZS9rZXlyaW5ncy93YW5nbGludXgtYXJjaGl2ZS1rZXlyaW5nLmdwZ10gJFJFUE9fVVJMICRTVUlURSAkQ09NUCIgXFwKICAgIHwgc3VkbyB0ZWUgL2V0Yy9hcHQvc291cmNlcy5saXN0LmQvd2FuZ2xpbnV4Lmxpc3QKICBzdWRvIGFwdCB1cGRhdGUgJiYgc3VkbyBhcHQgaW5zdGFsbCB3YW5nbGludXgtZGVza3RvcAoK5a6J6KOF5pa55byP5LqM77yI5pys5Zyw6Lev5b6EIC8g5pyq562+5ZCN5pe277yJOgogIGVjaG8gImRlYiBbdHJ1c3RlZD15ZXNdIGZpbGU6L3Nydi93YW5nbGludXgtcmVwbyAkU1VJVEUgJENPTVAiIFxcCiAgICB8IHN1ZG8gdGVlIC9ldGMvYXB0L3NvdXJjZXMubGlzdC5kL3dhbmdsaW51eC5saXN0CkVPRgoKbG9nICLku5PlupPmnoTlu7rlrozmiJAiCmR1IC1zaCAiJE9VVCI7IGZpbmQgIiRPVVQvcG9vbCIgLW5hbWUgJyouZGViJyB8IHNlZCAnc3xefCAgfCcK
+#!/bin/bash
+# ============================================================================
+#  构建 WangLinux "aurora" 软件仓库（在 chroot 内以 root 运行）
+#  产出：/srv/wanglinux-repo/ —— 可直接 file: 或 http:// 供给 apt 的仓库
+# ============================================================================
+set -Eeuo pipefail
+export LC_ALL=C.UTF-8
+
+SRC="${SRC:-/srv/repo-src}"
+OUT="${OUT:-/srv/wanglinux-repo}"
+SUITE="aurora"
+CODENAME="aurora"
+COMP="main"
+ARCHES="amd64 arm64 all"
+REPO_URL="${REPO_URL:-https://wanglinux.github.io/wanglinux-archive}"
+PKGS="wanglinux-base wanglinux-theme wanglinux-desktop"
+SIGN="${SIGN:-yes}"
+
+log() { printf '\033[1;35m[repo]\033[0m %s\n' "$*"; }
+
+# ---------------------------------------------------------------- 壁纸 ----
+log "生成壁纸 aurora.png (1920x1080)"
+python3 - <<'PY'
+import zlib, struct, math
+W, H = 1920, 1080
+rows = bytearray()
+for y in range(H):
+    t = y / H
+    r = int(16 + 70 * t)
+    g = int(6 + 18 * math.sin(t * 3.14))
+    b = int(38 + 150 * t * t)
+    px = bytes((r, g, b))
+    row = bytearray()
+    for x in range(0, W):
+        f = 1.0
+        # 中间一道"极光"渐带
+        d = abs(x / W - 0.5)
+        if d < 0.34:
+            f = 1.0 + (0.34 - d) * 1.9 * (0.35 + 0.65 * math.sin((t + x / W) * 2.6))
+        rr = min(255, int(r * f))
+        gg = min(255, int(g * f))
+        bb = min(255, int(b * f * 1.05))
+        row += bytes((rr, gg, bb))
+    rows.append(0)
+    rows += row
+def chunk(tag, data):
+    return struct.pack('>I', len(data)) + tag + data + struct.pack('>I', zlib.crc32(tag + data) & 0xffffffff)
+png = (b'\x89PNG\r\n\x1a\n'
+       + chunk(b'IHDR', struct.pack('>IIBBBBB', W, H, 8, 2, 0, 0, 0))
+       + chunk(b'IDAT', zlib.compress(bytes(rows), 6))
+       + chunk(b'IEND', b''))
+open('/srv/repo-src/wanglinux-theme/usr/share/wallpapers/wanglinux/aurora.png', 'wb').write(png)
+print('  -> %d bytes' % len(png))
+PY
+
+# ------------------------------------------------------------- 编译 .deb ----
+log "编译软件包"
+rm -rf "$OUT"; mkdir -p "$OUT/pool/main"
+for p in $PKGS; do
+  d="$SRC/$p"
+  [ -d "$d" ] || { echo "缺少 $d"; exit 1; }
+  find "$d" -type d -exec chmod 755 {} +
+  find "$d" -type f ! -path "$d/DEBIAN/*" -exec chmod 644 {} +
+  for b in usr/bin usr/sbin usr/games; do [ -d "$d/$b" ] && find "$d/$b" -type f -exec chmod 755 {} +; done
+  for s in postinst preinst prerm postrm config; do
+    [ -f "$d/DEBIAN/$s" ] && chmod 755 "$d/DEBIAN/$s"
+  done
+  v=$(sed -n 's/^Version: //p' "$d/DEBIAN/control" | head -1)
+  mkdir -p "$OUT/pool/main/${p:0:4}/$p"
+  dpkg-deb --build --root-owner-group "$d" "$OUT/pool/main/${p:0:4}/$p/${p}_${v}_all.deb" >/dev/null
+  printf '  %-22s %s  %s\n' "$p" "$v" "$(du -h "$OUT/pool/main/${p:0:4}/$p/${p}_${v}_all.deb" | cut -f1)"
+done
+
+# --------------------------------------------------------- Packages 索引 ----
+log "生成 Packages 索引"
+mkdir -p "$OUT/dists/$SUITE/$COMP"
+: > "$OUT/.Packages"
+for deb in $(find "$OUT/pool" -name '*.deb' | sort); do
+  rel=${deb#"$OUT"/}
+  dpkg-deb -f "$deb" Package Version Architecture Maintainer Depends Suggests Section Priority Description \
+    | sed '/^[A-Za-z-]*:$/d' >> "$OUT/.Packages"
+  {
+    echo "Filename: $rel"
+    echo "Size: $(stat -c%s "$deb")"
+    echo "MD5sum: $(md5sum "$deb" | cut -d' ' -f1)"
+    echo "SHA1: $(sha1sum "$deb" | cut -d' ' -f1)"
+    echo "SHA256: $(sha256sum "$deb" | cut -d' ' -f1)"
+    echo
+  } >> "$OUT/.Packages"
+done
+for a in all amd64 arm64; do
+  mkdir -p "$OUT/dists/$SUITE/$COMP/binary-$a"
+  cp "$OUT/.Packages" "$OUT/dists/$SUITE/$COMP/binary-$a/Packages"
+  gzip -9 -n -k -f "$OUT/dists/$SUITE/$COMP/binary-$a/Packages"
+done
+rm -f "$OUT/.Packages"
+
+# ------------------------------------------------------------ Release 文件 ----
+log "生成 Release（含校验和）"
+{
+  echo "Origin: WangLinux"
+  echo "Label: WangLinux"
+  echo "Suite: $SUITE"
+  echo "Codename: $CODENAME"
+  echo "Version: 1.0"
+  echo "Architectures: $ARCHES"
+  echo "Components: $COMP"
+  echo "Description: WangLinux 1.0 (Aurora) - Debian 12 based distribution"
+  echo "Date: $(date -Ru)"
+  echo "Valid-Until: $(date -Ru -d '+30 days')"
+  cd "$OUT/dists/$SUITE"
+  for h in MD5Sum SHA1 SHA256; do
+    case $h in MD5Sum) cmd=md5sum;; SHA1) cmd=sha1sum;; SHA256) cmd=sha256sum;; esac
+    echo "$h:"
+    find main -name 'Packages' -o -name 'Packages.gz' | sort | while read -r f; do
+      printf ' %s %16s %s\n' "$($cmd "$f" | cut -d' ' -f1)" "$(stat -c%s "$f")" "$f"
+    done
+  done
+} > "$OUT/dists/$SUITE/Release"
+
+# --------------------------------------------------------------- 签名 ----
+if [ "$SIGN" = yes ] && command -v gpg >/dev/null 2>&1; then
+  log "生成/复用签名密钥并签名 InRelease"
+  export GNUPGHOME="${GNUPGHOME:-/srv/wanglinux-gnupg}"; mkdir -p "$GNUPGHOME"; chmod 700 "$GNUPGHOME"
+  if ! gpg --list-secret-keys wanglinux@local >/dev/null 2>&1; then
+    gpg --batch --pinentry-mode loopback --passphrase '' \
+        --quick-generate-key "WangLinux Archive Signing Key <archive@wanglinux.local>" rsa3072 sign never >/dev/null 2>&1 \
+      || echo "  (密钥生成失败，仓库将以 trusted=yes 方式使用)"
+  fi
+  KEYID=$(gpg --list-secret-keys --with-colons 2>/dev/null | awk -F: '/^sec:/{print $5; exit}')
+  if [ -n "${KEYID:-}" ]; then
+    gpg --batch --yes --pinentry-mode loopback --passphrase '' --clearsign \
+        -o "$OUT/dists/$SUITE/InRelease" "$OUT/dists/$SUITE/Release"
+    gpg --batch --yes --pinentry-mode loopback --passphrase '' --armor --detach-sign \
+        -o "$OUT/dists/$SUITE/Release.gpg" "$OUT/dists/$SUITE/Release"
+    gpg --batch --yes --export "$KEYID" > "$OUT/wanglinux-archive-keyring.gpg"
+    echo "  签名完成: $KEYID"
+  fi
+fi
+
+# ------------------------------------------------------------ 使用说明 ----
+cat > "$OUT/README.txt" <<EOF
+WangLinux "aurora" 软件仓库
+=================================
+套件: $SUITE   组件: $COMP   架构: $ARCHES
+包含: $PKGS
+URL : $REPO_URL
+
+安装方式一（已导入公钥）:
+  sudo cp wanglinux-archive-keyring.gpg /usr/share/keyrings/
+  echo "deb [signed-by=/usr/share/keyrings/wanglinux-archive-keyring.gpg] $REPO_URL $SUITE $COMP" \\
+    | sudo tee /etc/apt/sources.list.d/wanglinux.list
+  sudo apt update && sudo apt install wanglinux-desktop
+
+安装方式二（本地路径 / 未签名时）:
+  echo "deb [trusted=yes] file:/srv/wanglinux-repo $SUITE $COMP" \\
+    | sudo tee /etc/apt/sources.list.d/wanglinux.list
+EOF
+
+log "仓库构建完成"
+du -sh "$OUT"; find "$OUT/pool" -name '*.deb' | sed 's|^|  |'

@@ -1,1 +1,96 @@
-IyEvYmluL2Jhc2gKIyA9PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09CiMgIFdhbmdMaW51eCDlhoXmoLjmnoTlu7rlpZfku7Yg4oCU4oCUIOS6p+WHuiBsaW51eC1pbWFnZS0qLXdhbmdsaW51eCouZGViCiMgIOi/kOihjOeOr+Wig++8mkRlYmlhbiAxMiDmiJYgVWJ1bnR1IDIyLjA0KyDniannkIbmnLovVk3vvIjiiaU0IOaguOOAgeKJpTQgR0Ig5YaF5a2Y44CB4omlMjAgR0Ig56OB55uY77yJCiMgIOiAl+aXtu+8mue6piA0MC05MCDliIbpkp/vvIg0IOaguO+8iQojICDor7TmmI7vvJrov5npopfmiYvmnLrnmoQgYXJtNjQg5rKZ55uS6YeM5peg5rOV5Zyo5ZCI55CG5pe26Ze05YaF5a6M5oiQ5YaF5qC457yW6K+R77yMCiMgICAgICAgIOWboOatpOacrOWll+S7tuW/hemhu+WcqOecn+WunuacuuWZqOS4iuaJp+ihjCDigJTigJQg5LiN5YGH6KOF6IO95Zyo6L+Z6YeM6LeR5a6M44CCCiMgPT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PT09PQpzZXQgLUVldW8gcGlwZWZhaWwKZXhwb3J0IERFQklBTl9GUk9OVEVORD1ub25pbnRlcmFjdGl2ZQoKQlJBTkQ9IiR7QlJBTkQ6LXdhbmdsaW51eH0iCkxPQ0FMVkVSU0lPTj0iJHtMT0NBTFZFUlNJT046LS0ke0JSQU5EfTF9IgpKT0JTPSIke0pPQlM6LSQobnByb2MpfSIKQlVJTERST09UPSIke0JVSUxEUk9PVDotL2J1aWxkL2tlcm5lbH0iCkNPTkZJR19TUkM9IiR7Q09ORklHX1NSQzotfSIgICAgICAjIOWPr+mAie+8muWfuuS6juafkOS4quW3suWtmOWcqOeahCBjb25maWcg5paH5Lu2CkRJU1Q9IiR7RElTVDotYm9va3dvcm19IgpNSVJST1I9IiR7TUlSUk9SOi1odHRwOi8vbWlycm9ycy51c3RjLmVkdS5jbi9kZWJpYW59IgoKbG9nKCkgeyBwcmludGYgJ1xuXDAzM1sxOzM1bVtrZXJuZWxdXDAzM1swbSAlc1xuJyAiJCoiOyB9ClsgIiQoaWQgLXUpIiAtZXEgMCBdIHx8IHsgZWNobyAi6K+355SoIHJvb3Qg6L+Q6KGMIjsgZXhpdCAxOyB9CgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g5L6d6LWWIC0tLS0KbG9nICLlronoo4XmnoTlu7rkvp3otZYiCmFwdC1nZXQgdXBkYXRlIC1xcQphcHQtZ2V0IGluc3RhbGwgLXkgLS1uby1pbnN0YWxsLXJlY29tbWVuZHMgXAogIGJ1aWxkLWVzc2VudGlhbCBiYyBiaXNvbiBmbGV4IGxpYnNzbC1kZXYgbGliZWxmLWRldiBsaWJuY3Vyc2VzLWRldiBcCiAgZHdhcnZlcyB6c3RkIHh6LXV0aWxzIGttb2QgY3BpbyByc3luYyBnaXQgd2dldCBjYS1jZXJ0aWZpY2F0ZXMgZHBrZy1kZXYgXAogID4vdG1wL3dsLWtlcm5lbC1kZXBzLmxvZyAyPiYxIHx8IHsgZWNobyAi5L6d6LWW5a6J6KOF5aSx6LSl77yM6KeBIC90bXAvd2wta2VybmVsLWRlcHMubG9nIjsgZXhpdCAxOyB9CgojIC0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLSDmupDnoIEgLS0tLQpta2RpciAtcCAiJEJVSUxEUk9PVCI7IGNkICIkQlVJTERST09UIgppZiBbICEgLWQgbGludXgtKi8gXTsgdGhlbgogIGxvZyAi6I635Y+W5YaF5qC45rqQ56CB77yI5o6o6I2Q55SoIERlYmlhbiDmupDnoIHljIXvvIzkvr/kuo7msr/nlKjlhbblronlhajphY3nva7vvIkiCiAgaWYgZ3JlcCAtcSAiXmRlYi1zcmMiIC9ldGMvYXB0L3NvdXJjZXMubGlzdCAvZXRjL2FwdC9zb3VyY2VzLmxpc3QuZC8qIDI+L2Rldi9udWxsOyB0aGVuCiAgICBhcHQtZ2V0IHNvdXJjZSBsaW51eCA+L3RtcC93bC1rZXJuZWwtc3JjLmxvZyAyPiYxIHx8IHRydWUKICBmaQogIGlmICEgbHMgLWQgbGludXgtKi8gPi9kZXYvbnVsbCAyPiYxOyB0aGVuCiAgICBsb2cgIuaUueeUqCBrZXJuZWwub3JnIOS4u+e6v+a6kOeggSIKICAgIE1BSk9SPSIke01BSk9SOi02LjEyfSIKICAgIEZVTEw9JCh3Z2V0IC1xTy0gImh0dHBzOi8vY2RuLmtlcm5lbC5vcmcvcHViL2xpbnV4L2tlcm5lbC92JHtNQUpPUiUlLip9LngvIiBcCiAgICAgICAgICAgfCBncmVwIC1vRSAibGludXgtJHtNQUpPUn0oXC5bMC05XSspP1wudGFyXC54eiIgfCBzb3J0IC1WIHwgdGFpbCAtMSkKICAgIFsgLW4gIiRGVUxMIiBdIHx8IHsgZWNobyAi5peg5rOV56Gu5a6a5YaF5qC454mI5pys77yM6K+35omL5Yqo5LiL6L29IjsgZXhpdCAxOyB9CiAgICB3Z2V0IC1jICJodHRwczovL2Nkbi5rZXJuZWwub3JnL3B1Yi9saW51eC9rZXJuZWwvdiR7TUFKT1IlJS4qfS54LyRGVUxMIgogICAgdGFyIC14ZiAiJEZVTEwiCiAgZmkKZmkKY2QgbGludXgtKi8KU1JDVkVSPSQobWFrZSAtcyBrZXJuZWx2ZXJzaW9uIDI+L2Rldi9udWxsIHx8IGVjaG8gdW5rbm93bikKbG9nICLmupDnoIHniYjmnKzvvJokU1JDVkVSIgoKIyAtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0g6YWN572uIC0tLS0KbG9nICLlhpnlhaUgV2FuZ0xpbnV4IOWTgeeJjOS4jumFjee9riIKaWYgWyAtbiAiJENPTkZJR19TUkMiIF0gJiYgWyAtZiAiJENPTkZJR19TUkMiIF07IHRoZW4KICBjcCAiJENPTkZJR19TUkMiIC5jb25maWcKZWxzZQogICMgYXJtNjQg55SoIGRlZmNvbmZpZ++8m3g4NiDnlKggeDg2XzY0X2RlZmNvbmZpZwogIGNhc2UgIiQodW5hbWUgLW0pIiBpbgogICAgYWFyY2g2NHxhcm02NCkgbWFrZSBkZWZjb25maWcgOzsKICAgICopICAgICAgICAgICAgIG1ha2UgeDg2XzY0X2RlZmNvbmZpZyA7OwogIGVzYWMKICAjIOWOu+aOiSBEZWJpYW4g5LiT5bGe55qE6K+B5Lmm6KaB5rGC77yM6YG/5YWNICJObyBydWxlIHRvIG1ha2UgdGFyZ2V0IGRlYmlhbi9jZXJ0cyIgCiAgLi9zY3JpcHRzL2NvbmZpZyAtLWRpc2FibGUgTU9EVUxFX1NJR19BTEwgLS1kaXNhYmxlIFNZU1RFTV9UUlVTVEVEX0tFWVMgXAogICAgICAgICAgICAgICAgICAgLS1kaXNhYmxlIFNZU1RFTV9SRVZPQ0FUSU9OX0tFWVMgfHwgdHJ1ZQpmaQouL3NjcmlwdHMvY29uZmlnIFwKICAtLXNldC1zdHIgTE9DQUxWRVJTSU9OICIkTE9DQUxWRVJTSU9OIiBcCiAgLS1zZXQtc3RyIERFRkFVTFRfSE9TVE5BTUUgIiRCUkFORCIgXAogIC0tZW5hYmxlIElLQ09ORklHIC0tZW5hYmxlIElLQ09ORklHX1BST0MgXAogIC0tc2V0LXN0ciBDTURMSU5FICJjb25zb2xlPXR0eTEgcm9vdD1QQVJUVVVJRD0lVS9QQVJUTlJPRkY9MSByb290d2FpdCBydyBxdWlldCIgXAogIHx8IHRydWUKbWFrZSBvbGRkZWZjb25maWcKCiMgLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tIOe8luivkSAtLS0tCmxvZyAi5byA5aeL57yW6K+R77yILWokSk9CU++8jOe6piA0MC05MCDliIbpkp/vvIkiCm1ha2UgLWoiJEpPQlMiIEltYWdlIG1vZHVsZXMgZHRicwpsb2cgIuaJk+WMhSAuZGViIgptYWtlIC1qIiRKT0JTIiBLQlVJTERfQlVJTERfVVNFUj13YW5nbGludXggS0JVSUxEX0JVSUxEX0hPU1Q9IiRCUkFORCIgXAogICAgIGJpbmRlYi1wa2cgTE9DQUxWRVJTSU9OPSIkTE9DQUxWRVJTSU9OIgoKbHMgLWxoICIkQlVJTERST09UIi8qLmRlYiAyPi9kZXYvbnVsbCB8fCBscyAtbGggLi4vKi5kZWIKCmNhdCA8PEVPRgoKPT09PT09PT0g5p6E5bu65a6M5oiQID09PT09PT09CuWGheaguOeJiOacrCA6ICRTUkNWRVIkTE9DQUxWRVJTSU9OCuS6p+eJqSAgICAgOiAkQlVJTERST09ULy4uL2xpbnV4LWltYWdlLSR7U1JDVkVSfSR7TE9DQUxWRVJTSU9OfV8qLmRlYgogICAgICAgICAgICRCVUlMRFJPT1QvLi4vbGludXgtaGVhZGVycy0ke1NSQ1ZFUn0ke0xPQ0FMVkVSU0lPTn1fKi5kZWIK5LiL5LiA5q2lICAgOgogIDEpIOaKiiAuZGViIOaUvui/myBhdXJvcmEg5LuT5bqT55qEIHBvb2wvbWFpbi9sL2xpbnV4LWltYWdlLSR7QlJBTkR9LwogIDIpIGJhc2ggYnVpbGQtcmVwby5zaCDph43lu7rntKLlvJUKICAzKSBhcHQgaW5zdGFsbCBsaW51eC1pbWFnZS0ke1NSQ1ZFUn0ke0xPQ0FMVkVSU0lPTn0KICA0KSB1cGRhdGUtaW5pdHJhbWZzIC1jIC1rICR7U1JDVkVSfSR7TE9DQUxWRVJTSU9OfQogIDUpIOebruagh+aYryLnprvlvIDlrr/kuLvlhoXmoLjog73ni6znq4vlkK/liqgi77ya6L+Y6ZyA5Zyo55uu5qCH5py66KOFIGJvb3Rsb2FkZXLvvIhHUlVCL0VYVDQg5oiWCiAgICAg5qCR6I6T5rS+5Zu65Lu2IGNvbmZpZy50eHQgKyBrZXJuZWw4LmltZ++8ie+8jOi/meS4gOatpeW/hemhu+WunuacuumqjOivgeOAggpFT0YK
+#!/bin/bash
+# ============================================================================
+#  WangLinux 内核构建套件 —— 产出 linux-image-*-wanglinux*.deb
+#  运行环境：Debian 12 或 Ubuntu 22.04+ 物理机/VM（≥4 核、≥4 GB 内存、≥20 GB 磁盘）
+#  耗时：约 40-90 分钟（4 核）
+#  说明：这颗手机的 arm64 沙盒里无法在合理时间内完成内核编译，
+#        因此本套件必须在真实机器上执行 —— 不假装能在这里跑完。
+# ============================================================================
+set -Eeuo pipefail
+export DEBIAN_FRONTEND=noninteractive
+
+BRAND="${BRAND:-wanglinux}"
+LOCALVERSION="${LOCALVERSION:--${BRAND}1}"
+JOBS="${JOBS:-$(nproc)}"
+BUILDROOT="${BUILDROOT:-/build/kernel}"
+CONFIG_SRC="${CONFIG_SRC:-}"      # 可选：基于某个已存在的 config 文件
+DIST="${DIST:-bookworm}"
+MIRROR="${MIRROR:-http://mirrors.ustc.edu.cn/debian}"
+
+log() { printf '\n\033[1;35m[kernel]\033[0m %s\n' "$*"; }
+[ "$(id -u)" -eq 0 ] || { echo "请用 root 运行"; exit 1; }
+
+# ---------------------------------------------------------------- 依赖 ----
+log "安装构建依赖"
+apt-get update -qq
+apt-get install -y --no-install-recommends \
+  build-essential bc bison flex libssl-dev libelf-dev libncurses-dev \
+  dwarves zstd xz-utils kmod cpio rsync git wget ca-certificates dpkg-dev \
+  >/tmp/wl-kernel-deps.log 2>&1 || { echo "依赖安装失败，见 /tmp/wl-kernel-deps.log"; exit 1; }
+
+# ------------------------------------------------------------ 源码 ----
+mkdir -p "$BUILDROOT"; cd "$BUILDROOT"
+if ! ls -d linux-*/ >/dev/null 2>&1; then
+  log "获取内核源码（推荐用 Debian 源码包，便于沿用其安全配置）"
+  if grep -q "^deb-src" /etc/apt/sources.list /etc/apt/sources.list.d/* 2>/dev/null; then
+    apt-get source linux >/tmp/wl-kernel-src.log 2>&1 || true
+  fi
+  if ! ls -d linux-*/ >/dev/null 2>&1; then
+    log "改用 kernel.org 主线源码"
+    MAJOR="${MAJOR:-6.12}"
+    FULL=$(wget -qO- "https://cdn.kernel.org/pub/linux/kernel/v${MAJOR%%.*}.x/" \
+           | grep -oE "linux-${MAJOR}(\.[0-9]+)?\.tar\.xz" | sort -V | tail -1)
+    [ -n "$FULL" ] || { echo "无法确定内核版本，请手动下载"; exit 1; }
+    wget -c "https://cdn.kernel.org/pub/linux/kernel/v${MAJOR%%.*}.x/$FULL"
+    tar -xf "$FULL"
+  fi
+fi
+cd linux-*/
+SRCVER=$(make -s kernelversion 2>/dev/null || echo unknown)
+log "源码版本：$SRCVER"
+
+# ------------------------------------------------------------ 配置 ----
+log "写入 WangLinux 品牌与配置"
+if [ -n "$CONFIG_SRC" ] && [ -f "$CONFIG_SRC" ]; then
+  cp "$CONFIG_SRC" .config
+else
+  # arm64 用 defconfig；x86 用 x86_64_defconfig
+  case "$(uname -m)" in
+    aarch64|arm64) make defconfig ;;
+    *)             make x86_64_defconfig ;;
+  esac
+  # 去掉 Debian 专属的证书要求，避免 "No rule to make target debian/certs" 
+  ./scripts/config --disable MODULE_SIG_ALL --disable SYSTEM_TRUSTED_KEYS \
+                   --disable SYSTEM_REVOCATION_KEYS || true
+fi
+./scripts/config \
+  --set-str LOCALVERSION "$LOCALVERSION" \
+  --set-str DEFAULT_HOSTNAME "$BRAND" \
+  --enable IKCONFIG --enable IKCONFIG_PROC \
+  --set-str CMDLINE "console=tty1 root=PARTUUID=%U/PARTNROFF=1 rootwait rw quiet" \
+  || true
+make olddefconfig
+
+# ------------------------------------------------------------ 编译 ----
+log "开始编译（-j$JOBS，约 40-90 分钟）"
+make -j"$JOBS" Image modules dtbs
+log "打包 .deb"
+make -j"$JOBS" KBUILD_BUILD_USER=wanglinux KBUILD_BUILD_HOST="$BRAND" \
+     bindeb-pkg LOCALVERSION="$LOCALVERSION"
+
+ls -lh "$BUILDROOT"/*.deb 2>/dev/null || ls -lh ../*.deb
+
+cat <<EOF
+
+======== 构建完成 ========
+内核版本 : $SRCVER$LOCALVERSION
+产物     : $BUILDROOT/../linux-image-${SRCVER}${LOCALVERSION}_*.deb
+           $BUILDROOT/../linux-headers-${SRCVER}${LOCALVERSION}_*.deb
+下一步   :
+  1) 把 .deb 放进 aurora 仓库的 pool/main/l/linux-image-${BRAND}/
+  2) bash build-repo.sh 重建索引
+  3) apt install linux-image-${SRCVER}${LOCALVERSION}
+  4) update-initramfs -c -k ${SRCVER}${LOCALVERSION}
+  5) 目标是"离开宿主内核能独立启动"：还需在目标机装 bootloader（GRUB/EXT4 或
+     树莓派固件 config.txt + kernel8.img），这一步必须实机验证。
+EOF
