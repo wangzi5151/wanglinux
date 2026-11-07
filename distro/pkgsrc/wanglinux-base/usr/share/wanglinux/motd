@@ -1,1 +1,8 @@
-CiAgV2FuZ0xpbnV4IDEuMCAoQXVyb3JhKSAgfCAgRGViaWFuIDEyIGJhc2UgIHwgIHN1aXRlOiBhdXJvcmEKCiAgd2FuZ2luZm8gICAgICAgICAgICAgIHN5c3RlbSBpbmZvcm1hdGlvbgogIHdhbmdsaW51eC12ZXJzaW9uICAgICByZWxlYXNlIGFuZCByZXBvc2l0b3JpZXMKICBoZWxwLXdhbmcgICAgICAgICAgICAgY29tbW9uIGNvbW1hbmRzCiAgc3VkbyBhcHQgdXBkYXRlICYmIHN1ZG8gYXB0IGZ1bGwtdXBncmFkZSAgICAgIHVwZ3JhZGUKCg==
+
+  WangLinux 1.0 (Aurora)  |  Debian 12 base  |  suite: aurora
+
+  wanginfo              system information
+  wanglinux-version     release and repositories
+  help-wang             common commands
+  sudo apt update && sudo apt full-upgrade      upgrade
+

@@ -1,1 +1,13 @@
-IyEvYmluL3NoCnNldCAtZQpjYXNlICIkMSIgaW4KICByZW1vdmV8ZGVjb25maWd1cmUpCiAgICBmb3IgZiBpbiAvZXRjL29zLXJlbGVhc2UgL3Vzci9saWIvb3MtcmVsZWFzZTsgZG8KICAgICAgaWYgZHBrZy1kaXZlcnQgLS1saXN0ICIkZiIgMj4vZGV2L251bGwgfCBncmVwIC1xIHdhbmdsaW51eC1iYXNlOyB0aGVuCiAgICAgICAgcm0gLWYgIiRmIgogICAgICAgIGRwa2ctZGl2ZXJ0IC0tcGFja2FnZSB3YW5nbGludXgtYmFzZSAtLXJlbmFtZSAtLXJlbW92ZSAiJGYiID4vZGV2L251bGwKICAgICAgZmkKICAgIGRvbmUKICAgIDs7CmVzYWMKZXhpdCAwCg==
+#!/bin/sh
+set -e
+case "$1" in
+  remove|deconfigure)
+    for f in /etc/os-release /usr/lib/os-release; do
+      if dpkg-divert --list "$f" 2>/dev/null | grep -q wanglinux-base; then
+        rm -f "$f"
+        dpkg-divert --package wanglinux-base --rename --remove "$f" >/dev/null
+      fi
+    done
+    ;;
+esac
+exit 0

@@ -1,1 +1,5 @@
-KiovLmdudXBnLwoqLnRhci5negoqLmlzbwoqLmltZwpvdXQvCg==
+**/.gnupg/
+*.tar.gz
+*.iso
+*.img
+out/

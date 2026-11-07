@@ -1,1 +1,7 @@
-W0Rlc2t0b3AgRW50cnldClR5cGU9QXBwbGljYXRpb24KTmFtZT1XYW5nTGludXggV2FsbHBhcGVyCkNvbW1lbnQ9QXBwbHkgdGhlIEF1cm9yYSB3YWxscGFwZXIgb24gbG9naW4KRXhlYz1zaCAtYyAnVz0vdXNyL3NoYXJlL3dhbGxwYXBlcnMvd2FuZ2xpbnV4L2F1cm9yYS5wbmc7IGZvciBwIGluICQoeGZjb25mLXF1ZXJ5IC1jIHhmY2U0LWRlc2t0b3AgLWwgMj4vZGV2L251bGwgfCBncmVwIGxhc3QtaW1hZ2UpOyBkbyB4ZmNvbmYtcXVlcnkgLWMgeGZjZTQtZGVza3RvcCAtcCAiJHAiIC1zICIkVyI7IGRvbmUnCk9ubHlTaG93SW49WEZDRTsKTm9EaXNwbGF5PXRydWUK
+[Desktop Entry]
+Type=Application
+Name=WangLinux Wallpaper
+Comment=Apply the Aurora wallpaper on login
+Exec=sh -c 'W=/usr/share/wallpapers/wanglinux/aurora.png; for p in $(xfconf-query -c xfce4-desktop -l 2>/dev/null | grep last-image); do xfconf-query -c xfce4-desktop -p "$p" -s "$W"; done'
+OnlyShowIn=XFCE;
+NoDisplay=true

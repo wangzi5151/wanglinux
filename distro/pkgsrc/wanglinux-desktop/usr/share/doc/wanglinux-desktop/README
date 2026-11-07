@@ -1,1 +1,5 @@
-d2FuZ2xpbnV4LWRlc2t0b3AgaXMgYSBtZXRhIHBhY2thZ2U6IGl0IGNvbnRhaW5zIG5vIGZpbGVzLCBpdCBvbmx5IGRlY2xhcmVzCndoYXQgImEgV2FuZ0xpbnV4IHJlbGVhc2UiIGNvbnNpc3RzIG9mLgoKQ3V0dGluZyBhIG5ldyByZWxlYXNlID0gYnVtcCB0aGlzIHBhY2thZ2UncyB2ZXJzaW9uICsgYWRqdXN0IHRoZSBkZXBlbmRlbmN5Cmxpc3QgKyB3cml0ZSBhIGNoYW5nZWxvZyBlbnRyeS4gVXNlcnMgdGhlbiBydW46IHN1ZG8gYXB0IGZ1bGwtdXBncmFkZQo=
+wanglinux-desktop is a meta package: it contains no files, it only declares
+what "a WangLinux release" consists of.
+
+Cutting a new release = bump this package's version + adjust the dependency
+list + write a changelog entry. Users then run: sudo apt full-upgrade

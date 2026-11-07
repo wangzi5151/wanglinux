@@ -1,1 +1,13 @@
-IyEvYmluL3NoCmNhdCA8PCdUWFQnCldhbmdMaW51eCAxLjAgKEF1cm9yYSkgLSBxdWljayBoZWxwCiAgd2FuZ2luZm8gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBzeXN0ZW0gaW5mb3JtYXRpb24KICB3YW5nbGludXgtdmVyc2lvbiAgICAgICAgICAgICAgICAgICAgICAgIHZlcnNpb24gYW5kIHJlcG9zaXRvcmllcwogIHN1ZG8gYXB0IHVwZGF0ZSAgICAgICAgICAgICAgICAgICAgICAgICAgcmVmcmVzaCBwYWNrYWdlIGxpc3RzCiAgc3VkbyBhcHQgaW5zdGFsbCB3YW5nbGludXgtZGVza3RvcCAgICAgICBpbnN0YWxsIHRoZSBmdWxsIGRlc2t0b3AgKFhmY2UpCiAgc3VkbyBhcHQgZnVsbC11cGdyYWRlICAgICAgICAgICAgICAgICAgICB1cGdyYWRlIHRvIHRoZSBsYXRlc3QgcmVsZWFzZQogIHN1ZG8gcmFzcGktY29uZmlnICAgICAgICAgICAgICAgICAgICAgICAgUmFzcGJlcnJ5IFBpIGNvbmZpZ3VyYXRpb24KTm90ZXMKICAqIENoaW5lc2UgdGV4dCBuZWVkcyBhIGdyYXBoaWNhbCB0ZXJtaW5hbDsgdGhlIExpbnV4IHRleHQgY29uc29sZSBpcyBBU0NJSSBvbmx5LgogICogRGVmYXVsdCBsb2dpbjogdXNlciAid2FuZyIgLyBwYXNzd29yZCAid2FuZ2xpbnV4IiAoY2hhbmdlIGl0IHdpdGggcGFzc3dkKS4KVFhUCg==
+#!/bin/sh
+cat <<'TXT'
+WangLinux 1.0 (Aurora) - quick help
+  wanginfo                                 system information
+  wanglinux-version                        version and repositories
+  sudo apt update                          refresh package lists
+  sudo apt install wanglinux-desktop       install the full desktop (Xfce)
+  sudo apt full-upgrade                    upgrade to the latest release
+  sudo raspi-config                        Raspberry Pi configuration
+Notes
+  * Chinese text needs a graphical terminal; the Linux text console is ASCII only.
+  * Default login: user "wang" / password "wanglinux" (change it with passwd).
+TXT

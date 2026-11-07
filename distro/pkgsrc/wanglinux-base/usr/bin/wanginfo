@@ -1,1 +1,21 @@
-IyEvYmluL3NoCiMgd2FuZ2luZm8gLSBXYW5nTGludXggc3lzdGVtIGluZm9ybWF0aW9uIChBU0NJSS1vbmx5IGZvciBWVCBjb25zb2xlKQpoZigpIHsgcHJpbnRmICclLTEwcyAlc1xuJyAiJDEiICIkMiI7IH0KUkVMPSQoc2VkIC1uICdzL15QUkVUVFlfTkFNRT0iXCguKlwpIi9cMS9wJyAvZXRjL29zLXJlbGVhc2UgMj4vZGV2L251bGwpClsgLW4gIiRSRUwiIF0gfHwgUkVMPSJXYW5nTGludXggKHVua25vd24pIgpQS0dTPSQoZHBrZy1xdWVyeSAtZiAnLlxuJyAtVyAyPi9kZXYvbnVsbCB8IHdjIC1sKQpLRVJOPSQodW5hbWUgLXIpOyBLTk9URT0iIgpjYXNlICIkS0VSTiIgaW4KICAqd2FuZ2xpbnV4KikgOiA7OwogICphbmRyb2lkKikgICBLTk9URT0iIFtob3N0IGtlcm5lbCAvIGNocm9vdF0iIDs7CmVzYWMKaGYgIk9TIiAgICAgICAiJFJFTCIKaGYgIkJhc2UiICAgICAiRGViaWFuICQoY2F0IC9ldGMvZGViaWFuX3ZlcnNpb24gMj4vZGV2L251bGwpIC8gJCh1bmFtZSAtbSkiCmhmICJLZXJuZWwiICAgIiRLRVJOJEtOT1RFIgpoZiAiUGFja2FnZXMiICIkUEtHUyBpbnN0YWxsZWQiCmhmICJDUFUiICAgICAgIiQodW5hbWUgLW0pIHggJChucHJvYyAyPi9kZXYvbnVsbCB8fCBlY2hvIDEpIgpoZiAiTWVtb3J5IiAgICIkKGF3ayAnL01lbVRvdGFsL3twcmludGYgIiUuMGYgTUIiLCAkMi8xMDI0fScgL3Byb2MvbWVtaW5mbyAyPi9kZXYvbnVsbCkiCmhmICJVc2VyIiAgICAgIiQoaWQgLXVuKSAodWlkPSQoaWQgLXUpKSIKaGYgIlNoZWxsIiAgICAiJHtTSEVMTDotL2Jpbi9iYXNofSIKaGYgIlVwdGltZSIgICAiJCh1cHRpbWUgLXAgMj4vZGV2L251bGwgfCBzZWQgJ3MvXnVwIC8vJykiCmhmICJEZXNrdG9wIiAgIiQoZHBrZy1xdWVyeSAtVyAtZj0nJHtTdGF0dXN9JyB3YW5nbGludXgtZGVza3RvcCAyPi9kZXYvbnVsbCB8IGdyZXAgLXEgaW5zdGFsbGVkICYmIGVjaG8gJ2luc3RhbGxlZCcgfHwgZWNobyAnbm90IGluc3RhbGxlZCAoYXB0IGluc3RhbGwgd2FuZ2xpbnV4LWRlc2t0b3ApJykiCg==
+#!/bin/sh
+# wanginfo - WangLinux system information (ASCII-only for VT console)
+hf() { printf '%-10s %s\n' "$1" "$2"; }
+REL=$(sed -n 's/^PRETTY_NAME="\(.*\)"/\1/p' /etc/os-release 2>/dev/null)
+[ -n "$REL" ] || REL="WangLinux (unknown)"
+PKGS=$(dpkg-query -f '.\n' -W 2>/dev/null | wc -l)
+KERN=$(uname -r); KNOTE=""
+case "$KERN" in
+  *wanglinux*) : ;;
+  *android*)   KNOTE=" [host kernel / chroot]" ;;
+esac
+hf "OS"       "$REL"
+hf "Base"     "Debian $(cat /etc/debian_version 2>/dev/null) / $(uname -m)"
+hf "Kernel"   "$KERN$KNOTE"
+hf "Packages" "$PKGS installed"
+hf "CPU"      "$(uname -m) x $(nproc 2>/dev/null || echo 1)"
+hf "Memory"   "$(awk '/MemTotal/{printf "%.0f MB", $2/1024}' /proc/meminfo 2>/dev/null)"
+hf "User"     "$(id -un) (uid=$(id -u))"
+hf "Shell"    "${SHELL:-/bin/bash}"
+hf "Uptime"   "$(uptime -p 2>/dev/null | sed 's/^up //')"
+hf "Desktop"  "$(dpkg-query -W -f='${Status}' wanglinux-desktop 2>/dev/null | grep -q installed && echo 'installed' || echo 'not installed (apt install wanglinux-desktop)')"

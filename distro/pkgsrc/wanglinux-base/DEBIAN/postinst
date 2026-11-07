@@ -1,1 +1,14 @@
-IyEvYmluL3NoCnNldCAtZQpjYXNlICIkMSIgaW4KICBjb25maWd1cmUpCiAgICBmb3IgZiBpbiAvZXRjL29zLXJlbGVhc2UgL3Vzci9saWIvb3MtcmVsZWFzZTsgZG8KICAgICAgaWYgWyAtZSAiJGYiIF0gJiYgISBkcGtnLWRpdmVydCAtLWxpc3QgIiRmIiAyPi9kZXYvbnVsbCB8IGdyZXAgLXEgd2FuZ2xpbnV4LWJhc2U7IHRoZW4KICAgICAgICBkcGtnLWRpdmVydCAtLXBhY2thZ2Ugd2FuZ2xpbnV4LWJhc2UgLS1kaXZlcnQgIiRmLmRlYmlhbiIgLS1yZW5hbWUgIiRmIiA+L2Rldi9udWxsCiAgICAgIGZpCiAgICAgIGxuIC1zZiAvdXNyL3NoYXJlL3dhbmdsaW51eC9vcy1yZWxlYXNlICIkZiIKICAgIGRvbmUKICAgIGNhdCAvdXNyL3NoYXJlL3dhbmdsaW51eC9tb3RkID4gL2V0Yy9tb3RkIDI+L2Rldi9udWxsIHx8IHRydWUKICAgIDs7CmVzYWMKZXhpdCAwCg==
+#!/bin/sh
+set -e
+case "$1" in
+  configure)
+    for f in /etc/os-release /usr/lib/os-release; do
+      if [ -e "$f" ] && ! dpkg-divert --list "$f" 2>/dev/null | grep -q wanglinux-base; then
+        dpkg-divert --package wanglinux-base --divert "$f.debian" --rename "$f" >/dev/null
+      fi
+      ln -sf /usr/share/wanglinux/os-release "$f"
+    done
+    cat /usr/share/wanglinux/motd > /etc/motd 2>/dev/null || true
+    ;;
+esac
+exit 0

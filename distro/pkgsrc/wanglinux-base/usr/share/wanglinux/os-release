@@ -1,1 +1,11 @@
-UFJFVFRZX05BTUU9IldhbmdMaW51eCAxLjAgKEF1cm9yYSkiCk5BTUU9IldhbmdMaW51eCIKVkVSU0lPTl9JRD0iMS4wIgpWRVJTSU9OPSIxLjAgKEF1cm9yYSkiClZFUlNJT05fQ09ERU5BTUU9YXVyb3JhCklEPXdhbmdsaW51eApJRF9MSUtFPWRlYmlhbgpBTlNJX0NPTE9SPSIxOzM1IgpIT01FX1VSTD0iaHR0cHM6Ly9naXRodWIuY29tL3dhbmdsaW51eC93YW5nbGludXgiClNVUFBPUlRfVVJMPSJodHRwczovL2dpdGh1Yi5jb20vd2FuZ2xpbnV4L3dhbmdsaW51eC9pc3N1ZXMiCkJVR19SRVBPUlRfVVJMPSJodHRwczovL2dpdGh1Yi5jb20vd2FuZ2xpbnV4L3dhbmdsaW51eC9pc3N1ZXMiCg==
+PRETTY_NAME="WangLinux 1.0 (Aurora)"
+NAME="WangLinux"
+VERSION_ID="1.0"
+VERSION="1.0 (Aurora)"
+VERSION_CODENAME=aurora
+ID=wanglinux
+ID_LIKE=debian
+ANSI_COLOR="1;35"
+HOME_URL="https://github.com/wanglinux/wanglinux"
+SUPPORT_URL="https://github.com/wanglinux/wanglinux/issues"
+BUG_REPORT_URL="https://github.com/wanglinux/wanglinux/issues"

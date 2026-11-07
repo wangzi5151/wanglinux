@@ -1,1 +1,3 @@
-Ki5kZWIuYmFrCmFyY2hpdmUvLmdudXBnLwoqKi8uZ251cGcvCg==
+*.deb.bak
+archive/.gnupg/
+**/.gnupg/
