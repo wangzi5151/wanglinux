@@ -1,0 +1,17 @@
+Package: wanglinux-server
+Version: 1.0.0-1~aurora1
+Architecture: all
+Maintainer: WangLinux Project <dev@wanglinux.example>
+Installed-Size: 10
+Depends: wanglinux-base (>= 1.0.0), wanglinux-tools (>= 1.0.0), openssh-server,
+ rsync, cron, htop, ufw, fail2ban, unattended-upgrades, curl, ca-certificates,
+ sudo, tmux, vim-tiny | nano, zsh | bash-completion
+Section: metapackages
+Priority: optional
+Homepage: https://github.com/wanglinux/wanglinux
+Description: WangLinux server (meta package)
+ One install turns a bare Debian 12 into a WangLinux server: SSH, cron,
+ firewall (ufw), fail2ban, unattended security upgrades, monitoring tools
+ and the WangLinux toolbox.
+ .
+ Intended for VPS / cloud / containers / ARM boards running headless.

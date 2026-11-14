@@ -1,0 +1,36 @@
+#!/bin/sh
+# wang-setup-server — 服务器首次部署助手
+# 用法：sudo wang-setup-server [--hostname NAME] [--user NAME] [--tz ZONE] [--no-firewall]
+set -eu
+HN="${WSL_HOSTNAME:-wanglinux}"
+USR="${WSL_USER:-}"
+TZ="${WSL_TZ:-Asia/Shanghai}"
+FW=1
+while [ $# -gt 0 ]; do
+  case "$1" in
+    --hostname)    HN="$2"; shift 2 ;;
+    --user)        USR="$2"; shift 2 ;;
+    --tz)          TZ="$2"; shift 2 ;;
+    --no-firewall) FW=0; shift ;;
+    *) echo "未知参数: $1"; exit 1 ;;
+  esac
+done
+[ "$(id -u)" -eq 0 ] || { echo "需要 root：sudo wang-setup-server" >&2; exit 1; }
+echo "[1/5] 设置主机名 $HN"
+hostnamectl set-hostname "$HN" 2>/dev/null || echo "$HN" > /etc/hostname
+grep -q "127.0.1.1" /etc/hosts || echo "127.0.1.1 $HN" >> /etc/hosts
+echo "[2/5] 设置时区 $TZ"
+ln -sf "/usr/share/zoneinfo/$TZ" /etc/localtime 2>/dev/null || true
+echo "$TZ" > /etc/timezone 2>/dev/null || true
+if [ -n "$USR" ]; then
+  echo "[3/5] 创建 sudo 用户 $USR"
+  if ! id "$USR" >/dev/null 2>&1; then adduser --gecos "" "$USR"; passwd "$USR"; fi
+  usermod -aG sudo "$USR"
+fi
+if [ "$FW" -eq 1 ]; then
+  echo "[4/5] 启用 ufw 防火墙（放行 SSH）"
+  command -v ufw >/dev/null 2>&1 && { ufw allow OpenSSH; ufw --force enable; } || echo "  (ufw 未安装，跳过)"
+fi
+echo "[5/5] 启用 unattended-upgrades 安全自动更新"
+command -v unattended-upgrades >/dev/null 2>&1 && dpkg-reconfigure -f noninteractive unattended-upgrades || echo "  (unattended-upgrades 未安装，跳过)"
+echo "完成。建议重启后检查 ssh、ufw status、unattended-upgrades 状态。"

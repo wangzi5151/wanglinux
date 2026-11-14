@@ -1,0 +1,32 @@
+#!/bin/sh
+# wangfetch — WangLinux 系统信息横幅（纯 POSIX sh，无额外依赖，ASCII 可安全用于 VT 控制台）
+# 用法：wangfetch
+C="${WANGFETCH_COLOR:-35}"
+LF="\033[1;${C}m"; R="\033[0m"
+rel() { sed -n 's/^PRETTY_NAME="\(.*\)"/\1/p' /etc/os-release 2>/dev/null; }
+arch=$(uname -m); kern=$(uname -r)
+pkgc=$(dpkg-query -f '.\n' -W 2>/dev/null | wc -l)
+mem=$(awk '/MemTotal/{printf "%.0f MiB", $2/1024}' /proc/meminfo 2>/dev/null)
+cpu=$(nproc 2>/dev/null || echo 1)
+osr=$(rel); [ -n "$osr" ] || osr="WangLinux (unknown)"
+base="Debian $(cat /etc/debian_version 2>/dev/null || echo ?)"
+printf '%b' "$LF"
+cat <<'ART'
+   __      ___                  _     _ _
+   \ \    / /_ _ _ __   __ _   | |   (_)_ __  _   ___  __
+    \ \/\/ / _` | '_ \ / _` |  | |   | | '_ \| | | \ \/ /
+     \  /\ / (_| | | | | (_| |  | |___| | | | | |_| |>  <
+      \/  \/ \__,_|_| |_|\__, |  |_____|_|_| |_|\__,_/_/\_\
+                         |___/
+ART
+printf '%b' "$R"
+hf() { printf "%-11s %s\n" "$1" "$2"; }
+hf "OS"       "$osr"
+hf "Base"     "$base / $arch"
+hf "Kernel"   "$kern"
+hf "Packages" "$pkgc installed"
+hf "CPU"      "$arch x $cpu"
+hf "Memory"   "$mem"
+hf "User"     "$(id -un)@$(hostname 2>/dev/null || echo wanglinux)"
+hf "Shell"    "${SHELL:-/bin/sh}"
+hf "Uptime"   "$(uptime -p 2>/dev/null | sed 's/^up //')"

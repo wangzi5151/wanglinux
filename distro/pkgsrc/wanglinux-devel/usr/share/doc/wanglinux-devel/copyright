@@ -1,0 +1,6 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: wanglinux-devel
+Source: https://github.com/wanglinux/wanglinux
+Files: *
+Copyright: 2026 WangLinux Project
+License: MIT

@@ -1,0 +1,16 @@
+Package: wanglinux-tools
+Version: 1.0.0-1~aurora1
+Architecture: all
+Maintainer: WangLinux Project <dev@wanglinux.example>
+Installed-Size: 32
+Depends: bash (>= 5.0), coreutils, sed, grep, apt, curl, ca-certificates
+Section: admin
+Priority: optional
+Homepage: https://github.com/wanglinux/wanglinux
+Description: WangLinux command-line toolbox
+ A small set of WangLinux-specific administration commands:
+  * wangfetch          — system info banner (pure POSIX sh, no extra deps)
+  * wang-switch-mirror — one-command apt mirror switcher (USTC/TUNA/Aliyun/etc.)
+  * wang-setup-server  — first-boot server hardening assistant
+ .
+ Works on any Debian 12+ base, with or without a desktop.

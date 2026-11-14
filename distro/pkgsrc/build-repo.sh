@@ -13,7 +13,7 @@ CODENAME="aurora"
 COMP="main"
 ARCHES="amd64 arm64 all"
 REPO_URL="${REPO_URL:-https://wanglinux.github.io/wanglinux-archive}"
-PKGS="wanglinux-base wanglinux-theme wanglinux-desktop"
+PKGS="wanglinux-base wanglinux-theme wanglinux-desktop wanglinux-tools wanglinux-server wanglinux-devel"
 SIGN="${SIGN:-yes}"
 
 log() { printf '\033[1;35m[repo]\033[0m %s\n' "$*"; }

@@ -1,0 +1,31 @@
+#!/bin/sh
+# wang-switch-mirror — 一键切换 Debian apt 镜像源
+# 用法：wang-switch-mirror [ustc|tuna|aliyun|tsinghua|163|official]
+set -eu
+LIST=/etc/apt/sources.list.d/wanglinux-mirror.list
+code=$(sed -n 's/^VERSION_CODENAME=//p' /etc/os-release 2>/dev/null | head -1)
+[ -n "${code:-}" ] || code=bookworm
+mirror() { case "$1" in
+  ustc)     echo "https://mirrors.ustc.edu.cn/debian" ;;
+  tuna)     echo "https://mirrors.tuna.tsinghua.edu.cn/debian" ;;
+  aliyun)   echo "https://mirrors.aliyun.com/debian" ;;
+  tsinghua) echo "https://mirrors.tuna.tsinghua.edu.cn/debian" ;;
+  163)      echo "https://mirrors.163.com/debian" ;;
+  official) echo "https://deb.debian.org/debian" ;;
+  *)        return 1 ;;
+esac; }
+m="${1:-}"
+if [ -z "$m" ]; then
+  echo "可用镜像：ustc(中科大)  tuna(清华)  aliyun(阿里)  tsinghua(清华)  163(网易)  official(官方)"
+  printf "选择镜像 [ustc]: "; read -r m; [ -n "$m" ] || m=ustc
+fi
+url=$(mirror "$m") || { echo "未知镜像: $m" >&2; exit 1; }
+sec="$url-security"
+[ "$(id -u)" -eq 0 ] || { echo "需要 root：sudo wang-switch-mirror $m" >&2; exit 1; }
+cat > "$LIST" <<LIST_EOF
+deb $url $code main contrib non-free non-free-firmware
+deb $sec $code-security main contrib non-free non-free-firmware
+deb $url $code-updates main contrib non-free non-free-firmware
+LIST_EOF
+echo "已写入 $LIST（$url）"
+apt update
