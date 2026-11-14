@@ -2,11 +2,25 @@
 
 [![CI](https://github.com/wangzi5151/wanglinux/actions/workflows/ci.yml/badge.svg)](https://github.com/wangzi5151/wanglinux/actions/workflows/ci.yml)
 
-一个自己搭出来的 Linux 发行版：**Debian 12 做地基，加中文支持、树莓派镜像、自己的软件仓库和更新源**。
+一个自己搭出来的 Linux 发行版：**Debian 12 做地基，加中文支持、自己的软件仓库，以及从树莓派到 x86_64 服务器、云镜像、容器、WSL 的完整安装矩阵**。
 
 不是 fork，也不是换皮的 Ubuntu——底下每一块（镜像、包、签名、仓库）都是这个仓库里的脚本从零装出来的。
 
-**最新可用的东西**：树莓派 3 / 4 / 400 / CM4 都能跑的系统镜像，下载解压、写进 SD 卡、插上开机就有桌面。
+**一条命令，产出所有安装形态**：
+
+```bash
+./build.sh help          # 查看全部目标
+./build.sh deb           # 6 个 .deb 软件包
+./build.sh iso           # x86_64 桌面 ISO
+./build.sh qcow2         # 云镜像（含 cloud-init）
+./build.sh rootfs        # 通用 rootfs tarball
+./build.sh container     # OCI 容器镜像
+./build.sh wsl           # Windows WSL 包
+./build.sh arm64-image   # 通用 arm64 镜像
+./build.sh pi            # 树莓派镜像
+```
+
+完整支持矩阵见 [docs/SUPPORT.md](docs/SUPPORT.md)，安装指南见 [docs/INSTALL.md](docs/INSTALL.md)。
 
 ---
 
@@ -16,7 +30,7 @@
 |---|---|---|
 | **在树莓派上用图形桌面**（推荐，多数人下载这个） | [pi-1.0-desktop](https://github.com/wangzi5151/wanglinux/releases/tag/pi-1.0-desktop) 里的 `wanglinux-pi-1.0-desktop.img.gz` | 1.2 GB |
 | 在树莓派上只要一个干净的命令行系统 | [pi-1.0](https://github.com/wangzi5151/wanglinux/releases/tag/pi-1.0) 里的 `wanglinux-pi-1.0.img.gz` | 637 MB |
-| 自己写程序、要装我的软件包 | `wanglinux-base` / `wanglinux-theme` / `wanglinux-desktop` 三个 `.deb` | 各几十 KB |
+| 自己写程序、要装我的软件包 | `wanglinux-base` / `wanglinux-tools` / `wanglinux-theme` / `wanglinux-desktop` / `wanglinux-server` / `wanglinux-devel` 六个 `.deb` | 各几十 KB |
 | 想看原理、自己改 | 直接 clone 这个仓库 | — |
 
 > 只想试试桌面的话：**下第一个**，别管其他的。
@@ -90,11 +104,17 @@ sudo systemctl enable lightdm && sudo reboot
 ## 五、它是怎么造出来的（给好奇的人）
 
 ```
-distro/pkgsrc/              → 自有软件包的源码（base / theme / desktop 三个包）
-distro/pkgsrc/build-repo.sh → 打包 .deb → Packages → Release → GPG 签名，一条命令重建 apt 仓库
-pi/assemble.sh              → 把 rootfs + 内核 + 固件拼成可烧录的 SD 镜像
+build.sh                    → 统一入口：一个命令产出所有安装形态
+distro/pkgsrc/              → 自有软件包源码（base / tools / theme / desktop / server / devel 六个包）
+distro/pkgsrc/build-repo.sh → 打包 .deb → Packages → Release → GPG 签名，重建 apt 仓库
+builder/iso(=amd64-iso)/    → x86_64 桌面 ISO
+builder/qcow2/              → 云镜像（cloud-init）
+builder/rootfs/             → 通用 rootfs tarball
+builder/container/          → OCI 容器镜像
+builder/wsl/                → Windows WSL 导入包
+builder/arm64/              → 通用 arm64 镜像（GPT+EFI）
+pi/assemble.sh              → 树莓派专用镜像（config.txt + kernel8.img）
 kernel/build-kernel.sh      → 从源码编译内核（实验性，镜像里用的是 Debian 官方内核）
-builder/amd64-iso/          → x86 安装盘构建脚本（计划中，还没构建过）
 ```
 
 两个卡过我的坑，都写在脚本注释里了：
@@ -109,7 +129,7 @@ builder/amd64-iso/          → x86 安装盘构建脚本（计划中，还没�
 - 树莓派镜像**没有在真机上验证过**（构建机是一台手机上的 chroot，手里没有 Pi）。能起就是运气好，起不来请把串口日志发我，我改。
 - 只支持 Pi 3 / 4 / 400 / CM4。**Pi 5 不行**（要另一套固件和内核）。
 - 内核是 Debian 官方 arm64 内核，不是自己编的。自己编的那套在 `kernel/`，没在这镜像里用过。
-- **还没有 x86 安装盘。** `builder/amd64-iso/` 里的脚本要 amd64 chroot（live-build 得在里面跑 dpkg），而构建机是 ARM，跑不了。想要 ISO 的话得换机器，或者用「拿现成 Debian live 注入」的路子。
+- **多形态构建脚本已就绪，但除 `.deb` 打包外，多数形态尚未在真机跑通**：`builder/` 下的 ISO/云镜像/arm64 镜像/WSL 需要 x86_64 或对应硬件实测；`.deb` 打包链路已在 CI 与本地验证。跑不通就按脚本头部注释里的要求补齐依赖，或把日志发我。
 - 桌面里没装浏览器和办公软件（能省 800MB）。要的话：`sudo apt install firefox-esr`。
 
 ---
