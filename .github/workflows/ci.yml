@@ -21,11 +21,12 @@ jobs:
           done < <(find . -type f -name '*.sh' -not -path './.git/*' -print0)
           exit $fail
 
-      - name: ShellCheck（style 级别）
+      - name: ShellCheck（style 级别，-x 跟随 source）
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq shellcheck
-          find . -type f -name '*.sh' -not -path './.git/*' -print0 | xargs -0 shellcheck -S style
+          mapfile -t SCRIPTS < <(find . -type f -name '*.sh' -not -path './.git/*')
+          shellcheck -S style -x "${SCRIPTS[@]}"
 
       - name: 防 base64 blob 回归
         run: bash tools/check-blobs.sh
