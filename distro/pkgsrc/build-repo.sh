@@ -11,7 +11,7 @@ OUT="${OUT:-/srv/wanglinux-repo}"
 SUITE="aurora"
 CODENAME="aurora"
 COMP="main"
-ARCHES="amd64 arm64 all"
+ARCHES="amd64 all"
 REPO_URL="${REPO_URL:-https://wanglinux.github.io/wanglinux-archive}"
 PKGS="wanglinux-base wanglinux-theme wanglinux-desktop wanglinux-tools wanglinux-server wanglinux-devel"
 SIGN="${SIGN:-yes}"
@@ -66,9 +66,9 @@ for p in $PKGS; do
     [ -f "$d/DEBIAN/$s" ] && chmod 755 "$d/DEBIAN/$s"
   done
   v=$(sed -n 's/^Version: //p' "$d/DEBIAN/control" | head -1)
-  mkdir -p "$OUT/pool/main/${p:0:4}/$p"
-  dpkg-deb --build --root-owner-group "$d" "$OUT/pool/main/${p:0:4}/$p/${p}_${v}_all.deb" >/dev/null
-  printf '  %-22s %s  %s\n' "$p" "$v" "$(du -h "$OUT/pool/main/${p:0:4}/$p/${p}_${v}_all.deb" | cut -f1)"
+  mkdir -p "$OUT/pool/main/${p:0:1}/$p"
+  dpkg-deb --build --root-owner-group "$d" "$OUT/pool/main/${p:0:1}/$p/${p}_${v}_all.deb" >/dev/null
+  printf '  %-22s %s  %s\n' "$p" "$v" "$(du -h "$OUT/pool/main/${p:0:1}/$p/${p}_${v}_all.deb" | cut -f1)"
 done
 
 # --------------------------------------------------------- Packages 索引 ----
@@ -88,7 +88,7 @@ for deb in $(find "$OUT/pool" -name '*.deb' | sort); do
     echo
   } >> "$OUT/.Packages"
 done
-for a in all amd64 arm64; do
+for a in all amd64; do
   mkdir -p "$OUT/dists/$SUITE/$COMP/binary-$a"
   cp "$OUT/.Packages" "$OUT/dists/$SUITE/$COMP/binary-$a/Packages"
   gzip -9 -n -k -f "$OUT/dists/$SUITE/$COMP/binary-$a/Packages"

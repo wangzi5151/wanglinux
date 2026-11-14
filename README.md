@@ -28,7 +28,8 @@
 
 | 想干什么 | 下载 | 大小 |
 |---|---|---|
-| **在树莓派上用图形桌面**（推荐，多数人下载这个） | [pi-1.0-desktop](https://github.com/wangzi5151/wanglinux/releases/tag/pi-1.0-desktop) 里的 `wanglinux-pi-1.0-desktop.img.gz` | 1.2 GB |
+| **在 PC / 虚拟机 / 云上装 WangLinux**（amd64 实测） | [v1.0.2](https://github.com/wangzi5151/wanglinux/releases/tag/v1.0.2) 里的 `wanglinux-1.0-amd64.iso`（桌面 Live）/ `-rootfs.tar.gz`（服务器）/ `-cloud.qcow2`（云） | 441M / 179M / 712M |
+| **在树莓派上用图形桌面** | [pi-1.0-desktop](https://github.com/wangzi5151/wanglinux/releases/tag/pi-1.0-desktop) 里的 `wanglinux-pi-1.0-desktop.img.gz` | 1.2 GB |
 | 在树莓派上只要一个干净的命令行系统 | [pi-1.0](https://github.com/wangzi5151/wanglinux/releases/tag/pi-1.0) 里的 `wanglinux-pi-1.0.img.gz` | 637 MB |
 | 自己写程序、要装我的软件包 | `wanglinux-base` / `wanglinux-tools` / `wanglinux-theme` / `wanglinux-desktop` / `wanglinux-server` / `wanglinux-devel` 六个 `.deb` | 各几十 KB |
 | 想看原理、自己改 | 直接 clone 这个仓库 | — |
@@ -129,7 +130,7 @@ kernel/build-kernel.sh      → 从源码编译内核（实验性，镜像里用
 - 树莓派镜像**没有在真机上验证过**（构建机是一台手机上的 chroot，手里没有 Pi）。能起就是运气好，起不来请把串口日志发我，我改。
 - 只支持 Pi 3 / 4 / 400 / CM4。**Pi 5 不行**（要另一套固件和内核）。
 - 内核是 Debian 官方 arm64 内核，不是自己编的。自己编的那套在 `kernel/`，没在这镜像里用过。
-- **多形态构建脚本已就绪，但除 `.deb` 打包外，多数形态尚未在真机跑通**：`builder/` 下的 ISO/云镜像/arm64 镜像/WSL 需要 x86_64 或对应硬件实测；`.deb` 打包链路已在 CI 与本地验证。跑不通就按脚本头部注释里的要求补齐依赖，或把日志发我。
+- **amd64 产物已在本环境实测构建**（`builder/verified/` 脚本，真实 debootstrap 拉取 Debian 12 + 打包 6 个 deb + 签名仓库 + rootfs/云镜像/Live ISO 封装）：rootfs tarball 与云镜像已 chroot/docker 验证，ISO 已 `file` 验证 `bootable`，校验和见 `SHA256SUMS.txt`。arm64/树莓派镜像仍未在对应真机验证。
 - 桌面里没装浏览器和办公软件（能省 800MB）。要的话：`sudo apt install firefox-esr`。
 
 ---

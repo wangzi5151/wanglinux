@@ -1,0 +1,40 @@
+#cloud-config
+# WangLinux 1.0 (Aurora) 云镜像默认 cloud-init 配置
+# 支持 NoCloud / OpenStack / EC2 等数据源
+hostname: wanglinux
+manage_etc_hosts: true
+locale: zh_CN.UTF-8
+timezone: Asia/Shanghai
+
+users:
+  - name: wang
+    gecos: WangLinux User
+    shell: /bin/bash
+    sudo: ['ALL=(ALL) NOPASSWD:ALL']
+    groups: [sudo, adm, dip, plugdev]
+    lock_passwd: false
+    passwd: $6$rounds=656000$wanglinux.salt$7oY0oY1O6q0f0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0q0
+    ssh_authorized_keys: []
+
+package_update: true
+package_upgrade: false
+
+ssh_pwauth: true
+disable_root: false
+chpasswd:
+  list: |
+    root:wanglinux
+    wang:wanglinux
+  expire: false
+
+packages:
+  - wanglinux-base
+  - wanglinux-tools
+  - wanglinux-server
+
+runcmd:
+  - [ systemctl, enable, --now, ssh ]
+  - [ systemctl, enable, --now, cron ]
+  - [ ufw, allow, OpenSSH ] || true
+  - [ ufw, --force, enable ] || true
+  - echo "WangLinux 1.0 (Aurora) 云实例已就绪" > /etc/motd.d/90-wanglinux

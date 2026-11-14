@@ -1,10 +1,18 @@
 Package: wanglinux-base
-Version: 1.0.2-1~aurora3
 Architecture: all
-Maintainer: WangLinux Project <dev@wanglinux.example>
-Depends: bash (>= 5.0), dpkg, coreutils, sed, grep
-Section: admin
+Version: 1.0.2-1~aurora3
 Priority: optional
+Section: admin
+Maintainer: WangLinux Project <dev@wanglinux.example>
+Installed-Size: 96
+Depends: bash (>= 5.0), dpkg, coreutils, sed, grep
+Filename: pool/main/w/wanglinux-base/wanglinux-base_1.0.2-1~aurora3_all.deb
+Size: 3448
+MD5sum: 0bd47c1b1e11b6d78fc2a6f3ea2a2c67
+SHA1: 18dfced4383b37dead06a0ea4c792599a28ff373
+SHA256: 0ff9a06ef553316c0535577646c760ca58f2a43890b83f4b97175e90d6f3b2e7
+SHA512: f0e1967d747d0855c3e19776ace86ddf060ec933325c252c8ca037687fd102e36bb66a092d346f5c390962d3aa9bde6945a54d7257d78616db9daf1fc10ab428
+Homepage: https://github.com/wanglinux/wanglinux
 Description: WangLinux identity, release metadata and admin commands
  Ships the WangLinux release identity (/etc/os-release, /etc/wanglinux/release),
  the wanginfo / help-wang / wanglinux-version commands and the login motd.
@@ -12,19 +20,24 @@ Description: WangLinux identity, release metadata and admin commands
  The release files are installed through dpkg-divert so that Debian's
  base-files keeps ownership of the original paths and any upgrade or
  removal cleanly restores them.
-Filename: pool/main/wang/wanglinux-base/wanglinux-base_1.0.2-1~aurora3_all.deb
-Size: 3508
-MD5sum: 2107acdf702f6352188dc4b11099736a
-SHA1: 11d3dbded1f93eba4f4230df08c0f4483abb2dfb
-SHA256: 8c37f279ba6e1bcdb6bbe87324420266ad40d295d2db099f615a00a2862570b7
 
 Package: wanglinux-desktop
-Version: 1.0.2-1~aurora3
 Architecture: all
-Maintainer: WangLinux Project <dev@wanglinux.example>
-Depends: wanglinux-base (>= 1.0.0), wanglinux-theme (>= 1.0.0), task-xfce-desktop, xfce4-terminal, thunar, lightdm, lightdm-gtk-greeter, network-manager-gnome, firefox-esr | chromium, fonts-noto-cjk, fonts-noto-color-emoji, fcitx5, fcitx5-chinese-addons, locales, sudo, curl, git, htop, neofetch
-Section: metapackages
+Version: 1.0.2-1~aurora3
 Priority: optional
+Section: metapackages
+Maintainer: WangLinux Project <dev@wanglinux.example>
+Installed-Size: 12
+Depends: wanglinux-base (>= 1.0.0), wanglinux-theme (>= 1.0.0),
+ task-xfce-desktop, xfce4-terminal, thunar, lightdm, lightdm-gtk-greeter,
+ network-manager-gnome, firefox-esr | chromium, fonts-noto-cjk,
+ fonts-noto-color-emoji, fcitx5, fcitx5-chinese-addons, locales, sudo, curl, git, htop, neofetch
+Filename: pool/main/w/wanglinux-desktop/wanglinux-desktop_1.0.2-1~aurora3_all.deb
+Size: 1518
+MD5sum: 5a3a96bcb9f92876a44883b6a1b88f7e
+SHA1: 66a2733ec0a38254c17bec3d6b95335f8873fd68
+SHA256: bea97c93dd0632350a4534e5eca6166a80b416fc3f2edf2b9ce0190c2b20f71a
+SHA512: 1bfd8ad20defd1bb0e733cf6e3ddf81bf944c762d23d206f88bb64f48a5da50d565b553de1b94d8e38eec10311498e98ed2cebefb16d9639d95d7913adac874d
 Description: WangLinux 1.0 desktop (meta package)
  One install pulls in the whole WangLinux desktop experience on top of a
  Debian 12 base: XFCE, browser, Chinese fonts and input method, network
@@ -32,27 +45,93 @@ Description: WangLinux 1.0 desktop (meta package)
  .
  This is the package that defines "a WangLinux release": bumping its version
  and updating its dependencies is how a new release is cut.
-Filename: pool/main/wang/wanglinux-desktop/wanglinux-desktop_1.0.2-1~aurora3_all.deb
-Size: 1720
-MD5sum: aacd23617073e286aecfa716b9fc2787
-SHA1: ad23e6b79a2451385eba58b21a42dd1ed39bccea
-SHA256: 4a2ec414c55cf965948f8507fc112558c2323bec77301bd03d90266325fb2168
+
+Package: wanglinux-devel
+Architecture: all
+Version: 1.0.0-1~aurora1
+Priority: optional
+Section: metapackages
+Maintainer: WangLinux Project <dev@wanglinux.example>
+Installed-Size: 10
+Depends: wanglinux-base (>= 1.0.0), build-essential, git, cmake, ninja-build,
+ pkg-config, make, gcc, g++, autoconf, automake, libtool, python3-dev,
+ python3-venv, python3-pip, gdb, strace
+Filename: pool/main/w/wanglinux-devel/wanglinux-devel_1.0.0-1~aurora1_all.deb
+Size: 1010
+MD5sum: c42866046c29dfd442d6205664ed3abe
+SHA1: 21ef8c548ac4852c16fa81018697742fdcac52fa
+SHA256: a8c76a284c9e72151d11ac9022bfe67da444c3bca71f4eb7bec054fbf9c32ddd
+SHA512: a04b3a6aedd53af0fb687e0dd93d704c8e159527ba0a37bd213326dadec8a1933a0b83153c5ea67883b57eec61f6188c3e6da0d6c70e3ad73ba43eaf24adeadd
+Homepage: https://github.com/wanglinux/wanglinux
+Description: WangLinux development workstation (meta package)
+ Pulls in the full C/C++/Python build toolchain plus version control and
+ debugging tools. Install on top of wanglinux-desktop or wanglinux-server
+ to turn WangLinux into a development machine.
+
+Package: wanglinux-server
+Architecture: all
+Version: 1.0.0-1~aurora1
+Priority: optional
+Section: metapackages
+Maintainer: WangLinux Project <dev@wanglinux.example>
+Installed-Size: 10
+Depends: wanglinux-base (>= 1.0.0), wanglinux-tools (>= 1.0.0), openssh-server,
+ rsync, cron, htop, ufw, fail2ban, unattended-upgrades, curl, ca-certificates,
+ sudo, tmux, vim-tiny | nano, zsh | bash-completion
+Filename: pool/main/w/wanglinux-server/wanglinux-server_1.0.0-1~aurora1_all.deb
+Size: 1044
+MD5sum: f7c6d213dd28a0cbf3cf9730b9f6f838
+SHA1: dc0d5ae30077593ea5710f3b37972059137e9fe0
+SHA256: 0abb5d09ddf3dfd9571dcad97cd38c3947c9d1e447708084d7246938c055cf25
+SHA512: eebb998147a88f40a1202de86f8e157d0eb8fbe07e8a7d91770cbd0b637af1ab6e52f68f4481a76508bf90bdb1b3f6936f92458c7c9f5f230ded84e95174750e
+Homepage: https://github.com/wanglinux/wanglinux
+Description: WangLinux server (meta package)
+ One install turns a bare Debian 12 into a WangLinux server: SSH, cron,
+ firewall (ufw), fail2ban, unattended security upgrades, monitoring tools
+ and the WangLinux toolbox.
+ .
+ Intended for VPS / cloud / containers / ARM boards running headless.
 
 Package: wanglinux-theme
-Version: 1.0.1-1~aurora2
 Architecture: all
+Version: 1.0.1-1~aurora2
+Priority: optional
+Section: x11
 Maintainer: WangLinux Project <dev@wanglinux.example>
+Installed-Size: 640
 Depends: desktop-file-utils
 Suggests: xfce4, lightdm-gtk-greeter
-Section: x11
-Priority: optional
+Filename: pool/main/w/wanglinux-theme/wanglinux-theme_1.0.1-1~aurora2_all.deb
+Size: 130422
+MD5sum: a60bd1939830861a456e98fd730b9c31
+SHA1: 189b068d9f3f9f64645b57fd9a5ca82824ef900c
+SHA256: aa2e0cb2ca1466a94a5f2794154ec51814f7bf73df33b000fe3fc9e8a4e49b5c
+SHA512: 7e7d912c50a931463311a2f61eb1f8f792f9c22b23e1c6f0ccb3eefb71d2bca2ff39aee3de105202fddaf401efbb9c90705f289ebf887b41c1fbe21531980e2a
 Description: WangLinux Aurora visual identity
  Default wallpaper (1920x1080), the "Aurora" GTK3 accent theme, the LightDM
  greeter configuration and an XFCE autostart hook that applies the wallpaper
  on every login. Pure data package - safe on any Debian 12 desktop.
-Filename: pool/main/wang/wanglinux-theme/wanglinux-theme_1.0.1-1~aurora2_all.deb
-Size: 124344
-MD5sum: 8ea50c41e8255998bb99199b1eff1940
-SHA1: 38187c53d1e45a4d1bebb43a9f111b2556d9c8f1
-SHA256: fe17a9080c4d5b513ff6583d5126d2a0720c7dfcdf495c227f9af510c9d52abc
+
+Package: wanglinux-tools
+Architecture: all
+Version: 1.0.0-1~aurora1
+Priority: optional
+Section: admin
+Maintainer: WangLinux Project <dev@wanglinux.example>
+Installed-Size: 32
+Depends: bash (>= 5.0), coreutils, sed, grep, apt, curl, ca-certificates
+Filename: pool/main/w/wanglinux-tools/wanglinux-tools_1.0.0-1~aurora1_all.deb
+Size: 3234
+MD5sum: 545701b2d14379936d9ac79d00280c0f
+SHA1: 56ddbc11e0db2472a0c460789665ae4addde0572
+SHA256: a1700d844a327ee864b75a8cfff0c75a152270ed9055fbd8f158a0ac6a886b9b
+SHA512: 737bb8fc013de4068f3f69c8e73c18ff97910425868bfca413ec92950fc5e8c6e07fd0024687c273314e93fa123014756b1e5cad90b72b9002ae7dfb9428c2f1
+Homepage: https://github.com/wanglinux/wanglinux
+Description: WangLinux command-line toolbox
+ A small set of WangLinux-specific administration commands:
+  * wangfetch          — system info banner (pure POSIX sh, no extra deps)
+  * wang-switch-mirror — one-command apt mirror switcher (USTC/TUNA/Aliyun/etc.)
+  * wang-setup-server  — first-boot server hardening assistant
+ .
+ Works on any Debian 12+ base, with or without a desktop.
 

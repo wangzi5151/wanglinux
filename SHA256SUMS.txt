@@ -1,0 +1,6 @@
+# WangLinux 1.0 (Aurora) — release 资产校验和（SHA256）
+# 用法：sha256sum -c SHA256SUMS.txt
+c33172ba2b1c854c4e728e6fa170e209f04fe9fb8a5bdbc15a931589cc568d54  wanglinux-1.0-amd64-rootfs.tar.gz
+63f27b30f0a4c634f1cf0821a2a627fc677993a364c8b90738e2def480c742f7  wanglinux-1.0-amd64-cloud.qcow2
+5ef0c2536288132eeea6b1d946a7cd5e517f9a50d17f415eec47bdb880c1343f  wanglinux-1.0-amd64.iso
+1ccde8d5ac01a74b40910536be6af57d17f9fe70b8e85cac4b03d64757d3b05e  wanglinux-archive-keyring.gpg
